@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Canada Global Export Council</title>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--red:#C8102E;--navy:#0B1F3A;--gold:#B8972A;--cream:#F7F4EF;--white:#FFFFFF;--slate:#4A5568;--light-border:#DDD8CF;--mid:#7A8699;}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:'DM Sans',sans-serif;background:var(--cream);color:var(--navy);font-size:16px;line-height:1.6;overflow-x:hidden;}
+.utility-bar{background:var(--navy);color:rgba(255,255,255,0.7);font-size:12px;padding:7px 0;}
+.utility-bar .inner{max-width:1200px;margin:0 auto;padding:0 32px;display:flex;justify-content:space-between;align-items:center;}
+.utility-bar a{color:rgba(255,255,255,0.6);text-decoration:none;margin-left:20px;}
+.utility-bar a:hover{color:var(--gold);}
+.eicbi-badge{display:flex;align-items:center;gap:8px;color:var(--gold);font-weight:500;}
+.eicbi-badge::before{content:'';display:inline-block;width:6px;height:6px;background:var(--gold);border-radius:50%;}
+header{background:var(--white);border-bottom:3px solid var(--red);position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,0.07);}
+.header-inner{max-width:1200px;margin:0 auto;padding:0 32px;display:flex;align-items:center;justify-content:space-between;height:80px;}
+.logo{display:flex;align-items:center;gap:16px;text-decoration:none;}
+.logo-mark{width:52px;height:52px;background:var(--navy);display:flex;align-items:center;justify-content:center;flex-direction:column;clip-path:polygon(0 0,100% 0,100% 85%,85% 100%,0 100%);}
+.logo-mark span{color:var(--white);font-family:'EB Garamond',serif;font-size:13px;font-weight:700;letter-spacing:0.08em;line-height:1;}
+.logo-mark .maple{color:var(--red);font-size:10px;margin-top:1px;}
+.logo-text strong{display:block;font-family:'EB Garamond',serif;font-size:18px;font-weight:700;color:var(--navy);}
+.logo-text small{font-size:11px;color:var(--mid);letter-spacing:0.06em;text-transform:uppercase;}
+nav{display:flex;align-items:center;gap:4px;}
+nav a{font-size:13.5px;font-weight:500;color:var(--navy);text-decoration:none;padding:8px 14px;border-radius:2px;transition:background 0.15s,color 0.15s;}
+nav a:hover,nav a.active{background:var(--cream);color:var(--red);}
+.nav-cta{background:var(--red)!important;color:var(--white)!important;padding:8px 18px!important;}
+.page-hero{background:var(--navy);padding:72px 32px 64px;position:relative;overflow:hidden;}
+.page-hero::after{content:'CONTACT';position:absolute;right:-10px;bottom:-30px;font-family:'EB Garamond',serif;font-size:150px;font-weight:700;color:rgba(255,255,255,0.03);pointer-events:none;line-height:1;}
+.page-hero-inner{max-width:1200px;margin:0 auto;}
+.breadcrumb{font-size:12px;color:rgba(255,255,255,0.4);margin-bottom:20px;}
+.breadcrumb a{color:rgba(255,255,255,0.4);text-decoration:none;}
+.breadcrumb span{margin:0 8px;}
+.page-eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:var(--gold);font-weight:500;margin-bottom:16px;}
+.page-eyebrow::before{content:'';display:block;width:32px;height:1px;background:var(--gold);}
+.page-hero h1{font-family:'EB Garamond',serif;font-size:clamp(32px,4vw,52px);font-weight:600;color:var(--white);line-height:1.15;margin-bottom:20px;max-width:640px;}
+.page-hero h1 em{font-style:italic;color:var(--gold);}
+.page-hero p{font-size:16px;color:rgba(255,255,255,0.6);max-width:560px;line-height:1.8;font-weight:300;}
+section{padding:80px 32px;}
+.section-inner{max-width:1200px;margin:0 auto;}
+.section-label{font-size:11px;text-transform:uppercase;letter-spacing:0.12em;color:var(--red);font-weight:500;margin-bottom:12px;display:flex;align-items:center;gap:10px;}
+.section-label::after{content:'';flex:1;max-width:40px;height:1px;background:var(--red);}
+h2{font-family:'EB Garamond',serif;font-size:clamp(26px,3vw,38px);font-weight:600;color:var(--navy);line-height:1.2;}
+
+/* CONTACT */
+.contact-sec{background:var(--white);}
+.contact-layout{display:grid;grid-template-columns:1fr 400px;gap:64px;align-items:start;}
+.contact-form h3{font-family:'EB Garamond',serif;font-size:24px;font-weight:600;color:var(--navy);margin-bottom:8px;}
+.contact-form .form-sub{font-size:14px;color:var(--slate);margin-bottom:32px;font-weight:300;}
+.form-group{margin-bottom:20px;}
+.form-group label{display:block;font-size:12px;text-transform:uppercase;letter-spacing:0.08em;color:var(--navy);font-weight:500;margin-bottom:8px;}
+.form-group input,.form-group select,.form-group textarea{width:100%;padding:12px 16px;border:1px solid var(--light-border);background:var(--cream);font-family:'DM Sans',sans-serif;font-size:14px;color:var(--navy);outline:none;transition:border-color 0.2s;}
+.form-group input:focus,.form-group select:focus,.form-group textarea:focus{border-color:var(--navy);}
+.form-group textarea{height:140px;resize:vertical;}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+.form-submit{background:var(--red);color:var(--white);border:none;padding:14px 32px;font-family:'DM Sans',sans-serif;font-size:14px;font-weight:500;cursor:pointer;letter-spacing:0.03em;transition:background 0.2s;}
+.form-submit:hover{background:#a50e25;}
+
+/* SIDEBAR */
+.contact-sidebar{display:flex;flex-direction:column;gap:2px;}
+.contact-info-card{background:var(--cream);padding:32px;border-left:3px solid var(--light-border);transition:border-color 0.2s;}
+.contact-info-card:hover{border-left-color:var(--red);}
+.c-icon{font-size:24px;margin-bottom:12px;display:block;}
+.contact-info-card h5{font-family:'EB Garamond',serif;font-size:18px;font-weight:600;color:var(--navy);margin-bottom:8px;}
+.contact-info-card p{font-size:14px;color:var(--slate);line-height:1.6;font-weight:300;}
+.contact-info-card a{color:var(--red);text-decoration:none;font-size:14px;}
+.contact-info-card a:hover{color:var(--navy);}
+.eicbi-contact{background:var(--navy);padding:32px;margin-top:2px;}
+.eicbi-contact h5{font-family:'EB Garamond',serif;font-size:18px;color:var(--white);margin-bottom:8px;}
+.eicbi-contact p{font-size:13px;color:rgba(255,255,255,0.5);line-height:1.6;margin-bottom:12px;font-weight:300;}
+.eicbi-contact a{font-size:13px;color:var(--gold);text-decoration:none;}
+
+/* OFFICES */
+.offices{background:var(--cream);}
+.offices h2{margin-bottom:40px;}
+.offices-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;}
+.office-card{background:var(--white);padding:36px;}
+.office-card .o-flag{font-size:32px;margin-bottom:16px;display:block;}
+.office-card h4{font-family:'EB Garamond',serif;font-size:20px;font-weight:600;color:var(--navy);margin-bottom:12px;}
+.office-card p{font-size:14px;color:var(--slate);line-height:1.7;font-weight:300;}
+.office-card .o-tag{font-size:11px;text-transform:uppercase;letter-spacing:0.08em;color:var(--mid);margin-top:12px;display:block;}
+
+footer{background:#060F1D;color:rgba(255,255,255,0.5);padding:64px 32px 32px;}
+.footer-inner{max-width:1200px;margin:0 auto;}
+.footer-top{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:48px;margin-bottom:56px;padding-bottom:48px;border-bottom:1px solid rgba(255,255,255,0.07);}
+.footer-brand strong{display:block;font-family:'EB Garamond',serif;font-size:18px;color:var(--white);font-weight:600;margin-bottom:4px;}
+.footer-brand small{font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:rgba(255,255,255,0.35);display:block;margin-bottom:16px;}
+.footer-brand p{font-size:13px;line-height:1.75;margin-bottom:16px;font-weight:300;}
+.footer-brand .eicbi-link{font-size:12px;color:var(--gold);text-decoration:none;}
+.footer-col h6{font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.6);font-weight:500;margin-bottom:20px;}
+.footer-col a{display:block;font-size:13px;color:rgba(255,255,255,0.4);text-decoration:none;margin-bottom:10px;font-weight:300;}
+.footer-col a:hover{color:rgba(255,255,255,0.8);}
+.footer-bottom{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;font-size:12px;}
+.footer-bottom a{color:rgba(255,255,255,0.35);text-decoration:none;margin-left:20px;}
+.reg-number{font-size:11px;color:rgba(255,255,255,0.25);}
+@media(max-width:900px){nav{display:none;}.contact-layout,.form-row,.offices-grid{grid-template-columns:1fr;}.footer-top{grid-template-columns:1fr 1fr;}}
+</style>
+</head>
+<body>
+<div class="utility-bar">
+  <div class="inner">
+    <div class="eicbi-badge">Exclusive Canadian Partner of EICBI — European Parliament Accredited</div>
+    <div><a href="#">FR</a><a href="contact.html">Contact</a><a href="#">Member Login</a></div>
+  </div>
+</div>
+<header>
+  <div class="header-inner">
+    <a href="cgec-website.html" class="logo">
+      <div class="logo-mark"><span>CGEC</span><span class="maple">✦</span></div>
+      <div class="logo-text"><strong>Canada Global Export Council</strong><small>Conseil Canadien d'Exportation Mondiale</small></div>
+    </a>
+    <nav>
+      <a href="about.html">About</a>
+      <a href="markets.html">Markets</a>
+      <a href="partnership.html">EICBI Partnership</a>
+      <a href="programs.html">Programs</a>
+      <a href="apply.html" class="nav-cta">Apply Now</a>
+    </nav>
+  </div>
+</header>
+
+<div class="page-hero">
+  <div class="page-hero-inner">
+    <div class="breadcrumb"><a href="cgec-website.html">Home</a><span>›</span>Contact</div>
+    <div class="page-eyebrow">Get in Touch</div>
+    <h1>Speak With a <em>CGEC Advisor</em></h1>
+    <p>Whether you have a question about membership, a specific market, or an upcoming trade mission — our team responds to all enquiries within two business days.</p>
+  </div>
+</div>
+
+<!-- CONTACT FORM -->
+<section class="contact-sec">
+  <div class="section-inner">
+    <div class="contact-layout">
+      <div class="contact-form">
+        <h3>Send Us a Message</h3>
+        <p class="form-sub">All enquiries are handled by our advisory team. We do not use automated responses for initial enquiries.</p>
+        <div class="form-row">
+          <div class="form-group"><label>First Name *</label><input type="text" placeholder="First name"></div>
+          <div class="form-group"><label>Last Name *</label><input type="text" placeholder="Last name"></div>
+        </div>
+        <div class="form-group"><label>Organisation *</label><input type="text" placeholder="Your organisation name"></div>
+        <div class="form-group"><label>Email Address *</label><input type="email" placeholder="your@email.com"></div>
+        <div class="form-group"><label>Phone</label><input type="tel" placeholder="+1 (000) 000-0000"></div>
+        <div class="form-group"><label>Nature of Enquiry *</label>
+          <select>
+            <option value="">Select enquiry type</option>
+            <option>General information about CGEC</option>
+            <option>Membership enquiry</option>
+            <option>Trade mission registration</option>
+            <option>UK market enquiry</option>
+            <option>EEA / EU market enquiry</option>
+            <option>India market enquiry</option>
+            <option>EICBI partnership information</option>
+            <option>Media / Press enquiry</option>
+            <option>Partnership or sponsorship</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-group"><label>Your Message *</label>
+          <textarea placeholder="Tell us about your business and what you're looking to achieve internationally..."></textarea>
+        </div>
+        <button class="form-submit">Send Enquiry</button>
+      </div>
+      <div class="contact-sidebar">
+        <div class="contact-info-card">
+          <span class="c-icon">📧</span>
+          <h5>Email</h5>
+          <p>General enquiries and membership questions:</p>
+          <a href="mailto:info@cgec.ca">info@cgec.ca</a>
+        </div>
+        <div class="contact-info-card">
+          <span class="c-icon">📅</span>
+          <h5>Book an Advisor Call</h5>
+          <p>Prefer to speak directly? Book a 30-minute introductory call with a CGEC market advisor at no obligation.</p>
+          <a href="#">Schedule a Call →</a>
+        </div>
+        <div class="contact-info-card">
+          <span class="c-icon">📍</span>
+          <h5>Headquarters</h5>
+          <p>Canada Global Export Council<br>Canada<br><br>Registered not-for-profit under the Canada Not-for-profit Corporations Act.</p>
+        </div>
+        <div class="contact-info-card">
+          <span class="c-icon">⏱️</span>
+          <h5>Response Times</h5>
+          <p>General enquiries: within 2 business days<br>Membership applications: within 5 business days<br>Trade mission registration: same day</p>
+        </div>
+        <div class="eicbi-contact">
+          <h5>🇪🇺 Contact EICBI</h5>
+          <p>For enquiries specifically relating to EICBI's European Parliament-accredited programmes, the Europe India Journal, or the EuropeIndia40 Leaders List:</p>
+          <a href="https://www.eicbi.org">Visit eicbi.org →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- OFFICES / PRESENCE -->
+<section class="offices">
+  <div class="section-inner">
+    <div class="section-label">Our Presence</div>
+    <h2>Where We Operate</h2>
+    <div class="offices-grid">
+      <div class="office-card">
+        <span class="o-flag">🇨🇦</span>
+        <h4>Canada — Headquarters</h4>
+        <p>CGEC is incorporated and headquartered in Canada. Our advisory team operates nationally, supporting Canadian businesses from coast to coast in all provinces and territories.</p>
+        <span class="o-tag">Primary Office · All enquiries</span>
+      </div>
+      <div class="office-card">
+        <span class="o-flag">🇬🇧🇪🇺</span>
+        <h4>UK & Europe — via EICBI</h4>
+        <p>CGEC's UK and European market presence operates through our exclusive partnership with EICBI, whose institutional relationships span the European Parliament in Brussels and the British Parliament in London.</p>
+        <span class="o-tag">Via EICBI Partnership · eicbi.org</span>
+      </div>
+      <div class="office-card">
+        <span class="o-flag">🇮🇳</span>
+        <h4>India — via EICBI</h4>
+        <p>CGEC's India market access operates through EICBI's 13-year network of relationships with Indian government bodies, business chambers, and institutional leaders across key Indian cities including Mumbai, Delhi, and Bengaluru.</p>
+        <span class="o-tag">Via EICBI Partnership · eicbi.org</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand"><strong>Canada Global Export Council</strong><small>CGEC · cgec.ca</small><p>Canada's not-for-profit council for international market expansion. Exclusive Canadian partner of EICBI.</p><a href="https://www.eicbi.org" class="eicbi-link">→ Visit EICBI: eicbi.org</a></div>
+      <div class="footer-col"><h6>Organisation</h6><a href="about.html">About CGEC</a><a href="partnership.html">EICBI Partnership</a><a href="news.html">News & Insights</a></div>
+      <div class="footer-col"><h6>Markets</h6><a href="market-uk.html">United Kingdom</a><a href="market-eea.html">European Economic Area</a><a href="market-india.html">India</a></div>
+      <div class="footer-col"><h6>Programmes</h6><a href="programs.html">All Programs</a><a href="apply.html">Apply Now</a><a href="contact.html">Contact</a></div>
+    </div>
+    <div class="footer-bottom">
+      <div><span>© 2025 Canada Global Export Council. Not-for-profit organisation.</span><a href="#">Privacy Policy</a><a href="#">Français</a></div>
+      <div class="reg-number">EICBI EU Transparency Register: 423661050520-44</div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

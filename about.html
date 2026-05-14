@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About CGEC | Canada Global Export Council</title>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root { --red:#C8102E;--navy:#0B1F3A;--gold:#B8972A;--cream:#F7F4EF;--white:#FFFFFF;--slate:#4A5568;--light-border:#DDD8CF;--mid:#7A8699; }
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{font-family:'DM Sans',sans-serif;background:var(--cream);color:var(--navy);font-size:16px;line-height:1.6;overflow-x:hidden;}
+.utility-bar{background:var(--navy);color:rgba(255,255,255,0.7);font-size:12px;letter-spacing:0.04em;padding:7px 0;}
+.utility-bar .inner{max-width:1200px;margin:0 auto;padding:0 32px;display:flex;justify-content:space-between;align-items:center;}
+.utility-bar a{color:rgba(255,255,255,0.6);text-decoration:none;margin-left:20px;}
+.utility-bar a:hover{color:var(--gold);}
+.eicbi-badge{display:flex;align-items:center;gap:8px;color:var(--gold);font-weight:500;}
+.eicbi-badge::before{content:'';display:inline-block;width:6px;height:6px;background:var(--gold);border-radius:50%;}
+header{background:var(--white);border-bottom:3px solid var(--red);position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,0.07);}
+.header-inner{max-width:1200px;margin:0 auto;padding:0 32px;display:flex;align-items:center;justify-content:space-between;height:80px;}
+.logo{display:flex;align-items:center;gap:16px;text-decoration:none;}
+.logo-mark{width:52px;height:52px;background:var(--navy);display:flex;align-items:center;justify-content:center;flex-direction:column;clip-path:polygon(0 0,100% 0,100% 85%,85% 100%,0 100%);}
+.logo-mark span{color:var(--white);font-family:'EB Garamond',serif;font-size:13px;font-weight:700;letter-spacing:0.08em;line-height:1;}
+.logo-mark .maple{color:var(--red);font-size:10px;margin-top:1px;}
+.logo-text{line-height:1.2;}
+.logo-text strong{display:block;font-family:'EB Garamond',serif;font-size:18px;font-weight:700;color:var(--navy);}
+.logo-text small{font-size:11px;color:var(--mid);letter-spacing:0.06em;text-transform:uppercase;}
+nav{display:flex;align-items:center;gap:4px;}
+nav a{font-size:13.5px;font-weight:500;color:var(--navy);text-decoration:none;padding:8px 14px;border-radius:2px;transition:background 0.15s,color 0.15s;}
+nav a:hover,nav a.active{background:var(--cream);color:var(--red);}
+.nav-cta{background:var(--red)!important;color:var(--white)!important;padding:8px 18px!important;}
+.nav-cta:hover{background:#a50e25!important;}
+
+/* PAGE HERO */
+.page-hero{background:var(--navy);padding:72px 32px 64px;position:relative;overflow:hidden;}
+.page-hero::after{content:'ABOUT';position:absolute;right:-10px;bottom:-30px;font-family:'EB Garamond',serif;font-size:180px;font-weight:700;color:rgba(255,255,255,0.03);pointer-events:none;letter-spacing:-0.04em;line-height:1;}
+.page-hero-inner{max-width:1200px;margin:0 auto;}
+.breadcrumb{font-size:12px;color:rgba(255,255,255,0.4);margin-bottom:20px;}
+.breadcrumb a{color:rgba(255,255,255,0.4);text-decoration:none;}
+.breadcrumb a:hover{color:var(--gold);}
+.breadcrumb span{margin:0 8px;}
+.page-eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:var(--gold);font-weight:500;margin-bottom:16px;}
+.page-eyebrow::before{content:'';display:block;width:32px;height:1px;background:var(--gold);}
+.page-hero h1{font-family:'EB Garamond',serif;font-size:clamp(32px,4vw,52px);font-weight:600;color:var(--white);line-height:1.15;margin-bottom:20px;max-width:700px;animation:fadeUp 0.6s 0.1s ease both;}
+.page-hero h1 em{font-style:italic;color:var(--gold);}
+.page-hero p{font-size:16px;color:rgba(255,255,255,0.6);max-width:600px;line-height:1.8;font-weight:300;animation:fadeUp 0.6s 0.2s ease both;}
+@keyframes fadeUp{from{opacity:0;transform:translateY(20px);}to{opacity:1;transform:translateY(0);}}
+
+/* SECTIONS */
+section{padding:80px 32px;}
+.section-inner{max-width:1200px;margin:0 auto;}
+.section-label{font-size:11px;text-transform:uppercase;letter-spacing:0.12em;color:var(--red);font-weight:500;margin-bottom:12px;display:flex;align-items:center;gap:10px;}
+.section-label::after{content:'';flex:1;max-width:40px;height:1px;background:var(--red);}
+h2{font-family:'EB Garamond',serif;font-size:clamp(26px,3vw,38px);font-weight:600;color:var(--navy);line-height:1.2;letter-spacing:-0.01em;}
+h3{font-family:'EB Garamond',serif;font-size:22px;font-weight:600;color:var(--navy);margin-bottom:10px;}
+p{color:var(--slate);line-height:1.8;font-weight:300;}
+
+/* MISSION SECTION */
+.mission{background:var(--white);}
+.mission-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start;}
+.mission-left h2{margin-bottom:24px;}
+.mission-left p{margin-bottom:20px;font-size:15px;}
+.mission-right{background:var(--cream);padding:40px;border-left:4px solid var(--gold);}
+.mission-right blockquote{font-family:'EB Garamond',serif;font-size:22px;font-style:italic;color:var(--navy);line-height:1.5;margin-bottom:16px;}
+.mission-right cite{font-size:12px;text-transform:uppercase;letter-spacing:0.08em;color:var(--mid);}
+
+/* VALUES */
+.values{background:var(--cream);}
+.values h2{margin-bottom:48px;}
+.values-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;}
+.value-card{background:var(--white);padding:36px 32px;border-top:3px solid var(--light-border);transition:border-color 0.2s;}
+.value-card:hover{border-top-color:var(--red);}
+.value-num{font-family:'EB Garamond',serif;font-size:48px;font-weight:700;color:rgba(11,31,58,0.07);line-height:1;margin-bottom:16px;}
+.value-card h3{margin-bottom:10px;}
+.value-card p{font-size:14px;}
+
+/* LEADERSHIP */
+.leadership{background:var(--white);}
+.leadership h2{margin-bottom:8px;}
+.leadership .sub{color:var(--slate);font-size:15px;margin-bottom:48px;font-weight:300;}
+.board-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-bottom:48px;}
+.board-card{background:var(--cream);padding:32px;}
+.board-card .role{font-size:11px;text-transform:uppercase;letter-spacing:0.1em;color:var(--red);margin-bottom:8px;font-weight:500;}
+.board-card h4{font-family:'EB Garamond',serif;font-size:20px;font-weight:600;color:var(--navy);margin-bottom:6px;}
+.board-card .org{font-size:13px;color:var(--mid);}
+.advisory-note{background:var(--navy);padding:32px 36px;display:flex;align-items:center;gap:24px;}
+.advisory-note p{color:rgba(255,255,255,0.65);font-size:14px;line-height:1.7;font-weight:300;}
+.advisory-note .icon{font-size:32px;flex-shrink:0;}
+
+/* GOVERNANCE */
+.governance{background:var(--cream);}
+.governance h2{margin-bottom:8px;}
+.governance .sub{color:var(--slate);font-size:15px;margin-bottom:48px;font-weight:300;}
+.gov-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;}
+.gov-card{background:var(--white);padding:36px;}
+.gov-card h3{margin-bottom:12px;}
+.gov-card p{font-size:14px;margin-bottom:16px;}
+.gov-card ul{list-style:none;padding:0;}
+.gov-card ul li{font-size:14px;color:var(--slate);padding:8px 0;border-bottom:1px solid var(--light-border);padding-left:16px;position:relative;font-weight:300;}
+.gov-card ul li::before{content:'→';position:absolute;left:0;color:var(--red);font-size:12px;}
+.gov-card ul li:last-child{border-bottom:none;}
+
+/* STATS BAR */
+.stats-bar{background:var(--red);padding:48px 32px;}
+.stats-inner{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:32px;text-align:center;}
+.stat-num{font-family:'EB Garamond',serif;font-size:48px;font-weight:700;color:var(--white);line-height:1;margin-bottom:6px;}
+.stat-label{font-size:11px;color:rgba(255,255,255,0.7);letter-spacing:0.06em;text-transform:uppercase;}
+
+/* FOOTER */
+footer{background:#060F1D;color:rgba(255,255,255,0.5);padding:64px 32px 32px;}
+.footer-inner{max-width:1200px;margin:0 auto;}
+.footer-top{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:48px;margin-bottom:56px;padding-bottom:48px;border-bottom:1px solid rgba(255,255,255,0.07);}
+.footer-brand strong{display:block;font-family:'EB Garamond',serif;font-size:18px;color:var(--white);font-weight:600;margin-bottom:4px;}
+.footer-brand small{font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:rgba(255,255,255,0.35);display:block;margin-bottom:16px;}
+.footer-brand p{font-size:13px;line-height:1.75;margin-bottom:16px;font-weight:300;}
+.footer-brand .eicbi-link{font-size:12px;color:var(--gold);text-decoration:none;}
+.footer-col h6{font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.6);font-weight:500;margin-bottom:20px;}
+.footer-col a{display:block;font-size:13px;color:rgba(255,255,255,0.4);text-decoration:none;margin-bottom:10px;transition:color 0.15s;font-weight:300;}
+.footer-col a:hover{color:rgba(255,255,255,0.8);}
+.footer-bottom{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;font-size:12px;}
+.footer-bottom a{color:rgba(255,255,255,0.35);text-decoration:none;margin-left:20px;}
+.reg-number{font-size:11px;color:rgba(255,255,255,0.25);letter-spacing:0.04em;}
+@media(max-width:900px){nav{display:none;}.mission-grid,.values-grid,.board-grid,.gov-grid{grid-template-columns:1fr;}.stats-inner{grid-template-columns:repeat(2,1fr);}.footer-top{grid-template-columns:1fr 1fr;}}
+</style>
+</head>
+<body>
+
+<div class="utility-bar">
+  <div class="inner">
+    <div class="eicbi-badge">Exclusive Canadian Partner of EICBI — European Parliament Accredited</div>
+    <div><a href="#">FR</a><a href="#">Contact</a><a href="#">Member Login</a></div>
+  </div>
+</div>
+<header>
+  <div class="header-inner">
+    <a href="cgec-website.html" class="logo">
+      <div class="logo-mark"><span>CGEC</span><span class="maple">✦</span></div>
+      <div class="logo-text">
+        <strong>Canada Global Export Council</strong>
+        <small>Conseil Canadien d'Exportation Mondiale</small>
+      </div>
+    </a>
+    <nav>
+      <a href="about.html" class="active">About</a>
+      <a href="markets.html">Markets</a>
+      <a href="partnership.html">EICBI Partnership</a>
+      <a href="programs.html">Programs</a>
+      <a href="apply.html" class="nav-cta">Apply Now</a>
+    </nav>
+  </div>
+</header>
+
+<div class="page-hero">
+  <div class="page-hero-inner">
+    <div class="breadcrumb"><a href="cgec-website.html">Home</a><span>›</span>About</div>
+    <div class="page-eyebrow">Our Organisation</div>
+    <h1>Built to Open <em>Global Doors</em><br>for Canadian Business</h1>
+    <p>CGEC is Canada's dedicated not-for-profit council for international market expansion — combining Canadian expertise with 13 years of EICBI's institutional relationships across the UK, EEA, and India.</p>
+  </div>
+</div>
+
+<!-- MISSION -->
+<section class="mission">
+  <div class="section-inner">
+    <div class="mission-grid">
+      <div class="mission-left">
+        <div class="section-label">Our Mission</div>
+        <h2>A Council Built on Institutional Credibility</h2>
+        <p style="margin-top:20px;">The Canada Global Export Council (CGEC) was established to address a critical gap: Canadian businesses — particularly SMEs — possess world-class products and services, but lack the institutional relationships, regulatory knowledge, and on-the-ground networks required to succeed in complex international markets.</p>
+        <p>CGEC exists to close that gap. As the exclusive Canadian partner of the Europe India Centre for Business & Industry (EICBI), we bring 13 years of parliamentary-level relationships, EU institutional access, and proven trade corridor expertise directly to Canadian exporters.</p>
+        <p>We are a not-for-profit organisation. Our mandate is the success of Canadian business on the global stage — not shareholder returns.</p>
+      </div>
+      <div class="mission-right">
+        <blockquote>"Canada's businesses are globally competitive. What they need is a credible institutional partner to open the right doors in the right markets."</blockquote>
+        <cite>— CGEC Founding Mandate</cite>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="stats-bar">
+  <div class="stats-inner">
+    <div><div class="stat-num">13+</div><div class="stat-label">Years of Corridor Relations via EICBI</div></div>
+    <div><div class="stat-num">3</div><div class="stat-label">Active Market Corridors</div></div>
+    <div><div class="stat-num">27+</div><div class="stat-label">EU Member State Reach</div></div>
+    <div><div class="stat-num">1000s</div><div class="stat-label">Delegates Engaged Globally</div></div>
+  </div>
+</div>
+
+<!-- VALUES -->
+<section class="values">
+  <div class="section-inner">
+    <div class="section-label">Our Principles</div>
+    <h2>What Guides CGEC</h2>
+    <div class="values-grid" style="margin-top:40px;">
+      <div class="value-card">
+        <div class="value-num">01</div>
+        <h3>Institutional Integrity</h3>
+        <p>We operate with the standards expected of a government-adjacent body. Every recommendation, relationship, and programme is held to the highest standard of professional integrity.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-num">02</div>
+        <h3>SME-First Mandate</h3>
+        <p>Our programmes are designed around the realities facing Canadian small and medium enterprises — the businesses that form the backbone of Canada's export economy.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-num">03</div>
+        <h3>Corridor Specialisation</h3>
+        <p>We focus exclusively on UK, EEA, and India. Depth over breadth — knowing three markets extraordinarily well rather than twenty markets superficially.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-num">04</div>
+        <h3>Peer-Led Governance</h3>
+        <p>CGEC is governed by Canadian business leaders who have themselves navigated international expansion. Practical wisdom, not theoretical advice.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-num">05</div>
+        <h3>Partnership Over Transaction</h3>
+        <p>We build long-term relationships between Canadian businesses and their international counterparts — not one-off introductions, but enduring commercial partnerships.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-num">06</div>
+        <h3>Bilingual Accountability</h3>
+        <p>CGEC operates fully in both official languages, honouring Canada's linguistic duality and ensuring accessibility for all Canadian businesses from coast to coast.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LEADERSHIP -->
+<section class="leadership" id="leadership">
+  <div class="section-inner">
+    <div class="section-label">Leadership</div>
+    <h2>Governed by Canadian Business Leaders</h2>
+    <p class="sub" style="margin-top:8px;color:var(--slate);font-size:15px;margin-bottom:48px;font-weight:300;">CGEC's Board is composed of Canadian executives and trade specialists with direct experience in international market expansion across our target corridors.</p>
+    <div class="board-grid">
+      <div class="board-card">
+        <div class="role">Chair</div>
+        <h4>Board Chairperson</h4>
+        <div class="org">To be announced upon incorporation</div>
+      </div>
+      <div class="board-card">
+        <div class="role">Executive Director</div>
+        <h4>Executive Director</h4>
+        <div class="org">To be confirmed — applications open</div>
+      </div>
+      <div class="board-card">
+        <div class="role">Strategic Partner</div>
+        <h4>EICBI Representative</h4>
+        <div class="org">Europe India Centre for Business & Industry</div>
+      </div>
+      <div class="board-card">
+        <div class="role">Board Director — UK Markets</div>
+        <h4>UK Markets Director</h4>
+        <div class="org">Board position — applications open</div>
+      </div>
+      <div class="board-card">
+        <div class="role">Board Director — EEA Markets</div>
+        <h4>EEA Markets Director</h4>
+        <div class="org">Board position — applications open</div>
+      </div>
+      <div class="board-card">
+        <div class="role">Board Director — India Markets</div>
+        <h4>India Markets Director</h4>
+        <div class="org">Board position — applications open</div>
+      </div>
+    </div>
+    <div class="advisory-note">
+      <div class="icon">🌐</div>
+      <p>CGEC draws on the advisory network of EICBI — including Members of the European Parliament, British parliamentarians, senior diplomats, and business leaders across the Europe-India corridor — as strategic advisors to the Council.</p>
+    </div>
+  </div>
+</section>
+
+<!-- GOVERNANCE -->
+<section class="governance" id="governance">
+  <div class="section-inner">
+    <div class="section-label">Governance</div>
+    <h2>Transparent, Accountable, Not-for-Profit</h2>
+    <p style="color:var(--slate);font-size:15px;margin-bottom:48px;font-weight:300;margin-top:8px;">CGEC is incorporated as a Canadian not-for-profit organisation, governed by a Board of Directors and subject to full regulatory compliance.</p>
+    <div class="gov-grid">
+      <div class="gov-card">
+        <h3>Legal Structure</h3>
+        <p>CGEC is incorporated under the Canada Not-for-profit Corporations Act and operates with full transparency to its members and the public.</p>
+        <ul>
+          <li>Not-for-profit corporation under federal law</li>
+          <li>Annual reporting to members and public</li>
+          <li>Independent financial audit</li>
+          <li>Board-approved annual budget</li>
+          <li>Bilingual governance documentation</li>
+        </ul>
+      </div>
+      <div class="gov-card">
+        <h3>EICBI Partnership Framework</h3>
+        <p>CGEC operates as the exclusive Canadian partner of EICBI under a formal Strategic Partnership Agreement that defines the scope, responsibilities, and benefits of the relationship.</p>
+        <ul>
+          <li>Exclusive Canadian representation of EICBI</li>
+          <li>Access to EICBI's parliamentary networks</li>
+          <li>Co-branding on joint trade missions</li>
+          <li>Intelligence sharing and market briefings</li>
+          <li>Joint programming and delegation support</li>
+        </ul>
+      </div>
+      <div class="gov-card">
+        <h3>Membership Accountability</h3>
+        <p>CGEC member organisations have formal rights within the Council's governance structure, including representation at the Annual General Meeting.</p>
+        <ul>
+          <li>Annual General Meeting for all members</li>
+          <li>Member feedback mechanisms</li>
+          <li>Programme performance reporting</li>
+          <li>Member advisory panels by sector</li>
+        </ul>
+      </div>
+      <div class="gov-card">
+        <h3>Conflict of Interest Policy</h3>
+        <p>CGEC maintains rigorous conflict of interest policies to ensure that Board decisions serve the membership, not individual commercial interests.</p>
+        <ul>
+          <li>Annual conflict of interest declarations</li>
+          <li>Recusal protocols for board votes</li>
+          <li>Independent ethics review</li>
+          <li>Whistleblower protection policy</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <strong>Canada Global Export Council</strong>
+        <small>CGEC · cgec.ca</small>
+        <p>Canada's not-for-profit council for international market expansion. Exclusive Canadian partner of EICBI.</p>
+        <a href="https://www.eicbi.org" class="eicbi-link">→ Visit EICBI: eicbi.org</a>
+      </div>
+      <div class="footer-col"><h6>Organisation</h6><a href="about.html">About CGEC</a><a href="about.html#leadership">Leadership</a><a href="about.html#governance">Governance</a><a href="partnership.html">EICBI Partnership</a><a href="news.html">News & Insights</a></div>
+      <div class="footer-col"><h6>Markets</h6><a href="market-uk.html">United Kingdom</a><a href="market-eea.html">European Economic Area</a><a href="market-india.html">India</a></div>
+      <div class="footer-col"><h6>Programmes</h6><a href="programs.html">All Programs</a><a href="programs.html#missions">Trade Missions</a><a href="apply.html">Apply Now</a><a href="contact.html">Contact</a></div>
+    </div>
+    <div class="footer-bottom">
+      <div><span>© 2025 Canada Global Export Council. Not-for-profit organisation.</span><a href="#">Privacy Policy</a><a href="#">Terms of Use</a><a href="#">Français</a></div>
+      <div class="reg-number">EICBI EU Transparency Register: 423661050520-44</div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

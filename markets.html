@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Markets | Canada Global Export Council</title>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--red:#C8102E;--navy:#0B1F3A;--gold:#B8972A;--cream:#F7F4EF;--white:#FFFFFF;--slate:#4A5568;--light-border:#DDD8CF;--mid:#7A8699;}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{font-family:'DM Sans',sans-serif;background:var(--cream);color:var(--navy);font-size:16px;line-height:1.6;overflow-x:hidden;}
+.utility-bar{background:var(--navy);color:rgba(255,255,255,0.7);font-size:12px;letter-spacing:0.04em;padding:7px 0;}
+.utility-bar .inner{max-width:1200px;margin:0 auto;padding:0 32px;display:flex;justify-content:space-between;align-items:center;}
+.utility-bar a{color:rgba(255,255,255,0.6);text-decoration:none;margin-left:20px;}
+.utility-bar a:hover{color:var(--gold);}
+.eicbi-badge{display:flex;align-items:center;gap:8px;color:var(--gold);font-weight:500;}
+.eicbi-badge::before{content:'';display:inline-block;width:6px;height:6px;background:var(--gold);border-radius:50%;}
+header{background:var(--white);border-bottom:3px solid var(--red);position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,0.07);}
+.header-inner{max-width:1200px;margin:0 auto;padding:0 32px;display:flex;align-items:center;justify-content:space-between;height:80px;}
+.logo{display:flex;align-items:center;gap:16px;text-decoration:none;}
+.logo-mark{width:52px;height:52px;background:var(--navy);display:flex;align-items:center;justify-content:center;flex-direction:column;clip-path:polygon(0 0,100% 0,100% 85%,85% 100%,0 100%);}
+.logo-mark span{color:var(--white);font-family:'EB Garamond',serif;font-size:13px;font-weight:700;letter-spacing:0.08em;line-height:1;}
+.logo-mark .maple{color:var(--red);font-size:10px;margin-top:1px;}
+.logo-text{line-height:1.2;}
+.logo-text strong{display:block;font-family:'EB Garamond',serif;font-size:18px;font-weight:700;color:var(--navy);}
+.logo-text small{font-size:11px;color:var(--mid);letter-spacing:0.06em;text-transform:uppercase;}
+nav{display:flex;align-items:center;gap:4px;}
+nav a{font-size:13.5px;font-weight:500;color:var(--navy);text-decoration:none;padding:8px 14px;border-radius:2px;transition:background 0.15s,color 0.15s;}
+nav a:hover,nav a.active{background:var(--cream);color:var(--red);}
+.nav-cta{background:var(--red)!important;color:var(--white)!important;padding:8px 18px!important;}
+.nav-cta:hover{background:#a50e25!important;}
+.page-hero{background:var(--navy);padding:72px 32px 64px;position:relative;overflow:hidden;}
+.page-hero::after{content:'MARKETS';position:absolute;right:-10px;bottom:-30px;font-family:'EB Garamond',serif;font-size:180px;font-weight:700;color:rgba(255,255,255,0.03);pointer-events:none;letter-spacing:-0.04em;line-height:1;}
+.page-hero-inner{max-width:1200px;margin:0 auto;}
+.breadcrumb{font-size:12px;color:rgba(255,255,255,0.4);margin-bottom:20px;}
+.breadcrumb a{color:rgba(255,255,255,0.4);text-decoration:none;}
+.breadcrumb span{margin:0 8px;}
+.page-eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:var(--gold);font-weight:500;margin-bottom:16px;}
+.page-eyebrow::before{content:'';display:block;width:32px;height:1px;background:var(--gold);}
+.page-hero h1{font-family:'EB Garamond',serif;font-size:clamp(32px,4vw,52px);font-weight:600;color:var(--white);line-height:1.15;margin-bottom:20px;max-width:720px;animation:fadeUp 0.6s 0.1s ease both;}
+.page-hero h1 em{font-style:italic;color:var(--gold);}
+.page-hero p{font-size:16px;color:rgba(255,255,255,0.6);max-width:600px;line-height:1.8;font-weight:300;animation:fadeUp 0.6s 0.2s ease both;}
+@keyframes fadeUp{from{opacity:0;transform:translateY(20px);}to{opacity:1;transform:translateY(0);}}
+section{padding:80px 32px;}
+.section-inner{max-width:1200px;margin:0 auto;}
+.section-label{font-size:11px;text-transform:uppercase;letter-spacing:0.12em;color:var(--red);font-weight:500;margin-bottom:12px;display:flex;align-items:center;gap:10px;}
+.section-label::after{content:'';flex:1;max-width:40px;height:1px;background:var(--red);}
+h2{font-family:'EB Garamond',serif;font-size:clamp(26px,3vw,38px);font-weight:600;color:var(--navy);line-height:1.2;letter-spacing:-0.01em;}
+h3{font-family:'EB Garamond',serif;font-size:24px;font-weight:600;color:var(--navy);margin-bottom:12px;}
+
+/* MARKET CARDS */
+.markets-overview{background:var(--white);}
+.market-block{display:grid;grid-template-columns:1fr 1fr;gap:0;margin-bottom:2px;background:var(--cream);}
+.market-block:nth-child(even){direction:rtl;}
+.market-block:nth-child(even) > *{direction:ltr;}
+.market-visual{background:var(--navy);padding:64px 48px;display:flex;flex-direction:column;justify-content:space-between;min-height:380px;position:relative;overflow:hidden;}
+.market-visual::after{position:absolute;right:-10px;bottom:-20px;font-family:'EB Garamond',serif;font-size:120px;font-weight:700;color:rgba(255,255,255,0.04);line-height:1;pointer-events:none;}
+.mk-uk::after{content:'UK';}
+.mk-eea::after{content:'EEA';}
+.mk-in::after{content:'IN';}
+.market-flag-xl{font-size:52px;margin-bottom:24px;display:block;}
+.market-visual h3{color:var(--white);font-size:28px;margin-bottom:8px;}
+.market-visual .market-tagline{color:rgba(255,255,255,0.5);font-size:14px;font-weight:300;margin-bottom:24px;}
+.market-stat-row{display:flex;gap:32px;}
+.market-stat .num{font-family:'EB Garamond',serif;font-size:28px;font-weight:700;color:var(--gold);line-height:1;}
+.market-stat .lbl{font-size:11px;color:rgba(255,255,255,0.4);text-transform:uppercase;letter-spacing:0.06em;}
+.market-content{background:var(--cream);padding:64px 48px;display:flex;flex-direction:column;justify-content:center;}
+.market-content .opportunity-label{font-size:11px;text-transform:uppercase;letter-spacing:0.1em;color:var(--red);margin-bottom:16px;font-weight:500;}
+.market-content p{font-size:15px;color:var(--slate);line-height:1.8;margin-bottom:20px;font-weight:300;}
+.market-content ul{list-style:none;padding:0;margin-bottom:28px;}
+.market-content ul li{font-size:14px;color:var(--slate);padding:8px 0;border-bottom:1px solid var(--light-border);padding-left:18px;position:relative;font-weight:300;}
+.market-content ul li::before{content:'✓';position:absolute;left:0;color:var(--red);font-size:12px;font-weight:600;}
+.market-content ul li:last-child{border-bottom:none;}
+.market-link{display:inline-flex;align-items:center;gap:8px;color:var(--red);font-size:14px;font-weight:500;text-decoration:none;letter-spacing:0.02em;}
+.market-link::after{content:'→';}
+.market-link:hover{color:var(--navy);}
+
+/* WHY THESE THREE */
+.why-three{background:var(--navy);padding:80px 32px;}
+.why-three-inner{max-width:1200px;margin:0 auto;}
+.why-three .section-label{color:var(--gold);}
+.why-three .section-label::after{background:var(--gold);}
+.why-three h2{color:var(--white);margin-bottom:40px;}
+.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;}
+.why-card{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.07);padding:32px;}
+.why-card .w-icon{font-size:24px;margin-bottom:16px;display:block;}
+.why-card h4{font-size:16px;font-weight:500;color:rgba(255,255,255,0.9);margin-bottom:8px;}
+.why-card p{font-size:13.5px;color:rgba(255,255,255,0.45);line-height:1.7;font-weight:300;}
+
+/* CETA */
+.ceta{background:var(--cream);}
+.ceta-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;}
+.ceta-left h2{margin-bottom:16px;}
+.ceta-left p{color:var(--slate);font-size:15px;line-height:1.8;margin-bottom:16px;font-weight:300;}
+.ceta-right{background:var(--white);padding:40px;border-left:4px solid var(--gold);}
+.ceta-right h4{font-family:'EB Garamond',serif;font-size:20px;font-weight:600;color:var(--navy);margin-bottom:16px;}
+.ceta-right ul{list-style:none;padding:0;}
+.ceta-right ul li{font-size:14px;color:var(--slate);padding:10px 0;border-bottom:1px solid var(--light-border);padding-left:18px;position:relative;font-weight:300;}
+.ceta-right ul li::before{content:'→';position:absolute;left:0;color:var(--gold);font-size:12px;}
+.ceta-right ul li:last-child{border-bottom:none;}
+
+footer{background:#060F1D;color:rgba(255,255,255,0.5);padding:64px 32px 32px;}
+.footer-inner{max-width:1200px;margin:0 auto;}
+.footer-top{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:48px;margin-bottom:56px;padding-bottom:48px;border-bottom:1px solid rgba(255,255,255,0.07);}
+.footer-brand strong{display:block;font-family:'EB Garamond',serif;font-size:18px;color:var(--white);font-weight:600;margin-bottom:4px;}
+.footer-brand small{font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:rgba(255,255,255,0.35);display:block;margin-bottom:16px;}
+.footer-brand p{font-size:13px;line-height:1.75;margin-bottom:16px;font-weight:300;}
+.footer-brand .eicbi-link{font-size:12px;color:var(--gold);text-decoration:none;}
+.footer-col h6{font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.6);font-weight:500;margin-bottom:20px;}
+.footer-col a{display:block;font-size:13px;color:rgba(255,255,255,0.4);text-decoration:none;margin-bottom:10px;transition:color 0.15s;font-weight:300;}
+.footer-col a:hover{color:rgba(255,255,255,0.8);}
+.footer-bottom{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;font-size:12px;}
+.footer-bottom a{color:rgba(255,255,255,0.35);text-decoration:none;margin-left:20px;}
+.reg-number{font-size:11px;color:rgba(255,255,255,0.25);letter-spacing:0.04em;}
+@media(max-width:900px){nav{display:none;}.market-block{grid-template-columns:1fr;direction:ltr;}.market-block:nth-child(even){direction:ltr;}.why-grid{grid-template-columns:1fr;}.ceta-grid{grid-template-columns:1fr;}.footer-top{grid-template-columns:1fr 1fr;}}
+</style>
+</head>
+<body>
+<div class="utility-bar">
+  <div class="inner">
+    <div class="eicbi-badge">Exclusive Canadian Partner of EICBI — European Parliament Accredited</div>
+    <div><a href="#">FR</a><a href="#">Contact</a><a href="#">Member Login</a></div>
+  </div>
+</div>
+<header>
+  <div class="header-inner">
+    <a href="cgec-website.html" class="logo">
+      <div class="logo-mark"><span>CGEC</span><span class="maple">✦</span></div>
+      <div class="logo-text"><strong>Canada Global Export Council</strong><small>Conseil Canadien d'Exportation Mondiale</small></div>
+    </a>
+    <nav>
+      <a href="about.html">About</a>
+      <a href="markets.html" class="active">Markets</a>
+      <a href="partnership.html">EICBI Partnership</a>
+      <a href="programs.html">Programs</a>
+      <a href="apply.html" class="nav-cta">Apply Now</a>
+    </nav>
+  </div>
+</header>
+
+<div class="page-hero">
+  <div class="page-hero-inner">
+    <div class="breadcrumb"><a href="cgec-website.html">Home</a><span>›</span>Markets</div>
+    <div class="page-eyebrow">Market Corridors</div>
+    <h1>Three <em>Strategic Markets.</em><br>One Integrated Programme.</h1>
+    <p>CGEC focuses exclusively on the United Kingdom, European Economic Area, and India — the markets where our institutional partnerships deliver real competitive advantage for Canadian businesses.</p>
+  </div>
+</div>
+
+<!-- MARKETS -->
+<section class="markets-overview">
+  <div class="section-inner">
+    <div class="section-label">Our Corridors</div>
+    <h2 style="margin-bottom:40px;">Canada's Most Strategic Export Markets</h2>
+
+    <div class="market-block">
+      <div class="market-visual mk-uk">
+        <div>
+          <span class="market-flag-xl">🇬🇧</span>
+          <h3>United Kingdom</h3>
+          <p class="market-tagline">Commonwealth ties. Shared legal heritage. Post-Brexit opportunity.</p>
+        </div>
+        <div class="market-stat-row">
+          <div class="market-stat"><div class="num">£2.5T</div><div class="lbl">GDP</div></div>
+          <div class="market-stat"><div class="num">67M</div><div class="lbl">Population</div></div>
+          <div class="market-stat"><div class="num">#5</div><div class="lbl">Global Economy</div></div>
+        </div>
+      </div>
+      <div class="market-content">
+        <div class="opportunity-label">Why the UK for Canadian Business</div>
+        <p>The United Kingdom offers Canadian businesses perhaps the most natural international expansion destination: shared legal frameworks, common language, Commonwealth relationships, and a deep-rooted business culture that values Canadian partnerships.</p>
+        <p>Post-Brexit, the UK is actively building bilateral trade relationships and Canadian businesses are well-positioned to benefit from this openness.</p>
+        <ul>
+          <li>Shared common law legal system</li>
+          <li>Commonwealth trade relationship frameworks</li>
+          <li>English-language market — no translation barrier</li>
+          <li>UK-Canada trade actively expanding post-Brexit</li>
+          <li>EICBI parliamentary relationships in Westminster</li>
+        </ul>
+        <a href="market-uk.html" class="market-link">Explore UK Market in Detail</a>
+      </div>
+    </div>
+
+    <div class="market-block">
+      <div class="market-visual mk-eea">
+        <div>
+          <span class="market-flag-xl">🇪🇺</span>
+          <h3>European Economic Area</h3>
+          <p class="market-tagline">450 million consumers. CETA access. Institutional relationships.</p>
+        </div>
+        <div class="market-stat-row">
+          <div class="market-stat"><div class="num">€16T</div><div class="lbl">Combined GDP</div></div>
+          <div class="market-stat"><div class="num">450M</div><div class="lbl">Consumers</div></div>
+          <div class="market-stat"><div class="num">27+</div><div class="lbl">Member States</div></div>
+        </div>
+      </div>
+      <div class="market-content">
+        <div class="opportunity-label">Why the EEA for Canadian Business</div>
+        <p>The Comprehensive Economic and Trade Agreement (CETA) between Canada and the European Union provides Canadian businesses with preferential access to the world's largest single market — removing tariffs on 98% of product categories.</p>
+        <p>CGEC's exclusive partnership with EICBI, an EU Transparency Register-accredited organisation, provides institutional access that goes far beyond what CETA alone can offer.</p>
+        <ul>
+          <li>CETA provides 98% tariff-free access to EU markets</li>
+          <li>EICBI's European Parliament accreditation</li>
+          <li>Direct access to EU institutional decision-makers</li>
+          <li>Regulatory harmonisation support across member states</li>
+          <li>27+ country market through a single entry strategy</li>
+        </ul>
+        <a href="market-eea.html" class="market-link">Explore EEA Market in Detail</a>
+      </div>
+    </div>
+
+    <div class="market-block">
+      <div class="market-visual mk-in">
+        <div>
+          <span class="market-flag-xl">🇮🇳</span>
+          <h3>India</h3>
+          <p class="market-tagline">$3.7T economy. 1.4 billion people. 13 years of EICBI relationships.</p>
+        </div>
+        <div class="market-stat-row">
+          <div class="market-stat"><div class="num">$3.7T</div><div class="lbl">GDP</div></div>
+          <div class="market-stat"><div class="num">1.4B</div><div class="lbl">Population</div></div>
+          <div class="market-stat"><div class="num">#5</div><div class="lbl">Fastest Growing Major Economy</div></div>
+        </div>
+      </div>
+      <div class="market-content">
+        <div class="opportunity-label">Why India for Canadian Business</div>
+        <p>India is the world's most populous nation and one of its fastest-growing major economies. For Canadian businesses, India represents a generational opportunity — particularly given Canada's large Indian diaspora and deep bilateral ties.</p>
+        <p>What makes CGEC's India offering unique is EICBI's 13-year, ground-level relationship network with Indian government bodies, business chambers, and institutional leaders across key Indian cities.</p>
+        <ul>
+          <li>World's fastest-growing major economy</li>
+          <li>Strong Canada-India diaspora and cultural connections</li>
+          <li>EICBI's 13-year institutional network across India</li>
+          <li>Relationships with Indian government and business bodies</li>
+          <li>Engagement with regional governments across Indian states</li>
+        </ul>
+        <a href="market-india.html" class="market-link">Explore India Market in Detail</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY THESE THREE -->
+<section class="why-three">
+  <div class="why-three-inner">
+    <div class="section-label">Strategic Rationale</div>
+    <h2>Why CGEC Focuses on These Three Markets</h2>
+    <div class="why-grid" style="margin-top:40px;">
+      <div class="why-card">
+        <span class="w-icon">🎯</span>
+        <h4>Depth Over Breadth</h4>
+        <p>CGEC focuses exclusively on UK, EEA, and India because depth of institutional knowledge and relationships is what delivers results — not surface-level coverage of 40 markets.</p>
+      </div>
+      <div class="why-card">
+        <span class="w-icon">🏛️</span>
+        <h4>Institutional Advantage</h4>
+        <p>These are the three markets where EICBI's 13 years of relationship-building gives CGEC members a genuine institutional advantage unavailable through any other Canadian organisation.</p>
+      </div>
+      <div class="why-card">
+        <span class="w-icon">📜</span>
+        <h4>Trade Agreement Infrastructure</h4>
+        <p>CETA with the EU, and the UK-Canada Trade Continuity Agreement, create formal preferential access frameworks that CGEC helps Canadian businesses maximise.</p>
+      </div>
+      <div class="why-card">
+        <span class="w-icon">🌐</span>
+        <h4>Commonwealth Connectivity</h4>
+        <p>Canada, the UK, and India are all Commonwealth nations — creating a shared institutional culture, legal heritage, and bilateral relationship framework that facilitates trade.</p>
+      </div>
+      <div class="why-card">
+        <span class="w-icon">📈</span>
+        <h4>Growth Trajectory</h4>
+        <p>All three markets represent significant growth opportunities: India's economic ascent, the EEA's stability and scale, and the UK's post-Brexit trade diversification agenda.</p>
+      </div>
+      <div class="why-card">
+        <span class="w-icon">🔗</span>
+        <h4>Corridor Integration</h4>
+        <p>The UK-India and EU-India corridors that EICBI has built for 13 years integrate naturally — a Canadian business can access all three markets through a single, coherent strategy.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CETA -->
+<section class="ceta">
+  <div class="section-inner">
+    <div class="ceta-grid">
+      <div class="ceta-left">
+        <div class="section-label">Trade Agreements</div>
+        <h2>The CETA Advantage for Canadian Exporters</h2>
+        <p style="margin-top:16px;">The Comprehensive Economic and Trade Agreement (CETA) between Canada and the European Union is one of the most significant trade agreements Canada has ever signed — yet most Canadian SMEs are not fully leveraging it.</p>
+        <p>CGEC helps Canadian businesses understand and maximise their CETA entitlements, from tariff elimination to professional recognition, procurement access, and regulatory cooperation.</p>
+      </div>
+      <div class="ceta-right">
+        <h4>What CETA Delivers for Canadian Business</h4>
+        <ul>
+          <li>98% of tariff lines eliminated immediately</li>
+          <li>Access to EU government procurement markets</li>
+          <li>Mutual recognition of professional qualifications</li>
+          <li>Intellectual property protections strengthened</li>
+          <li>Investment protection mechanisms</li>
+          <li>Regulatory cooperation to reduce non-tariff barriers</li>
+          <li>Temporary entry for business persons</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand"><strong>Canada Global Export Council</strong><small>CGEC · cgec.ca</small><p>Canada's not-for-profit council for international market expansion. Exclusive Canadian partner of EICBI.</p><a href="https://www.eicbi.org" class="eicbi-link">→ Visit EICBI: eicbi.org</a></div>
+      <div class="footer-col"><h6>Organisation</h6><a href="about.html">About CGEC</a><a href="partnership.html">EICBI Partnership</a><a href="news.html">News & Insights</a></div>
+      <div class="footer-col"><h6>Markets</h6><a href="market-uk.html">United Kingdom</a><a href="market-eea.html">European Economic Area</a><a href="market-india.html">India</a></div>
+      <div class="footer-col"><h6>Programmes</h6><a href="programs.html">All Programs</a><a href="apply.html">Apply Now</a><a href="contact.html">Contact</a></div>
+    </div>
+    <div class="footer-bottom">
+      <div><span>© 2025 Canada Global Export Council. Not-for-profit organisation.</span><a href="#">Privacy Policy</a><a href="#">Français</a></div>
+      <div class="reg-number">EICBI EU Transparency Register: 423661050520-44</div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EICBI Partnership | Canada Global Export Council</title>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--red:#C8102E;--navy:#0B1F3A;--gold:#B8972A;--cream:#F7F4EF;--white:#FFFFFF;--slate:#4A5568;--light-border:#DDD8CF;--mid:#7A8699;}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{font-family:'DM Sans',sans-serif;background:var(--cream);color:var(--navy);font-size:16px;line-height:1.6;overflow-x:hidden;}
+.utility-bar{background:var(--navy);color:rgba(255,255,255,0.7);font-size:12px;letter-spacing:0.04em;padding:7px 0;}
+.utility-bar .inner{max-width:1200px;margin:0 auto;padding:0 32px;display:flex;justify-content:space-between;align-items:center;}
+.utility-bar a{color:rgba(255,255,255,0.6);text-decoration:none;margin-left:20px;}
+.utility-bar a:hover{color:var(--gold);}
+.eicbi-badge{display:flex;align-items:center;gap:8px;color:var(--gold);font-weight:500;}
+.eicbi-badge::before{content:'';display:inline-block;width:6px;height:6px;background:var(--gold);border-radius:50%;}
+header{background:var(--white);border-bottom:3px solid var(--red);position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,0.07);}
+.header-inner{max-width:1200px;margin:0 auto;padding:0 32px;display:flex;align-items:center;justify-content:space-between;height:80px;}
+.logo{display:flex;align-items:center;gap:16px;text-decoration:none;}
+.logo-mark{width:52px;height:52px;background:var(--navy);display:flex;align-items:center;justify-content:center;flex-direction:column;clip-path:polygon(0 0,100% 0,100% 85%,85% 100%,0 100%);}
+.logo-mark span{color:var(--white);font-family:'EB Garamond',serif;font-size:13px;font-weight:700;letter-spacing:0.08em;line-height:1;}
+.logo-mark .maple{color:var(--red);font-size:10px;margin-top:1px;}
+.logo-text{line-height:1.2;}
+.logo-text strong{display:block;font-family:'EB Garamond',serif;font-size:18px;font-weight:700;color:var(--navy);}
+.logo-text small{font-size:11px;color:var(--mid);letter-spacing:0.06em;text-transform:uppercase;}
+nav{display:flex;align-items:center;gap:4px;}
+nav a{font-size:13.5px;font-weight:500;color:var(--navy);text-decoration:none;padding:8px 14px;border-radius:2px;transition:background 0.15s,color 0.15s;}
+nav a:hover,nav a.active{background:var(--cream);color:var(--red);}
+.nav-cta{background:var(--red)!important;color:var(--white)!important;padding:8px 18px!important;}
+.nav-cta:hover{background:#a50e25!important;}
+
+.page-hero{background:var(--navy);padding:72px 32px 64px;position:relative;overflow:hidden;}
+.page-hero::after{content:'EICBI';position:absolute;right:-10px;bottom:-30px;font-family:'EB Garamond',serif;font-size:180px;font-weight:700;color:rgba(255,255,255,0.03);pointer-events:none;letter-spacing:-0.04em;line-height:1;}
+.page-hero-inner{max-width:1200px;margin:0 auto;}
+.breadcrumb{font-size:12px;color:rgba(255,255,255,0.4);margin-bottom:20px;}
+.breadcrumb a{color:rgba(255,255,255,0.4);text-decoration:none;}
+.breadcrumb span{margin:0 8px;}
+.page-eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:var(--gold);font-weight:500;margin-bottom:16px;}
+.page-eyebrow::before{content:'';display:block;width:32px;height:1px;background:var(--gold);}
+.page-hero h1{font-family:'EB Garamond',serif;font-size:clamp(32px,4vw,52px);font-weight:600;color:var(--white);line-height:1.15;margin-bottom:20px;max-width:760px;animation:fadeUp 0.6s 0.1s ease both;}
+.page-hero h1 em{font-style:italic;color:var(--gold);}
+.page-hero p{font-size:16px;color:rgba(255,255,255,0.6);max-width:620px;line-height:1.8;font-weight:300;animation:fadeUp 0.6s 0.2s ease both;}
+@keyframes fadeUp{from{opacity:0;transform:translateY(20px);}to{opacity:1;transform:translateY(0);}}
+
+section{padding:80px 32px;}
+.section-inner{max-width:1200px;margin:0 auto;}
+.section-label{font-size:11px;text-transform:uppercase;letter-spacing:0.12em;color:var(--red);font-weight:500;margin-bottom:12px;display:flex;align-items:center;gap:10px;}
+.section-label::after{content:'';flex:1;max-width:40px;height:1px;background:var(--red);}
+h2{font-family:'EB Garamond',serif;font-size:clamp(26px,3vw,38px);font-weight:600;color:var(--navy);line-height:1.2;letter-spacing:-0.01em;}
+h3{font-family:'EB Garamond',serif;font-size:22px;font-weight:600;color:var(--navy);margin-bottom:10px;}
+
+/* EU REGISTER BANNER */
+.eu-register{background:var(--gold);padding:20px 32px;}
+.eu-register-inner{max-width:1200px;margin:0 auto;display:flex;align-items:center;gap:24px;flex-wrap:wrap;}
+.eu-register-inner .eu-icon{font-size:28px;}
+.eu-register-inner p{font-size:14px;font-weight:500;color:var(--navy);}
+.eu-register-inner strong{font-size:13px;font-weight:600;}
+
+/* WHO IS EICBI */
+.who{background:var(--white);}
+.who-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start;}
+.who-left h2{margin-bottom:20px;}
+.who-left p{color:var(--slate);font-size:15px;line-height:1.8;margin-bottom:16px;font-weight:300;}
+.who-right{display:flex;flex-direction:column;gap:2px;}
+.cred-row{background:var(--cream);padding:24px;display:flex;gap:16px;align-items:flex-start;border-left:3px solid transparent;transition:border-color 0.2s;}
+.cred-row:hover{border-left-color:var(--gold);}
+.cred-icon{width:36px;height:36px;background:var(--white);border:1px solid var(--light-border);display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0;}
+.cred-text h5{font-size:14px;font-weight:500;color:var(--navy);margin-bottom:4px;}
+.cred-text p{font-size:13px;color:var(--slate);line-height:1.6;font-weight:300;}
+
+/* TIMELINE */
+.timeline-sec{background:var(--cream);}
+.timeline-sec h2{margin-bottom:8px;}
+.timeline-sec .sub{color:var(--slate);font-size:15px;margin-bottom:48px;font-weight:300;}
+.timeline{position:relative;padding-left:32px;}
+.timeline::before{content:'';position:absolute;left:0;top:0;bottom:0;width:2px;background:var(--light-border);}
+.tl-item{position:relative;padding-left:32px;padding-bottom:40px;}
+.tl-item::before{content:'';position:absolute;left:-5px;top:6px;width:12px;height:12px;background:var(--red);border-radius:50%;border:2px solid var(--white);}
+.tl-year{font-size:11px;text-transform:uppercase;letter-spacing:0.1em;color:var(--red);font-weight:500;margin-bottom:6px;}
+.tl-item h4{font-family:'EB Garamond',serif;font-size:20px;font-weight:600;color:var(--navy);margin-bottom:6px;}
+.tl-item p{font-size:14px;color:var(--slate);font-weight:300;line-height:1.7;}
+
+/* WHAT IT MEANS */
+.what-means{background:var(--navy);padding:80px 32px;}
+.what-means-inner{max-width:1200px;margin:0 auto;}
+.what-means .section-label{color:var(--gold);}
+.what-means .section-label::after{background:var(--gold);}
+.what-means h2{color:var(--white);margin-bottom:8px;}
+.what-means .sub{color:rgba(255,255,255,0.55);font-size:15px;margin-bottom:48px;font-weight:300;}
+.benefits-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;}
+.benefit-card{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);padding:32px;}
+.benefit-card .b-icon{font-size:28px;margin-bottom:20px;display:block;}
+.benefit-card h4{font-size:16px;font-weight:500;color:rgba(255,255,255,0.9);margin-bottom:8px;}
+.benefit-card p{font-size:13.5px;color:rgba(255,255,255,0.45);line-height:1.7;font-weight:300;}
+
+/* FLAGSHIP */
+.flagship{background:var(--white);}
+.flagship h2{margin-bottom:8px;}
+.flagship .sub{color:var(--slate);font-size:15px;margin-bottom:48px;font-weight:300;}
+.flagship-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;}
+.flagship-card{background:var(--cream);padding:36px;border-top:3px solid var(--gold);}
+.flagship-card .tag{font-size:11px;text-transform:uppercase;letter-spacing:0.1em;color:var(--gold);margin-bottom:12px;display:block;font-weight:500;}
+.flagship-card h3{margin-bottom:10px;}
+.flagship-card p{font-size:14px;color:var(--slate);line-height:1.7;font-weight:300;}
+
+/* CTA */
+.cta-band{background:var(--red);padding:60px 32px;text-align:center;}
+.cta-band h2{color:var(--white);margin-bottom:16px;}
+.cta-band p{color:rgba(255,255,255,0.8);max-width:520px;margin:0 auto 32px;font-size:15px;font-weight:300;}
+.btn-white{background:var(--white);color:var(--red);padding:14px 28px;text-decoration:none;font-size:14px;font-weight:500;display:inline-block;transition:background 0.2s;}
+.btn-white:hover{background:var(--cream);}
+.btn-white-outline{border:1px solid rgba(255,255,255,0.5);color:var(--white);padding:14px 28px;text-decoration:none;font-size:14px;font-weight:400;display:inline-block;margin-left:16px;transition:border-color 0.2s;}
+.btn-white-outline:hover{border-color:var(--white);}
+
+footer{background:#060F1D;color:rgba(255,255,255,0.5);padding:64px 32px 32px;}
+.footer-inner{max-width:1200px;margin:0 auto;}
+.footer-top{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:48px;margin-bottom:56px;padding-bottom:48px;border-bottom:1px solid rgba(255,255,255,0.07);}
+.footer-brand strong{display:block;font-family:'EB Garamond',serif;font-size:18px;color:var(--white);font-weight:600;margin-bottom:4px;}
+.footer-brand small{font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:rgba(255,255,255,0.35);display:block;margin-bottom:16px;}
+.footer-brand p{font-size:13px;line-height:1.75;margin-bottom:16px;font-weight:300;}
+.footer-brand .eicbi-link{font-size:12px;color:var(--gold);text-decoration:none;}
+.footer-col h6{font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.6);font-weight:500;margin-bottom:20px;}
+.footer-col a{display:block;font-size:13px;color:rgba(255,255,255,0.4);text-decoration:none;margin-bottom:10px;transition:color 0.15s;font-weight:300;}
+.footer-col a:hover{color:rgba(255,255,255,0.8);}
+.footer-bottom{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;font-size:12px;}
+.footer-bottom a{color:rgba(255,255,255,0.35);text-decoration:none;margin-left:20px;}
+.reg-number{font-size:11px;color:rgba(255,255,255,0.25);letter-spacing:0.04em;}
+@media(max-width:900px){nav{display:none;}.who-grid,.flagship-grid,.benefits-grid{grid-template-columns:1fr;}.footer-top{grid-template-columns:1fr 1fr;}}
+</style>
+</head>
+<body>
+
+<div class="utility-bar">
+  <div class="inner">
+    <div class="eicbi-badge">Exclusive Canadian Partner of EICBI — European Parliament Accredited</div>
+    <div><a href="#">FR</a><a href="#">Contact</a><a href="#">Member Login</a></div>
+  </div>
+</div>
+<header>
+  <div class="header-inner">
+    <a href="cgec-website.html" class="logo">
+      <div class="logo-mark"><span>CGEC</span><span class="maple">✦</span></div>
+      <div class="logo-text"><strong>Canada Global Export Council</strong><small>Conseil Canadien d'Exportation Mondiale</small></div>
+    </a>
+    <nav>
+      <a href="about.html">About</a>
+      <a href="markets.html">Markets</a>
+      <a href="partnership.html" class="active">EICBI Partnership</a>
+      <a href="programs.html">Programs</a>
+      <a href="apply.html" class="nav-cta">Apply Now</a>
+    </nav>
+  </div>
+</header>
+
+<div class="page-hero">
+  <div class="page-hero-inner">
+    <div class="breadcrumb"><a href="cgec-website.html">Home</a><span>›</span>EICBI Partnership</div>
+    <div class="page-eyebrow">Strategic Partnership</div>
+    <h1>13 Years of <em>Institutional Relationships</em><br>— Now Available to Canadian Business</h1>
+    <p>CGEC is the exclusive Canadian partner of the Europe India Centre for Business & Industry (EICBI) — a European Parliament-accredited geopolitical forum with unparalleled access across the Europe-India corridor.</p>
+  </div>
+</div>
+
+<!-- EU REGISTER BANNER -->
+<div class="eu-register">
+  <div class="eu-register-inner">
+    <div class="eu-icon">🇪🇺</div>
+    <p><strong>EU Transparency Register No. 423661050520-44</strong> · EICBI is registered with the European Commission as a geopolitical forum · European Parliament Accredited · <a href="https://www.eicbi.org" style="color:var(--navy);font-weight:600;">www.eicbi.org</a></p>
+  </div>
+</div>
+
+<!-- WHO IS EICBI -->
+<section class="who">
+  <div class="section-inner">
+    <div class="who-grid">
+      <div class="who-left">
+        <div class="section-label">About EICBI</div>
+        <h2>Europe's Most Credentialled India-EU Trade Forum</h2>
+        <p style="margin-top:20px;">The Europe India Centre for Business & Industry (EICBI) is a European Commission registered geopolitical forum dedicated to advancing Track 1.5 Diplomacy — the critical space between official government channels and private sector engagement.</p>
+        <p>Founded over 13 years ago, EICBI has built an unmatched institutional presence at the intersection of European and Indian trade, investment, and policy. It operates across the India-UK and India-EU corridors, convening the leaders who shape these relationships.</p>
+        <p>Through its accreditation with the European Parliament and registration on the EU Transparency Register, EICBI holds a unique position of access that most private organisations never achieve.</p>
+        <p>For CGEC members, this translates directly: your Canadian business enters these corridors backed by institutional credibility that took 13 years to build.</p>
+      </div>
+      <div class="who-right">
+        <div class="cred-row">
+          <div class="cred-icon">🏛️</div>
+          <div class="cred-text"><h5>European Parliament Accredited</h5><p>Full accreditation granting direct institutional access to the European Parliament in Brussels.</p></div>
+        </div>
+        <div class="cred-row">
+          <div class="cred-icon">📋</div>
+          <div class="cred-text"><h5>EU Transparency Register</h5><p>Registered with the European Commission (No. 423661050520-44) as a legitimate geopolitical forum.</p></div>
+        </div>
+        <div class="cred-row">
+          <div class="cred-icon">🤝</div>
+          <div class="cred-text"><h5>Track 1.5 Diplomacy</h5><p>Bridges official government dialogue and private sector engagement — the most influential level of international relation-building.</p></div>
+        </div>
+        <div class="cred-row">
+          <div class="cred-icon">🌍</div>
+          <div class="cred-text"><h5>India-UK & India-EU Corridors</h5><p>13 years of active, sustained engagement across both the India-EU and India-UK trade and diplomatic corridors.</p></div>
+        </div>
+        <div class="cred-row">
+          <div class="cred-icon">👥</div>
+          <div class="cred-text"><h5>Thousands of Delegates</h5><p>Major summits at the European Parliament in Brussels and the British Parliament in London, engaging thousands of business and government leaders.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TIMELINE -->
+<section class="timeline-sec">
+  <div class="section-inner">
+    <div class="section-label">EICBI Track Record</div>
+    <h2>13 Years of Corridor-Building</h2>
+    <p class="sub" style="margin-top:8px;color:var(--slate);font-size:15px;margin-bottom:48px;font-weight:300;">A decade-plus of sustained institutional engagement across the Europe-India trade corridor.</p>
+    <div class="timeline">
+      <div class="tl-item">
+        <div class="tl-year">Founded — 13 Years Ago</div>
+        <h4>EICBI Established</h4>
+        <p>The Europe India Centre for Business & Industry is founded with a mandate to advance trade, investment, and institutional relations across the Europe-India corridor.</p>
+      </div>
+      <div class="tl-item">
+        <div class="tl-year">Early Years</div>
+        <h4>EU Transparency Register Accreditation</h4>
+        <p>EICBI secures registration with the European Commission (No. 423661050520-44), establishing formal recognition as a geopolitical forum.</p>
+      </div>
+      <div class="tl-item">
+        <div class="tl-year">Parliamentary Engagement</div>
+        <h4>European Parliament Accreditation</h4>
+        <p>EICBI achieves full accreditation with the European Parliament — one of the most significant institutional recognitions available to a non-governmental organisation in Europe.</p>
+      </div>
+      <div class="tl-item">
+        <div class="tl-year">2019</div>
+        <h4>EuropeIndia40 Leaders List Launched</h4>
+        <p>Launch of the flagship annual recognition platform identifying the next generation of leaders under 40 shaping Europe-India relations across business, policy, and civil society.</p>
+      </div>
+      <div class="tl-item">
+        <div class="tl-year">Ongoing</div>
+        <h4>Parliamentary Summits — Brussels & London</h4>
+        <p>Major summits convened at the European Parliament in Brussels and the British Parliament in London, bringing together MEPs, parliamentarians, diplomats, and business leaders.</p>
+      </div>
+      <div class="tl-item">
+        <div class="tl-year">2025</div>
+        <h4>CGEC Established as Exclusive Canadian Partner</h4>
+        <p>Canada Global Export Council established as EICBI's exclusive Canadian partner, opening the Europe-India corridor to Canadian businesses for the first time through an institutional framework.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT IT MEANS -->
+<section class="what-means">
+  <div class="what-means-inner">
+    <div class="section-label">For CGEC Members</div>
+    <h2 style="color:var(--white);">What the EICBI Partnership Means for Your Business</h2>
+    <p class="sub" style="margin-top:8px;margin-bottom:48px;">EICBI's institutional capital translates into concrete, tangible advantages for Canadian businesses accessing markets through CGEC.</p>
+    <div class="benefits-grid">
+      <div class="benefit-card">
+        <span class="b-icon">🏛️</span>
+        <h4>Parliamentary-Level Introductions</h4>
+        <p>Access to Members of the European Parliament, British parliamentarians, and senior government officials — relationships that normally take decades to build.</p>
+      </div>
+      <div class="benefit-card">
+        <span class="b-icon">🌐</span>
+        <h4>EU Institutional Access</h4>
+        <p>EICBI's EU Transparency Register status and Parliament accreditation means CGEC members can engage with EU institutions in ways unavailable to ordinary businesses.</p>
+      </div>
+      <div class="benefit-card">
+        <span class="b-icon">🤝</span>
+        <h4>Pre-Qualified Network</h4>
+        <p>EICBI's network of business leaders, diplomats, and investors across Europe and India has been curated over 13 years — not a generic database, but a relationship network.</p>
+      </div>
+      <div class="benefit-card">
+        <span class="b-icon">📰</span>
+        <h4>Europe India Journal</h4>
+        <p>CGEC members gain visibility through EICBI's flagship publication — positioning your business in a forum read by European and Indian policymakers and business leaders.</p>
+      </div>
+      <div class="benefit-card">
+        <span class="b-icon">🌟</span>
+        <h4>EuropeIndia40 Nomination</h4>
+        <p>Eligible Canadian leaders in the CGEC network can be nominated for the EuropeIndia40 Leaders List — one of the most recognised leadership platforms in the Europe-India corridor.</p>
+      </div>
+      <div class="benefit-card">
+        <span class="b-icon">✈️</span>
+        <h4>Summit & Event Access</h4>
+        <p>Priority access to EICBI's parliamentary summits and business forums in Brussels, London, and key Indian cities — the rooms where Europe-India relationships are built.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FLAGSHIP INITIATIVES -->
+<section class="flagship">
+  <div class="section-inner">
+    <div class="section-label">EICBI Flagship Initiatives</div>
+    <h2>Programmes You Gain Access To</h2>
+    <p style="color:var(--slate);font-size:15px;margin-bottom:48px;font-weight:300;margin-top:8px;">As CGEC members, Canadian businesses gain preferential access to EICBI's flagship programmes and platforms.</p>
+    <div class="flagship-grid">
+      <div class="flagship-card">
+        <span class="tag">Annual Recognition</span>
+        <h3>EuropeIndia40 Leaders List</h3>
+        <p>Launched in 2019, this annual recognition platform identifies and connects the next generation of leaders under 40 shaping Europe-India relations across business, policy, and civil society. CGEC facilitates nominations for qualifying Canadian leaders.</p>
+      </div>
+      <div class="flagship-card">
+        <span class="tag">Publication</span>
+        <h3>Europe India Journal</h3>
+        <p>EICBI's flagship publication advancing policy dialogue and business intelligence across the Europe-India corridor. CGEC members gain editorial visibility and access to this platform read by European and Indian decision-makers.</p>
+      </div>
+      <div class="flagship-card">
+        <span class="tag">Parliamentary Events</span>
+        <h3>Brussels Parliamentary Summits</h3>
+        <p>Major high-level dialogues convened at the European Parliament, bringing together MEPs, EU officials, Indian government representatives, and senior business leaders. CGEC members receive priority delegation places.</p>
+      </div>
+      <div class="flagship-card">
+        <span class="tag">Parliamentary Events</span>
+        <h3>London Parliamentary Forums</h3>
+        <p>Business and policy forums at the British Parliament in London, engaging UK parliamentarians, diplomats, and India-UK business leaders. A uniquely valuable forum for Canadian businesses targeting the UK-India corridor.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="cta-band">
+  <h2 style="color:var(--white);">Access the EICBI Network Through CGEC</h2>
+  <p>CGEC is the only way for Canadian businesses to formally access EICBI's institutional network. Apply for membership to begin.</p>
+  <a href="apply.html" class="btn-white">Apply for CGEC Membership</a>
+  <a href="contact.html" class="btn-white-outline">Speak to an Advisor</a>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand"><strong>Canada Global Export Council</strong><small>CGEC · cgec.ca</small><p>Canada's not-for-profit council for international market expansion. Exclusive Canadian partner of EICBI.</p><a href="https://www.eicbi.org" class="eicbi-link">→ Visit EICBI: eicbi.org</a></div>
+      <div class="footer-col"><h6>Organisation</h6><a href="about.html">About CGEC</a><a href="about.html#leadership">Leadership</a><a href="partnership.html">EICBI Partnership</a><a href="news.html">News & Insights</a></div>
+      <div class="footer-col"><h6>Markets</h6><a href="market-uk.html">United Kingdom</a><a href="market-eea.html">European Economic Area</a><a href="market-india.html">India</a></div>
+      <div class="footer-col"><h6>Programmes</h6><a href="programs.html">All Programs</a><a href="apply.html">Apply Now</a><a href="contact.html">Contact</a></div>
+    </div>
+    <div class="footer-bottom">
+      <div><span>© 2025 Canada Global Export Council. Not-for-profit organisation.</span><a href="#">Privacy Policy</a><a href="#">Français</a></div>
+      <div class="reg-number">EICBI EU Transparency Register: 423661050520-44</div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

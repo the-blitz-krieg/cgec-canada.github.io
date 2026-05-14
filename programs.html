@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Programs & Services | Canada Global Export Council</title>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--red:#C8102E;--navy:#0B1F3A;--gold:#B8972A;--cream:#F7F4EF;--white:#FFFFFF;--slate:#4A5568;--light-border:#DDD8CF;--mid:#7A8699;}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:'DM Sans',sans-serif;background:var(--cream);color:var(--navy);font-size:16px;line-height:1.6;overflow-x:hidden;}
+.utility-bar{background:var(--navy);color:rgba(255,255,255,0.7);font-size:12px;padding:7px 0;}
+.utility-bar .inner{max-width:1200px;margin:0 auto;padding:0 32px;display:flex;justify-content:space-between;align-items:center;}
+.utility-bar a{color:rgba(255,255,255,0.6);text-decoration:none;margin-left:20px;}
+.utility-bar a:hover{color:var(--gold);}
+.eicbi-badge{display:flex;align-items:center;gap:8px;color:var(--gold);font-weight:500;}
+.eicbi-badge::before{content:'';display:inline-block;width:6px;height:6px;background:var(--gold);border-radius:50%;}
+header{background:var(--white);border-bottom:3px solid var(--red);position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,0.07);}
+.header-inner{max-width:1200px;margin:0 auto;padding:0 32px;display:flex;align-items:center;justify-content:space-between;height:80px;}
+.logo{display:flex;align-items:center;gap:16px;text-decoration:none;}
+.logo-mark{width:52px;height:52px;background:var(--navy);display:flex;align-items:center;justify-content:center;flex-direction:column;clip-path:polygon(0 0,100% 0,100% 85%,85% 100%,0 100%);}
+.logo-mark span{color:var(--white);font-family:'EB Garamond',serif;font-size:13px;font-weight:700;letter-spacing:0.08em;line-height:1;}
+.logo-mark .maple{color:var(--red);font-size:10px;margin-top:1px;}
+.logo-text strong{display:block;font-family:'EB Garamond',serif;font-size:18px;font-weight:700;color:var(--navy);}
+.logo-text small{font-size:11px;color:var(--mid);letter-spacing:0.06em;text-transform:uppercase;}
+nav{display:flex;align-items:center;gap:4px;}
+nav a{font-size:13.5px;font-weight:500;color:var(--navy);text-decoration:none;padding:8px 14px;border-radius:2px;transition:background 0.15s,color 0.15s;}
+nav a:hover,nav a.active{background:var(--cream);color:var(--red);}
+.nav-cta{background:var(--red)!important;color:var(--white)!important;padding:8px 18px!important;}
+.page-hero{background:var(--navy);padding:72px 32px 64px;position:relative;overflow:hidden;}
+.page-hero::after{content:'PROGRAMS';position:absolute;right:-10px;bottom:-30px;font-family:'EB Garamond',serif;font-size:160px;font-weight:700;color:rgba(255,255,255,0.03);pointer-events:none;line-height:1;}
+.page-hero-inner{max-width:1200px;margin:0 auto;}
+.breadcrumb{font-size:12px;color:rgba(255,255,255,0.4);margin-bottom:20px;}
+.breadcrumb a{color:rgba(255,255,255,0.4);text-decoration:none;}
+.breadcrumb span{margin:0 8px;}
+.page-eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:var(--gold);font-weight:500;margin-bottom:16px;}
+.page-eyebrow::before{content:'';display:block;width:32px;height:1px;background:var(--gold);}
+.page-hero h1{font-family:'EB Garamond',serif;font-size:clamp(32px,4vw,52px);font-weight:600;color:var(--white);line-height:1.15;margin-bottom:20px;max-width:720px;}
+.page-hero h1 em{font-style:italic;color:var(--gold);}
+.page-hero p{font-size:16px;color:rgba(255,255,255,0.6);max-width:600px;line-height:1.8;font-weight:300;}
+section{padding:80px 32px;}
+.section-inner{max-width:1200px;margin:0 auto;}
+.section-label{font-size:11px;text-transform:uppercase;letter-spacing:0.12em;color:var(--red);font-weight:500;margin-bottom:12px;display:flex;align-items:center;gap:10px;}
+.section-label::after{content:'';flex:1;max-width:40px;height:1px;background:var(--red);}
+h2{font-family:'EB Garamond',serif;font-size:clamp(26px,3vw,38px);font-weight:600;color:var(--navy);line-height:1.2;letter-spacing:-0.01em;}
+h3{font-family:'EB Garamond',serif;font-size:22px;font-weight:600;color:var(--navy);margin-bottom:10px;}
+
+/* JOURNEY */
+.journey{background:var(--white);}
+.journey h2{margin-bottom:8px;}
+.journey .sub{color:var(--slate);font-size:15px;margin-bottom:56px;font-weight:300;}
+.journey-steps{display:grid;grid-template-columns:repeat(4,1fr);gap:0;position:relative;}
+.journey-steps::before{content:'';position:absolute;top:28px;left:12.5%;right:12.5%;height:2px;background:var(--light-border);z-index:0;}
+.journey-step{text-align:center;padding:0 16px;position:relative;z-index:1;}
+.step-num{width:56px;height:56px;background:var(--navy);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 20px;font-family:'EB Garamond',serif;font-size:20px;font-weight:700;color:var(--white);}
+.journey-step h4{font-family:'EB Garamond',serif;font-size:18px;font-weight:600;color:var(--navy);margin-bottom:8px;}
+.journey-step p{font-size:13px;color:var(--slate);line-height:1.6;font-weight:300;}
+
+/* PROGRAMS */
+.programs-detail{background:var(--cream);}
+.prog-block{background:var(--white);margin-bottom:2px;display:grid;grid-template-columns:280px 1fr;gap:0;}
+.prog-sidebar{background:var(--navy);padding:40px 36px;display:flex;flex-direction:column;justify-content:space-between;}
+.prog-sidebar .p-icon{font-size:40px;margin-bottom:20px;display:block;}
+.prog-sidebar h3{color:var(--white);font-size:20px;margin-bottom:8px;}
+.prog-sidebar .p-tag{font-size:11px;text-transform:uppercase;letter-spacing:0.1em;color:var(--gold);margin-top:auto;padding-top:24px;border-top:1px solid rgba(255,255,255,0.1);}
+.prog-body{padding:40px 48px;}
+.prog-body p{font-size:15px;color:var(--slate);line-height:1.8;margin-bottom:20px;font-weight:300;}
+.prog-body ul{list-style:none;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:0;}
+.prog-body ul li{font-size:14px;color:var(--slate);padding:8px 0;border-bottom:1px solid var(--light-border);padding-left:18px;position:relative;font-weight:300;}
+.prog-body ul li::before{content:'✓';position:absolute;left:0;color:var(--red);font-size:12px;font-weight:600;}
+.prog-body .apply-link{display:inline-flex;align-items:center;gap:8px;color:var(--red);font-size:14px;font-weight:500;text-decoration:none;margin-top:20px;}
+.prog-body .apply-link::after{content:'→';}
+
+/* MISSIONS */
+.missions{background:var(--white);}
+.missions h2{margin-bottom:8px;}
+.missions .sub{color:var(--slate);font-size:15px;margin-bottom:48px;font-weight:300;}
+.mission-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}
+.mission-card{background:var(--cream);padding:32px;border-top:3px solid var(--light-border);transition:border-color 0.2s;}
+.mission-card:hover{border-top-color:var(--red);}
+.mission-card .m-date{font-size:11px;text-transform:uppercase;letter-spacing:0.1em;color:var(--mid);margin-bottom:12px;font-weight:500;}
+.mission-card h4{font-family:'EB Garamond',serif;font-size:20px;font-weight:600;color:var(--navy);margin-bottom:8px;}
+.mission-card .m-loc{font-size:13px;color:var(--slate);margin-bottom:12px;}
+.mission-card p{font-size:14px;color:var(--slate);line-height:1.7;font-weight:300;margin-bottom:16px;}
+.mission-card .status{font-size:11px;text-transform:uppercase;letter-spacing:0.08em;padding:4px 10px;display:inline-block;}
+.status-open{background:rgba(200,16,46,0.08);color:var(--red);}
+.status-coming{background:rgba(11,31,58,0.07);color:var(--navy);}
+
+/* MEMBERSHIP */
+.membership{background:var(--navy);padding:80px 32px;}
+.membership-inner{max-width:1200px;margin:0 auto;}
+.membership .section-label{color:var(--gold);}
+.membership .section-label::after{background:var(--gold);}
+.membership h2{color:var(--white);margin-bottom:8px;}
+.membership .sub{color:rgba(255,255,255,0.5);font-size:15px;margin-bottom:48px;font-weight:300;}
+.tiers{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;}
+.tier{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);padding:40px 32px;}
+.tier.featured{background:rgba(200,16,46,0.15);border-color:rgba(200,16,46,0.4);}
+.tier .tier-name{font-size:11px;text-transform:uppercase;letter-spacing:0.1em;color:var(--gold);margin-bottom:12px;font-weight:500;}
+.tier h4{font-family:'EB Garamond',serif;font-size:24px;font-weight:600;color:var(--white);margin-bottom:24px;}
+.tier ul{list-style:none;padding:0;margin-bottom:32px;}
+.tier ul li{font-size:13.5px;color:rgba(255,255,255,0.55);padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.07);padding-left:18px;position:relative;font-weight:300;}
+.tier ul li::before{content:'✓';position:absolute;left:0;color:var(--gold);font-size:12px;}
+.tier ul li:last-child{border-bottom:none;}
+.btn-tier{display:block;text-align:center;padding:12px;border:1px solid rgba(255,255,255,0.2);color:rgba(255,255,255,0.7);text-decoration:none;font-size:13px;font-weight:500;transition:all 0.2s;}
+.btn-tier:hover{border-color:var(--gold);color:var(--gold);}
+.tier.featured .btn-tier{background:var(--red);border-color:var(--red);color:var(--white);}
+
+footer{background:#060F1D;color:rgba(255,255,255,0.5);padding:64px 32px 32px;}
+.footer-inner{max-width:1200px;margin:0 auto;}
+.footer-top{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:48px;margin-bottom:56px;padding-bottom:48px;border-bottom:1px solid rgba(255,255,255,0.07);}
+.footer-brand strong{display:block;font-family:'EB Garamond',serif;font-size:18px;color:var(--white);font-weight:600;margin-bottom:4px;}
+.footer-brand small{font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:rgba(255,255,255,0.35);display:block;margin-bottom:16px;}
+.footer-brand p{font-size:13px;line-height:1.75;margin-bottom:16px;font-weight:300;}
+.footer-brand .eicbi-link{font-size:12px;color:var(--gold);text-decoration:none;}
+.footer-col h6{font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.6);font-weight:500;margin-bottom:20px;}
+.footer-col a{display:block;font-size:13px;color:rgba(255,255,255,0.4);text-decoration:none;margin-bottom:10px;font-weight:300;}
+.footer-col a:hover{color:rgba(255,255,255,0.8);}
+.footer-bottom{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;font-size:12px;}
+.footer-bottom a{color:rgba(255,255,255,0.35);text-decoration:none;margin-left:20px;}
+.reg-number{font-size:11px;color:rgba(255,255,255,0.25);letter-spacing:0.04em;}
+@media(max-width:900px){nav{display:none;}.journey-steps{grid-template-columns:1fr 1fr;}.prog-block{grid-template-columns:1fr;}.mission-grid{grid-template-columns:1fr;}.tiers{grid-template-columns:1fr;}.footer-top{grid-template-columns:1fr 1fr;}}
+</style>
+</head>
+<body>
+<div class="utility-bar">
+  <div class="inner">
+    <div class="eicbi-badge">Exclusive Canadian Partner of EICBI — European Parliament Accredited</div>
+    <div><a href="#">FR</a><a href="#">Contact</a><a href="#">Member Login</a></div>
+  </div>
+</div>
+<header>
+  <div class="header-inner">
+    <a href="cgec-website.html" class="logo">
+      <div class="logo-mark"><span>CGEC</span><span class="maple">✦</span></div>
+      <div class="logo-text"><strong>Canada Global Export Council</strong><small>Conseil Canadien d'Exportation Mondiale</small></div>
+    </a>
+    <nav>
+      <a href="about.html">About</a>
+      <a href="markets.html">Markets</a>
+      <a href="partnership.html">EICBI Partnership</a>
+      <a href="programs.html" class="active">Programs</a>
+      <a href="apply.html" class="nav-cta">Apply Now</a>
+    </nav>
+  </div>
+</header>
+
+<div class="page-hero">
+  <div class="page-hero-inner">
+    <div class="breadcrumb"><a href="cgec-website.html">Home</a><span>›</span>Programs & Services</div>
+    <div class="page-eyebrow">Our Programmes</div>
+    <h1>Structured Support at <em>Every Stage</em><br>of Your Global Expansion</h1>
+    <p>From first-time exporters to established businesses entering new markets — CGEC provides the intelligence, connections, and institutional backing to make your international expansion succeed.</p>
+  </div>
+</div>
+
+<!-- JOURNEY -->
+<section class="journey">
+  <div class="section-inner">
+    <div class="section-label">The CGEC Journey</div>
+    <h2>How We Work With Canadian Businesses</h2>
+    <p class="sub" style="margin-top:8px;">A structured four-stage process from readiness assessment to market entry and beyond.</p>
+    <div class="journey-steps">
+      <div class="journey-step">
+        <div class="step-num">01</div>
+        <h4>Assessment</h4>
+        <p>Export readiness review — understanding your business, markets, and objectives.</p>
+      </div>
+      <div class="journey-step">
+        <div class="step-num">02</div>
+        <h4>Strategy</h4>
+        <p>Market entry strategy, regulatory pathway, and partnership identification.</p>
+      </div>
+      <div class="journey-step">
+        <div class="step-num">03</div>
+        <h4>Connection</h4>
+        <p>Trade missions, matchmaking, and introductions through EICBI's network.</p>
+      </div>
+      <div class="journey-step">
+        <div class="step-num">04</div>
+        <h4>Establishment</h4>
+        <p>Ongoing support as you establish operations in your target markets.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROGRAMS DETAIL -->
+<section class="programs-detail" id="programs">
+  <div class="section-inner">
+    <div class="section-label">Core Programmes</div>
+    <h2 style="margin-bottom:40px;">What CGEC Delivers</h2>
+
+    <div class="prog-block">
+      <div class="prog-sidebar">
+        <div>
+          <span class="p-icon">🗺️</span>
+          <h3>Market Entry Assessment</h3>
+        </div>
+        <div class="p-tag">Foundation Programme</div>
+      </div>
+      <div class="prog-body">
+        <p>Before entering any international market, Canadian businesses need an honest, expert assessment of their readiness, competitive positioning, and optimal entry pathway. CGEC's Market Entry Assessment is the starting point for all CGEC members.</p>
+        <p>Conducted by advisors with direct experience in the UK, EEA, and Indian markets, this assessment gives you a clear roadmap — not generic advice, but market-specific intelligence grounded in EICBI's 13 years of corridor knowledge.</p>
+        <ul>
+          <li>Export readiness evaluation</li>
+          <li>Target market prioritisation</li>
+          <li>Regulatory landscape overview</li>
+          <li>Competitive positioning analysis</li>
+          <li>Entry structure recommendations</li>
+          <li>Partnership strategy framework</li>
+        </ul>
+        <a href="apply.html" class="apply-link">Apply for Assessment</a>
+      </div>
+    </div>
+
+    <div class="prog-block" id="missions">
+      <div class="prog-sidebar">
+        <div>
+          <span class="p-icon">✈️</span>
+          <h3>Trade Missions</h3>
+        </div>
+        <div class="p-tag">Flagship Programme</div>
+      </div>
+      <div class="prog-body">
+        <p>CGEC organises structured trade missions to London, Brussels, and key Indian cities — curated delegations where Canadian businesses meet pre-qualified partners, government officials, and institutional contacts through EICBI's network.</p>
+        <p>These are not tourism. Every meeting is pre-arranged, every delegate is briefed, and every mission has clear commercial objectives. Delegates consistently cite CGEC trade missions as the single most valuable investment in their international expansion.</p>
+        <ul>
+          <li>Pre-qualified B2B meeting schedules</li>
+          <li>Government and institutional introductions</li>
+          <li>EICBI parliamentary network access</li>
+          <li>Sector-specific roundtables</li>
+          <li>Post-mission follow-up support</li>
+          <li>Delegation briefing materials</li>
+        </ul>
+        <a href="apply.html" class="apply-link">Register for Trade Mission</a>
+      </div>
+    </div>
+
+    <div class="prog-block" id="matchmaking">
+      <div class="prog-sidebar">
+        <div>
+          <span class="p-icon">🤝</span>
+          <h3>Partner Matchmaking</h3>
+        </div>
+        <div class="p-tag">Network Programme</div>
+      </div>
+      <div class="prog-body">
+        <p>The right partner in a foreign market can make the difference between success and failure. CGEC's matchmaking programme draws on EICBI's verified network of distributors, investors, legal and regulatory advisors, and institutional contacts across all three corridors.</p>
+        <p>We don't send lists of contacts — we make introductions. There is a significant difference, and it is one of the core advantages of operating through a council with 13 years of institutional relationships.</p>
+        <ul>
+          <li>Distributor and agent identification</li>
+          <li>Investment partner introductions</li>
+          <li>Legal and regulatory advisor referrals</li>
+          <li>Joint venture partner sourcing</li>
+          <li>Government body introductions</li>
+          <li>Trade association connections</li>
+        </ul>
+        <a href="apply.html" class="apply-link">Request Matchmaking</a>
+      </div>
+    </div>
+
+    <div class="prog-block">
+      <div class="prog-sidebar">
+        <div>
+          <span class="p-icon">📋</span>
+          <h3>Regulatory & Compliance Advisory</h3>
+        </div>
+        <div class="p-tag">Advisory Programme</div>
+      </div>
+      <div class="prog-body">
+        <p>Navigating the regulatory landscape of foreign markets is one of the greatest barriers to Canadian SME exports. CGEC provides expert guidance on CETA provisions, UK market access post-Brexit, EU regulatory frameworks, and Indian FDI and business registration requirements.</p>
+        <p>We work with a network of specialist legal and regulatory advisors in each market — ensuring you receive advice that is current, market-specific, and actionable.</p>
+        <ul>
+          <li>CETA provisions and maximisation</li>
+          <li>UK market access post-Brexit</li>
+          <li>EU regulatory framework navigation</li>
+          <li>Indian FDI regulations and structures</li>
+          <li>Business registration in target markets</li>
+          <li>Import/export compliance documentation</li>
+        </ul>
+        <a href="apply.html" class="apply-link">Request Advisory Session</a>
+      </div>
+    </div>
+
+    <div class="prog-block">
+      <div class="prog-sidebar">
+        <div>
+          <span class="p-icon">🏛️</span>
+          <h3>Government Relations</h3>
+        </div>
+        <div class="p-tag">Institutional Programme</div>
+      </div>
+      <div class="prog-body">
+        <p>For many international business opportunities — particularly in regulated sectors, infrastructure, or public procurement — relationships with government bodies are essential. CGEC's government relations programme leverages EICBI's parliamentary-level network to facilitate introductions that would otherwise be inaccessible.</p>
+        <p>This is the programme where EICBI's European Parliament accreditation and 13 years of Track 1.5 diplomatic engagement delivers its most distinctive value for Canadian businesses.</p>
+        <ul>
+          <li>European Parliament institutional introductions</li>
+          <li>UK government and parliamentary introductions</li>
+          <li>Indian federal and state government contacts</li>
+          <li>Trade promotion agency connections</li>
+          <li>Investment authority introductions</li>
+          <li>Public procurement guidance and support</li>
+        </ul>
+        <a href="apply.html" class="apply-link">Enquire About Government Relations</a>
+      </div>
+    </div>
+
+    <div class="prog-block">
+      <div class="prog-sidebar">
+        <div>
+          <span class="p-icon">📊</span>
+          <h3>Market Intelligence Briefs</h3>
+        </div>
+        <div class="p-tag">Intelligence Programme</div>
+      </div>
+      <div class="prog-body">
+        <p>CGEC members receive quarterly intelligence reports on trade policy developments, sector opportunities, and regulatory changes across UK, EEA, and Indian markets — co-produced with EICBI's policy and research team.</p>
+        <p>These are not generic trade publications. They are decision-making tools: specific, current, and focused on what matters for Canadian businesses operating in or preparing to enter these markets.</p>
+        <ul>
+          <li>Quarterly market intelligence reports</li>
+          <li>Regulatory change alerts</li>
+          <li>Sector opportunity briefings</li>
+          <li>Trade policy analysis</li>
+          <li>EICBI policy publications and journals</li>
+          <li>Annual market outlook report</li>
+        </ul>
+        <a href="apply.html" class="apply-link">Access Intelligence Briefs</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- UPCOMING MISSIONS -->
+<section class="missions">
+  <div class="section-inner">
+    <div class="section-label">Upcoming Trade Missions</div>
+    <h2>2025–2026 Mission Calendar</h2>
+    <p class="sub" style="margin-top:8px;color:var(--slate);font-size:15px;margin-bottom:48px;font-weight:300;">All CGEC trade missions are limited in delegation size to ensure quality of engagement. Early registration is strongly advised.</p>
+    <div class="mission-grid">
+      <div class="mission-card">
+        <div class="m-date">Spring 2026</div>
+        <h4>Canada–UK Trade Mission: London</h4>
+        <div class="m-loc">📍 London, United Kingdom</div>
+        <p>A four-day structured mission to London with B2B meetings, a parliamentary briefing session, and sector roundtables in fintech, cleantech, and professional services.</p>
+        <span class="status status-open">Registrations Open</span>
+      </div>
+      <div class="mission-card">
+        <div class="m-date">Autumn 2026</div>
+        <h4>Canada–EU Mission: Brussels</h4>
+        <div class="m-loc">📍 Brussels, Belgium</div>
+        <p>A flagship delegation to Brussels including a briefing at the European Parliament, meetings with EU institutional officials, and curated B2B sessions with European partners.</p>
+        <span class="status status-coming">Coming Soon</span>
+      </div>
+      <div class="mission-card">
+        <div class="m-date">Winter 2026</div>
+        <h4>Canada–India Trade Mission: Mumbai & Delhi</h4>
+        <div class="m-loc">📍 Mumbai & New Delhi, India</div>
+        <p>A week-long mission to India's two premier business and government centres, leveraging EICBI's 13-year network of Indian business and government relationships.</p>
+        <span class="status status-coming">Coming Soon</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MEMBERSHIP TIERS -->
+<section class="membership">
+  <div class="membership-inner">
+    <div class="section-label">Membership</div>
+    <h2>Choose Your Level of Engagement</h2>
+    <p class="sub" style="margin-top:8px;">CGEC membership tiers are designed to match the scale and stage of your international expansion ambitions.</p>
+    <div class="tiers">
+      <div class="tier">
+        <div class="tier-name">Entry</div>
+        <h4>Associate Member</h4>
+        <ul>
+          <li>Market Intelligence Briefs (quarterly)</li>
+          <li>CGEC member directory listing</li>
+          <li>Access to CGEC events and webinars</li>
+          <li>Discounted Trade Mission rates</li>
+          <li>Annual General Meeting participation</li>
+        </ul>
+        <a href="apply.html" class="btn-tier">Apply as Associate</a>
+      </div>
+      <div class="tier featured">
+        <div class="tier-name">Core</div>
+        <h4>Full Member</h4>
+        <ul>
+          <li>All Associate Member benefits</li>
+          <li>Market Entry Assessment (one market)</li>
+          <li>Two partner matchmaking sessions annually</li>
+          <li>Priority Trade Mission allocation</li>
+          <li>Regulatory advisory session (2hrs annually)</li>
+          <li>EICBI network introductions</li>
+        </ul>
+        <a href="apply.html" class="btn-tier">Apply as Full Member</a>
+      </div>
+      <div class="tier">
+        <div class="tier-name">Premium</div>
+        <h4>Strategic Member</h4>
+        <ul>
+          <li>All Full Member benefits</li>
+          <li>Multi-market entry assessments</li>
+          <li>Unlimited matchmaking sessions</li>
+          <li>Government relations programme access</li>
+          <li>EICBI parliamentary introductions</li>
+          <li>EuropeIndia40 nomination eligibility</li>
+          <li>Europe India Journal visibility</li>
+        </ul>
+        <a href="apply.html" class="btn-tier">Apply as Strategic Member</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand"><strong>Canada Global Export Council</strong><small>CGEC · cgec.ca</small><p>Canada's not-for-profit council for international market expansion. Exclusive Canadian partner of EICBI.</p><a href="https://www.eicbi.org" class="eicbi-link">→ Visit EICBI: eicbi.org</a></div>
+      <div class="footer-col"><h6>Organisation</h6><a href="about.html">About CGEC</a><a href="partnership.html">EICBI Partnership</a><a href="news.html">News & Insights</a></div>
+      <div class="footer-col"><h6>Markets</h6><a href="market-uk.html">United Kingdom</a><a href="market-eea.html">European Economic Area</a><a href="market-india.html">India</a></div>
+      <div class="footer-col"><h6>Programmes</h6><a href="programs.html">All Programs</a><a href="programs.html#missions">Trade Missions</a><a href="apply.html">Apply Now</a><a href="contact.html">Contact</a></div>
+    </div>
+    <div class="footer-bottom">
+      <div><span>© 2025 Canada Global Export Council. Not-for-profit organisation.</span><a href="#">Privacy Policy</a><a href="#">Français</a></div>
+      <div class="reg-number">EICBI EU Transparency Register: 423661050520-44</div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

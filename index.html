@@ -1,0 +1,1110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Canada Global Export Council | CGEC</title>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --red: #C8102E;
+    --navy: #0B1F3A;
+    --gold: #B8972A;
+    --cream: #F7F4EF;
+    --white: #FFFFFF;
+    --slate: #4A5568;
+    --light-border: #DDD8CF;
+    --mid: #7A8699;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--cream);
+    color: var(--navy);
+    font-size: 16px;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  /* ── TOP UTILITY BAR ── */
+  .utility-bar {
+    background: var(--navy);
+    color: rgba(255,255,255,0.7);
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    padding: 7px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+  }
+  .utility-bar .inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .utility-bar a { color: rgba(255,255,255,0.6); text-decoration: none; margin-left: 20px; }
+  .utility-bar a:hover { color: var(--gold); }
+  .eicbi-badge {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--gold);
+    font-weight: 500;
+  }
+  .eicbi-badge::before {
+    content: '';
+    display: inline-block;
+    width: 6px; height: 6px;
+    background: var(--gold);
+    border-radius: 50%;
+  }
+
+  /* ── HEADER ── */
+  header {
+    background: var(--white);
+    border-bottom: 3px solid var(--red);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  }
+  .header-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    text-decoration: none;
+  }
+  .logo-mark {
+    width: 52px; height: 52px;
+    background: var(--navy);
+    display: flex; align-items: center; justify-content: center;
+    flex-direction: column;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 85% 100%, 0 100%);
+  }
+  .logo-mark span {
+    color: var(--white);
+    font-family: 'EB Garamond', serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    line-height: 1;
+  }
+  .logo-mark .maple {
+    color: var(--red);
+    font-size: 10px;
+    margin-top: 1px;
+  }
+  .logo-text { line-height: 1.2; }
+  .logo-text strong {
+    display: block;
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--navy);
+    letter-spacing: 0.01em;
+  }
+  .logo-text small {
+    font-size: 11px;
+    color: var(--mid);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  nav { display: flex; align-items: center; gap: 4px; }
+  nav a {
+    font-size: 13.5px;
+    font-weight: 500;
+    color: var(--navy);
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 2px;
+    transition: background 0.15s, color 0.15s;
+    letter-spacing: 0.01em;
+  }
+  nav a:hover { background: var(--cream); color: var(--red); }
+  .nav-cta {
+    background: var(--red) !important;
+    color: var(--white) !important;
+    padding: 8px 18px !important;
+    font-weight: 500 !important;
+  }
+  .nav-cta:hover { background: #a50e25 !important; }
+
+  /* ── HERO ── */
+  .hero {
+    background: var(--navy);
+    position: relative;
+    overflow: hidden;
+    padding: 90px 32px 80px;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0;
+    width: 55%;
+    height: 100%;
+    background: linear-gradient(135deg, transparent 40%, rgba(200,16,46,0.08) 100%);
+    pointer-events: none;
+  }
+  .hero::after {
+    content: 'CGEC';
+    position: absolute;
+    right: -20px;
+    bottom: -40px;
+    font-family: 'EB Garamond', serif;
+    font-size: 220px;
+    font-weight: 700;
+    color: rgba(255,255,255,0.03);
+    pointer-events: none;
+    letter-spacing: -0.04em;
+    line-height: 1;
+  }
+  .hero-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 380px;
+    gap: 64px;
+    align-items: center;
+  }
+  .hero-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--gold);
+    font-weight: 500;
+    margin-bottom: 24px;
+  }
+  .hero-eyebrow::before {
+    content: '';
+    display: block;
+    width: 32px; height: 1px;
+    background: var(--gold);
+  }
+  .hero h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: clamp(36px, 4vw, 54px);
+    font-weight: 600;
+    color: var(--white);
+    line-height: 1.15;
+    margin-bottom: 24px;
+    letter-spacing: -0.01em;
+  }
+  .hero h1 em {
+    font-style: italic;
+    color: var(--gold);
+  }
+  .hero p {
+    font-size: 16px;
+    color: rgba(255,255,255,0.65);
+    max-width: 560px;
+    margin-bottom: 36px;
+    line-height: 1.75;
+    font-weight: 300;
+  }
+  .hero-actions { display: flex; gap: 16px; flex-wrap: wrap; }
+  .btn-primary {
+    background: var(--red);
+    color: var(--white);
+    padding: 14px 28px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    transition: background 0.2s;
+    display: inline-block;
+  }
+  .btn-primary:hover { background: #a50e25; }
+  .btn-outline {
+    border: 1px solid rgba(255,255,255,0.25);
+    color: rgba(255,255,255,0.8);
+    padding: 14px 28px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    transition: border-color 0.2s, color 0.2s;
+    display: inline-block;
+  }
+  .btn-outline:hover { border-color: var(--gold); color: var(--gold); }
+
+  /* HERO STAT CARD */
+  .hero-card {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.1);
+    padding: 36px;
+    backdrop-filter: blur(4px);
+  }
+  .hero-card .card-label {
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 24px;
+    font-weight: 500;
+  }
+  .market-list { list-style: none; }
+  .market-list li {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 14px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.07);
+    color: rgba(255,255,255,0.85);
+    font-size: 14px;
+  }
+  .market-list li:last-child { border-bottom: none; }
+  .market-flag {
+    width: 32px; height: 22px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 2px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 16px;
+    flex-shrink: 0;
+  }
+  .market-list .tag {
+    margin-left: auto;
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--gold);
+    border: 1px solid rgba(184,151,42,0.4);
+    padding: 2px 8px;
+  }
+
+  /* ── ACCREDITATION BANNER ── */
+  .accreditation {
+    background: var(--white);
+    border-bottom: 1px solid var(--light-border);
+    padding: 20px 32px;
+  }
+  .accreditation-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    flex-wrap: wrap;
+  }
+  .accred-label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--mid);
+    font-weight: 500;
+    flex-shrink: 0;
+  }
+  .accred-items {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  .accred-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    color: var(--slate);
+  }
+  .accred-icon {
+    width: 28px; height: 28px;
+    background: var(--cream);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 14px;
+    border: 1px solid var(--light-border);
+  }
+  .accred-divider { width: 1px; height: 24px; background: var(--light-border); }
+
+  /* ── SECTION GENERIC ── */
+  section { padding: 80px 32px; }
+  .section-inner { max-width: 1200px; margin: 0 auto; }
+  .section-label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--red);
+    font-weight: 500;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .section-label::after {
+    content: '';
+    flex: 1;
+    max-width: 40px;
+    height: 1px;
+    background: var(--red);
+  }
+  h2 {
+    font-family: 'EB Garamond', serif;
+    font-size: clamp(28px, 3vw, 40px);
+    font-weight: 600;
+    color: var(--navy);
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+  }
+
+  /* ── ABOUT ── */
+  .about { background: var(--cream); }
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: start;
+  }
+  .about-left .section-label { margin-bottom: 12px; }
+  .about-left h2 { margin-bottom: 20px; }
+  .about-left p {
+    color: var(--slate);
+    line-height: 1.8;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 300;
+  }
+  .about-left a {
+    color: var(--red);
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    letter-spacing: 0.02em;
+  }
+  .about-left a::after { content: '→'; }
+  .about-right { display: flex; flex-direction: column; gap: 1px; }
+  .pillar {
+    background: var(--white);
+    border-left: 3px solid transparent;
+    padding: 24px 28px;
+    transition: border-color 0.2s;
+    cursor: default;
+  }
+  .pillar:hover { border-left-color: var(--red); }
+  .pillar h4 {
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--navy);
+    margin-bottom: 6px;
+  }
+  .pillar p { font-size: 13.5px; color: var(--slate); line-height: 1.65; font-weight: 300; }
+
+  /* ── MARKETS ── */
+  .markets { background: var(--white); }
+  .markets h2 { margin-bottom: 12px; }
+  .markets .sub {
+    color: var(--slate);
+    font-size: 15px;
+    margin-bottom: 48px;
+    font-weight: 300;
+    max-width: 600px;
+  }
+  .markets-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+  }
+  .market-card {
+    background: var(--cream);
+    padding: 40px 36px;
+    position: relative;
+    overflow: hidden;
+    transition: background 0.2s;
+  }
+  .market-card:hover { background: var(--navy); }
+  .market-card:hover .market-title,
+  .market-card:hover .market-desc { color: rgba(255,255,255,0.85); }
+  .market-card:hover .market-num { color: rgba(255,255,255,0.1); }
+  .market-card:hover .market-cta { color: var(--gold); }
+  .market-num {
+    font-family: 'EB Garamond', serif;
+    font-size: 80px;
+    font-weight: 700;
+    color: rgba(11,31,58,0.07);
+    position: absolute;
+    top: 12px; right: 16px;
+    line-height: 1;
+    transition: color 0.2s;
+  }
+  .market-flag-lg { font-size: 36px; margin-bottom: 20px; display: block; }
+  .market-title {
+    font-family: 'EB Garamond', serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--navy);
+    margin-bottom: 8px;
+    transition: color 0.2s;
+  }
+  .market-desc {
+    font-size: 13.5px;
+    color: var(--slate);
+    line-height: 1.7;
+    margin-bottom: 20px;
+    font-weight: 300;
+    transition: color 0.2s;
+  }
+  .market-cta {
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--red);
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  /* ── EICBI PARTNERSHIP ── */
+  .partnership {
+    background: var(--navy);
+    position: relative;
+    overflow: hidden;
+  }
+  .partnership::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 40px,
+      rgba(255,255,255,0.01) 40px,
+      rgba(255,255,255,0.01) 80px
+    );
+  }
+  .partnership-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+    position: relative;
+  }
+  .partnership-left .section-label { color: var(--gold); }
+  .partnership-left .section-label::after { background: var(--gold); }
+  .partnership-left h2 { color: var(--white); margin-bottom: 20px; }
+  .partnership-left p {
+    color: rgba(255,255,255,0.6);
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 16px;
+    font-weight: 300;
+  }
+  .eu-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid rgba(184,151,42,0.4);
+    padding: 10px 18px;
+    margin-top: 8px;
+  }
+  .eu-badge span { font-size: 12px; color: var(--gold); letter-spacing: 0.04em; }
+  .partnership-right { display: flex; flex-direction: column; gap: 2px; }
+  .credential {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    padding: 22px 24px;
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+  }
+  .cred-icon {
+    width: 36px; height: 36px;
+    background: rgba(184,151,42,0.15);
+    border: 1px solid rgba(184,151,42,0.3);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 16px;
+    flex-shrink: 0;
+  }
+  .cred-text h5 {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(255,255,255,0.9);
+    margin-bottom: 4px;
+  }
+  .cred-text p { font-size: 12.5px; color: rgba(255,255,255,0.45); line-height: 1.5; font-weight: 300; }
+
+  /* ── PROGRAMS ── */
+  .programs { background: var(--cream); }
+  .programs h2 { margin-bottom: 8px; }
+  .programs .sub {
+    color: var(--slate); font-size: 15px; margin-bottom: 48px; font-weight: 300;
+  }
+  .programs-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+  .program-card {
+    background: var(--white);
+    padding: 32px;
+    border-top: 3px solid var(--light-border);
+    transition: border-color 0.2s;
+  }
+  .program-card:hover { border-top-color: var(--red); }
+  .prog-icon {
+    font-size: 28px;
+    margin-bottom: 20px;
+    display: block;
+  }
+  .program-card h4 {
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--navy);
+    margin-bottom: 10px;
+  }
+  .program-card p {
+    font-size: 13.5px;
+    color: var(--slate);
+    line-height: 1.7;
+    font-weight: 300;
+  }
+
+  /* ── STATS ── */
+  .stats { background: var(--red); padding: 60px 32px; }
+  .stats-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    text-align: center;
+  }
+  .stat-num {
+    font-family: 'EB Garamond', serif;
+    font-size: 52px;
+    font-weight: 700;
+    color: var(--white);
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+  .stat-label {
+    font-size: 12px;
+    color: rgba(255,255,255,0.7);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  .stat-divider { width: 1px; background: rgba(255,255,255,0.15); margin: auto; display: none; }
+
+  /* ── CTA ── */
+  .cta-section {
+    background: var(--cream);
+    text-align: center;
+    padding: 100px 32px;
+  }
+  .cta-section .section-label { justify-content: center; }
+  .cta-section .section-label::after { display: none; }
+  .cta-section .section-label::before {
+    content: '';
+    max-width: 40px;
+    height: 1px;
+    background: var(--red);
+  }
+  .cta-section h2 { margin: 12px auto 20px; max-width: 600px; }
+  .cta-section p {
+    color: var(--slate);
+    max-width: 520px;
+    margin: 0 auto 36px;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 300;
+  }
+  .cta-actions { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+  .btn-dark {
+    background: var(--navy);
+    color: var(--white);
+    padding: 14px 28px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background 0.2s;
+    display: inline-block;
+  }
+  .btn-dark:hover { background: #162e54; }
+  .btn-red-outline {
+    border: 1px solid var(--red);
+    color: var(--red);
+    padding: 14px 28px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background 0.2s, color 0.2s;
+    display: inline-block;
+  }
+  .btn-red-outline:hover { background: var(--red); color: var(--white); }
+
+  /* ── FOOTER ── */
+  footer {
+    background: #060F1D;
+    color: rgba(255,255,255,0.5);
+    padding: 64px 32px 32px;
+  }
+  .footer-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .footer-top {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 48px;
+    margin-bottom: 56px;
+    padding-bottom: 48px;
+    border-bottom: 1px solid rgba(255,255,255,0.07);
+  }
+  .footer-brand strong {
+    display: block;
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
+    color: var(--white);
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  .footer-brand small {
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.35);
+    display: block;
+    margin-bottom: 16px;
+  }
+  .footer-brand p {
+    font-size: 13px;
+    line-height: 1.75;
+    margin-bottom: 16px;
+    font-weight: 300;
+  }
+  .footer-brand .eicbi-link {
+    font-size: 12px;
+    color: var(--gold);
+    text-decoration: none;
+    letter-spacing: 0.04em;
+  }
+  .footer-col h6 {
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.6);
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  .footer-col a {
+    display: block;
+    font-size: 13px;
+    color: rgba(255,255,255,0.4);
+    text-decoration: none;
+    margin-bottom: 10px;
+    transition: color 0.15s;
+    font-weight: 300;
+  }
+  .footer-col a:hover { color: rgba(255,255,255,0.8); }
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    font-size: 12px;
+  }
+  .footer-bottom a { color: rgba(255,255,255,0.35); text-decoration: none; margin-left: 20px; }
+  .footer-bottom a:hover { color: rgba(255,255,255,0.65); }
+  .reg-number {
+    font-size: 11px;
+    color: rgba(255,255,255,0.25);
+    letter-spacing: 0.04em;
+  }
+
+  /* ── ANIMATIONS ── */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(24px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .hero-eyebrow { animation: fadeUp 0.6s ease both; }
+  .hero h1 { animation: fadeUp 0.6s 0.1s ease both; }
+  .hero p { animation: fadeUp 0.6s 0.2s ease both; }
+  .hero-actions { animation: fadeUp 0.6s 0.3s ease both; }
+  .hero-card { animation: fadeUp 0.6s 0.2s ease both; }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 900px) {
+    .hero-inner { grid-template-columns: 1fr; }
+    .hero-card { display: none; }
+    .about-grid { grid-template-columns: 1fr; gap: 40px; }
+    .markets-grid { grid-template-columns: 1fr; }
+    .partnership-inner { grid-template-columns: 1fr; }
+    .programs-grid { grid-template-columns: 1fr; }
+    .stats-inner { grid-template-columns: repeat(2,1fr); }
+    .footer-top { grid-template-columns: 1fr 1fr; }
+    nav { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<!-- UTILITY BAR -->
+<div class="utility-bar">
+  <div class="inner">
+    <div class="eicbi-badge">Exclusive Canadian Partner of EICBI — European Parliament Accredited</div>
+    <div>
+      <a href="#">FR</a>
+      <a href="#">Contact</a>
+      <a href="#">Member Login</a>
+    </div>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header>
+  <div class="header-inner">
+    <a href="#" class="logo">
+      <div class="logo-mark">
+        <span>CGEC</span>
+        <span class="maple">✦</span>
+      </div>
+      <div class="logo-text">
+        <strong>Canada Global Export Council</strong>
+        <small>Conseil Canadien d'Exportation Mondiale</small>
+      </div>
+    </a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#markets">Markets</a>
+      <a href="#partnership">EICBI Partnership</a>
+      <a href="#programs">Programs</a>
+      <a href="#" class="nav-cta">Apply Now</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-inner">
+    <div>
+      <div class="hero-eyebrow">Canada's Global Trade Council</div>
+      <h1>Opening <em>Global Markets</em><br>for Canadian Business</h1>
+      <p>CGEC is Canada's not-for-profit council dedicated to helping Canadian businesses launch and expand into the United Kingdom, European Economic Area, and India — backed by 13 years of institutional relationships through our exclusive partnership with EICBI.</p>
+      <div class="hero-actions">
+        <a href="#" class="btn-primary">Begin Your Application</a>
+        <a href="#about" class="btn-outline">Learn More</a>
+      </div>
+    </div>
+    <div class="hero-card">
+      <div class="card-label">Active Market Corridors</div>
+      <ul class="market-list">
+        <li>
+          <div class="market-flag">🇨🇦</div>
+          <div>Canada <span style="color:rgba(255,255,255,0.35)">→</span></div>
+        </li>
+        <li>
+          <div class="market-flag">🇬🇧</div>
+          <div>United Kingdom</div>
+          <span class="tag">Active</span>
+        </li>
+        <li>
+          <div class="market-flag">🇪🇺</div>
+          <div>European Economic Area</div>
+          <span class="tag">Active</span>
+        </li>
+        <li>
+          <div class="market-flag">🇮🇳</div>
+          <div>India</div>
+          <span class="tag">Active</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ACCREDITATION BANNER -->
+<div class="accreditation">
+  <div class="accreditation-inner">
+    <div class="accred-label">Institutional Affiliations</div>
+    <div class="accred-items">
+      <div class="accred-item">
+        <div class="accred-icon">🇪🇺</div>
+        <span>European Parliament Accredited (via EICBI)</span>
+      </div>
+      <div class="accred-divider"></div>
+      <div class="accred-item">
+        <div class="accred-icon">📋</div>
+        <span>EU Transparency Register No. 423661050520-44</span>
+      </div>
+      <div class="accred-divider"></div>
+      <div class="accred-item">
+        <div class="accred-icon">🍁</div>
+        <span>Canadian Not-for-Profit Organisation</span>
+      </div>
+      <div class="accred-divider"></div>
+      <div class="accred-item">
+        <div class="accred-icon">🤝</div>
+        <span>13 Years of Trade Corridor Relations</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="section-inner">
+    <div class="about-grid">
+      <div class="about-left">
+        <div class="section-label">Our Mandate</div>
+        <h2>Connecting Canadian Enterprise to the World</h2>
+        <p>The Canada Global Export Council (CGEC) is a not-for-profit organisation established to guide Canadian businesses — from emerging SMEs to established enterprises — through the complexities of international market entry.</p>
+        <p>Through our exclusive Canadian partnership with the Europe India Centre for Business & Industry (EICBI), CGEC provides unparalleled access to institutional relationships across the United Kingdom, European Union, and India that would otherwise take decades to build.</p>
+        <a href="#">Read our mandate</a>
+      </div>
+      <div class="about-right">
+        <div class="pillar">
+          <h4>Market Intelligence</h4>
+          <p>Regulatory landscapes, tariff structures, market entry requirements, and competitive intelligence across UK, EEA, and Indian markets.</p>
+        </div>
+        <div class="pillar">
+          <h4>Institutional Access</h4>
+          <p>Direct connections to Members of the European Parliament, British parliamentarians, diplomats, and senior business leaders through EICBI's convening power.</p>
+        </div>
+        <div class="pillar">
+          <h4>Trade Mission Support</h4>
+          <p>Structured trade missions to Brussels, London, and key Indian cities, with curated B2B matchmaking and government introductions.</p>
+        </div>
+        <div class="pillar">
+          <h4>Advisory & Compliance</h4>
+          <p>Expert guidance on legal structures, compliance frameworks, and business registration across target jurisdictions.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<div class="stats">
+  <div class="stats-inner">
+    <div>
+      <div class="stat-num">13+</div>
+      <div class="stat-label">Years of Corridor Relations</div>
+    </div>
+    <div>
+      <div class="stat-num">3</div>
+      <div class="stat-label">Active Market Corridors</div>
+    </div>
+    <div>
+      <div class="stat-num">27+</div>
+      <div class="stat-label">EU Member State Reach</div>
+    </div>
+    <div>
+      <div class="stat-num">1000s</div>
+      <div class="stat-label">Delegates Engaged</div>
+    </div>
+  </div>
+</div>
+
+<!-- MARKETS -->
+<section class="markets" id="markets">
+  <div class="section-inner">
+    <div class="section-label">Market Corridors</div>
+    <h2>Three Strategic Markets.<br>One Integrated Programme.</h2>
+    <p class="sub">CGEC focuses exclusively on the UK, EEA, and India — markets where our institutional partnerships deliver real competitive advantage for Canadian businesses.</p>
+    <div class="markets-grid">
+      <div class="market-card">
+        <div class="market-num">01</div>
+        <span class="market-flag-lg">🇬🇧</span>
+        <div class="market-title">United Kingdom</div>
+        <p class="market-desc">Post-Brexit Britain represents a significant opportunity for Canadian exporters. Shared legal frameworks, Commonwealth ties, and CETA-adjacent trade structures create a natural entry point.</p>
+        <a href="#" class="market-cta">Explore UK Market</a>
+      </div>
+      <div class="market-card">
+        <div class="market-num">02</div>
+        <span class="market-flag-lg">🇪🇺</span>
+        <div class="market-title">European Economic Area</div>
+        <p class="market-desc">The EEA's 450 million consumers and CETA framework offer Canadian businesses preferential access. CGEC's EICBI partnership provides direct institutional pathways into EU institutions.</p>
+        <a href="#" class="market-cta">Explore EEA Market</a>
+      </div>
+      <div class="market-card">
+        <div class="market-num">03</div>
+        <span class="market-flag-lg">🇮🇳</span>
+        <div class="market-title">India</div>
+        <p class="market-desc">India's $3.7 trillion economy and rapidly expanding middle class offer extraordinary opportunity. EICBI's 13-year engagement with Indian government and business leaders is your entry advantage.</p>
+        <a href="#" class="market-cta">Explore India Market</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EICBI PARTNERSHIP -->
+<section class="partnership" id="partnership">
+  <div class="partnership-inner">
+    <div class="partnership-left">
+      <div class="section-label">Strategic Partnership</div>
+      <h2>Backed by Europe's Most Connected India-EU Forum</h2>
+      <p>CGEC is the exclusive Canadian partner of the Europe India Centre for Business & Industry (EICBI) — a European Commission registered geopolitical forum with 13 years of convening high-level parliamentary and business dialogue across the Europe-India corridor.</p>
+      <p>Through EICBI, CGEC members gain access to summits at the European Parliament in Brussels and the British Parliament in London, direct engagement with Members of the European Parliament, and a network spanning thousands of business and government leaders.</p>
+      <div class="eu-badge">
+        <span>🇪🇺</span>
+        <span>EU Transparency Register No. 423661050520-44 · eicbi.org</span>
+      </div>
+    </div>
+    <div class="partnership-right">
+      <div class="credential">
+        <div class="cred-icon">🏛️</div>
+        <div class="cred-text">
+          <h5>European Parliament Accredited</h5>
+          <p>EICBI holds full accreditation with the European Parliament, providing direct institutional access unavailable to most private organisations.</p>
+        </div>
+      </div>
+      <div class="credential">
+        <div class="cred-icon">🤝</div>
+        <div class="cred-text">
+          <h5>Parliamentary Summits in Brussels & London</h5>
+          <p>Major summits convened at the European Parliament and British Parliament, engaging heads of government, MEPs, and senior business leaders.</p>
+        </div>
+      </div>
+      <div class="credential">
+        <div class="cred-icon">📰</div>
+        <div class="cred-text">
+          <h5>Europe India Journal</h5>
+          <p>EICBI's flagship publication advancing policy dialogue across the Europe-India trade and investment corridor.</p>
+        </div>
+      </div>
+      <div class="credential">
+        <div class="cred-icon">🌟</div>
+        <div class="cred-text">
+          <h5>EuropeIndia40 Leaders List</h5>
+          <p>Annual recognition platform since 2019 connecting the next generation of leaders shaping Europe-India relations across business, policy, and civil society.</p>
+        </div>
+      </div>
+      <div class="credential">
+        <div class="cred-icon">📅</div>
+        <div class="cred-text">
+          <h5>13 Years of Active Corridor Engagement</h5>
+          <p>Over a decade of diplomatic and commercial relationship-building across India, the European Union, and the United Kingdom.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROGRAMS -->
+<section class="programs" id="programs">
+  <div class="section-inner">
+    <div class="section-label">Our Services</div>
+    <h2>Programmes for Canadian Exporters</h2>
+    <p class="sub">Structured support at every stage of your international expansion journey.</p>
+    <div class="programs-grid">
+      <div class="program-card">
+        <span class="prog-icon">🗺️</span>
+        <h4>Market Entry Assessment</h4>
+        <p>A comprehensive evaluation of your business's readiness for UK, EEA, or Indian markets — including regulatory fit, competitive positioning, and optimal entry structure.</p>
+      </div>
+      <div class="program-card">
+        <span class="prog-icon">✈️</span>
+        <h4>Trade Missions</h4>
+        <p>Structured delegations to London, Brussels, and key Indian cities with curated B2B meetings, government introductions, and sector-specific roundtables.</p>
+      </div>
+      <div class="program-card">
+        <span class="prog-icon">🤝</span>
+        <h4>Partner Matchmaking</h4>
+        <p>Access to EICBI's verified network of distributors, investors, legal partners, and institutional contacts across all three market corridors.</p>
+      </div>
+      <div class="program-card">
+        <span class="prog-icon">📋</span>
+        <h4>Regulatory & Compliance Advisory</h4>
+        <p>Expert guidance on CETA provisions, UK market access post-Brexit, EU regulatory frameworks, and Indian FDI and business registration requirements.</p>
+      </div>
+      <div class="program-card">
+        <span class="prog-icon">🏛️</span>
+        <h4>Government Relations</h4>
+        <p>Facilitated introductions to national and regional government bodies, trade promotion agencies, and investment authorities in target markets.</p>
+      </div>
+      <div class="program-card">
+        <span class="prog-icon">📊</span>
+        <h4>Market Intelligence Briefs</h4>
+        <p>Quarterly intelligence reports on trade policy developments, sector opportunities, and regulatory changes across UK, EEA, and Indian markets.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="section-inner">
+    <div class="section-label">Get Started</div>
+    <h2>Ready to Take Your Business Global?</h2>
+    <p>CGEC accepts applications from Canadian businesses at all stages of export readiness. Our advisors will assess your needs and recommend the right programme.</p>
+    <div class="cta-actions">
+      <a href="#" class="btn-dark">Apply for Membership</a>
+      <a href="#" class="btn-red-outline">Speak to an Advisor</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <strong>Canada Global Export Council</strong>
+        <small>CGEC · cgec.ca</small>
+        <p>Canada's not-for-profit council for international market expansion. Exclusive Canadian partner of the Europe India Centre for Business & Industry (EICBI).</p>
+        <a href="https://www.eicbi.org" class="eicbi-link">→ Visit EICBI: eicbi.org</a>
+      </div>
+      <div class="footer-col">
+        <h6>Organisation</h6>
+        <a href="#">About CGEC</a>
+        <a href="#">Leadership</a>
+        <a href="#">Governance</a>
+        <a href="#">EICBI Partnership</a>
+        <a href="#">News & Insights</a>
+      </div>
+      <div class="footer-col">
+        <h6>Markets</h6>
+        <a href="#">United Kingdom</a>
+        <a href="#">European Economic Area</a>
+        <a href="#">India</a>
+        <a href="#">Market Intelligence</a>
+      </div>
+      <div class="footer-col">
+        <h6>Programmes</h6>
+        <a href="#">Market Entry Assessment</a>
+        <a href="#">Trade Missions</a>
+        <a href="#">Partner Matchmaking</a>
+        <a href="#">Regulatory Advisory</a>
+        <a href="#">Apply Now</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>
+        <span>© 2025 Canada Global Export Council. Not-for-profit organisation.</span>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Français</a>
+      </div>
+      <div class="reg-number">EICBI EU Transparency Register: 423661050520-44</div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
