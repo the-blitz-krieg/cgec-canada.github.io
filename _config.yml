@@ -1,0 +1,9 @@
+title: Canada Global Export Council
+description: Canada's not-for-profit council for international market expansion
+url: "https://cgec.ca"
+baseurl: ""
+permalink: pretty
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
