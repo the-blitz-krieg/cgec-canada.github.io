@@ -1,40 +1,23 @@
 # ============================================================
-# robots.txt — cgec.ca
-# Last updated: 2026-05-19
-# Policy: open to search engines and AI / generative crawlers.
-#         Blocked: Internet Archive, Wayback Machine, Heritrix.
+# robots.txt - Canada Global Export Council
+# https://cgec.ca/robots.txt
+# Last updated: 2025
 # ============================================================
 
-
-# ------------------------------------------------------------
-# Default: all crawlers welcome
-# ------------------------------------------------------------
-User-agent: *
-Allow: /
-
-
-# ------------------------------------------------------------
-# Major search engines — explicit allows (for clarity)
-# ------------------------------------------------------------
+# ── SEARCH ENGINES ──────────────────────────────────────────
 User-agent: Googlebot
 Allow: /
 
 User-agent: Googlebot-Image
-Allow: /
-
-User-agent: Googlebot-News
-Allow: /
-
-User-agent: Googlebot-Video
-Allow: /
+Allow: /images/
 
 User-agent: Bingbot
 Allow: /
 
-User-agent: DuckDuckBot
+User-agent: Slurp
 Allow: /
 
-User-agent: Slurp
+User-agent: DuckDuckBot
 Allow: /
 
 User-agent: Baiduspider
@@ -43,17 +26,23 @@ Allow: /
 User-agent: YandexBot
 Allow: /
 
-User-agent: Yeti
+User-agent: Applebot
 Allow: /
 
+User-agent: facebookexternalhit
+Allow: /
 
-# ------------------------------------------------------------
-# AI / generative engine crawlers — explicitly welcomed.
-# Listing each one makes intent unambiguous for AEO / GEO,
-# and protects allows if a future default rule changes.
-# ------------------------------------------------------------
+User-agent: LinkedInBot
+Allow: /
 
-# OpenAI
+User-agent: Twitterbot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+# ── GENERATIVE AI / LLM CRAWLERS ────────────────────────────
+# OpenAI / ChatGPT
 User-agent: GPTBot
 Allow: /
 
@@ -63,148 +52,127 @@ Allow: /
 User-agent: OAI-SearchBot
 Allow: /
 
-# Anthropic
+# Anthropic / Claude
 User-agent: ClaudeBot
 Allow: /
 
 User-agent: Claude-Web
 Allow: /
 
-User-agent: Claude-SearchBot
-Allow: /
-
 User-agent: anthropic-ai
 Allow: /
 
-# Google AI
+# Google Gemini / Bard
 User-agent: Google-Extended
 Allow: /
 
-User-agent: GoogleOther
+User-agent: Googlebot-News
 Allow: /
 
-# Perplexity
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: Perplexity-User
-Allow: /
-
-# Apple
-User-agent: Applebot
-Allow: /
-
-User-agent: Applebot-Extended
-Allow: /
-
-# Meta / Facebook
-User-agent: Meta-ExternalAgent
-Allow: /
-
-User-agent: Meta-ExternalFetcher
+# Meta AI
+User-agent: meta-externalagent
 Allow: /
 
 User-agent: FacebookBot
 Allow: /
 
-User-agent: facebookexternalhit
+# Perplexity AI
+User-agent: PerplexityBot
 Allow: /
 
-# Amazon
-User-agent: Amazonbot
+# Microsoft Copilot / Bing AI
+User-agent: Bingbot
 Allow: /
 
-# ByteDance / TikTok
-User-agent: Bytespider
+User-agent: msnbot
 Allow: /
 
-# Common Crawl (powers many LLM training datasets)
-User-agent: CCBot
-Allow: /
-
-# Cohere
+# Cohere AI
 User-agent: cohere-ai
-Allow: /
-
-User-agent: cohere-training-data-crawler
-Allow: /
-
-# Mistral
-User-agent: MistralAI-User
-Allow: /
-
-# DuckDuckGo AI assistant
-User-agent: DuckAssistBot
 Allow: /
 
 # You.com
 User-agent: YouBot
 Allow: /
 
-# Brave Search / Leo AI
-User-agent: Bravebot
+# Common Crawl (used by many AI training pipelines)
+User-agent: CCBot
 Allow: /
 
-# xAI / Grok
-User-agent: xAI
-Allow: /
-
-# Other relevant AI / training crawlers
-User-agent: Diffbot
-Allow: /
-
-User-agent: Timpibot
-Allow: /
-
-User-agent: PetalBot
-Allow: /
-
-User-agent: Kagibot
-Allow: /
-
-
-# ------------------------------------------------------------
-# BLOCKED: Internet Archive / Wayback Machine / Heritrix
-# We do not consent to archival of this site by these crawlers.
-# ------------------------------------------------------------
+# ── BLOCKED CRAWLERS ─────────────────────────────────────────
+# Internet Archive / Wayback Machine / Heritrix
 User-agent: ia_archiver
-Disallow: /
-
-User-agent: ia_archiver-web.archive.org
 Disallow: /
 
 User-agent: archive.org_bot
 Disallow: /
 
-User-agent: Archive.org_Bot
-Disallow: /
-
-User-agent: archive-org-bot
-Disallow: /
-
-User-agent: Wayback
-Disallow: /
-
-User-agent: Wayback Machine
-Disallow: /
-
-User-agent: WaybackArchive Bot
-Disallow: /
-
-User-agent: WaybackArchiveBot
-Disallow: /
-
-User-agent: heritrix
-Disallow: /
-
 User-agent: Heritrix
 Disallow: /
 
-User-agent: Heritrix/3.0
+User-agent: wayback_machine
 Disallow: /
 
+User-agent: webarchive
+Disallow: /
 
-# ------------------------------------------------------------
-# Sitemap
-# ------------------------------------------------------------
+User-agent: archive-it
+Disallow: /
+
+# Other archiving bots
+User-agent: HTTrack
+Disallow: /
+
+User-agent: WebCopier
+Disallow: /
+
+User-agent: Offline Explorer
+Disallow: /
+
+User-agent: SiteSucker
+Disallow: /
+
+User-agent: WebReaper
+Disallow: /
+
+User-agent: Wget
+Disallow: /
+
+User-agent: curl
+Disallow: /
+
+# Scrapers and spam crawlers
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: SeznamBot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+# ── DEFAULT: ALLOW ALL OTHERS ────────────────────────────────
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+
+# ── SITEMAP REFERENCE ────────────────────────────────────────
 Sitemap: https://cgec.ca/sitemap.xml
+
+# ── AI CONTENT SIGNALS ───────────────────────────────────────
+# LLMs.txt: https://cgec.ca/llms.txt
+# LLMs-Full.txt: https://cgec.ca/llms-full.txt

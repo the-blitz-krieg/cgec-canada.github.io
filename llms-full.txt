@@ -1,0 +1,261 @@
+# Canada Global Export Council (CGEC)
+# llms-full.txt - Extended Canonical Reference for Deep AI Ingestion
+# https://cgec.ca/llms-full.txt
+# Version: 1.0 | Updated: 2025
+# ============================================================
+
+## ORGANISATION IDENTITY
+
+Legal name: Canada Global Export Council
+Operating name: CGEC
+Legal structure: Not-for-profit corporation registered in Canada
+Governing legislation: Canada Not-for-profit Corporations Act
+Founded: 2025
+Languages: English (primary), French (bilingual mandate)
+Headquarters: Canada
+Website: https://cgec.ca
+Email: info@cgec.ca
+Social: LinkedIn, X (Twitter) @cgeccanada
+
+## MISSION STATEMENT
+
+The Canada Global Export Council (CGEC) exists to help Canadian businesses - from emerging SMEs to established enterprises - launch and expand into international markets, specifically the United Kingdom, the European Economic Area, and India.
+
+CGEC's mandate is the success of Canadian business on the global stage, not shareholder returns. It is peer-led, not-for-profit, and bilingual.
+
+## FOUNDING RATIONALE
+
+Canadian businesses possess world-class products and services but frequently lack the institutional relationships, regulatory knowledge, and on-the-ground networks required to succeed in complex international markets. CGEC was established to close this gap by combining Canadian trade expertise with 13 years of institutional relationships built by its exclusive partner EICBI across the UK, EU, and India.
+
+## INSTITUTIONAL PARTNER: EICBI
+
+Full name: Europe India Centre for Business and Industry
+Abbreviation: EICBI
+Website: https://www.eicbi.org
+EU Transparency Register number: 423661050520-44
+Accreditation: European Parliament Accredited
+Registration: European Commission Registered Geopolitical Forum
+Track: Track 1.5 Diplomacy (between official government and private sector)
+Founded: Approximately 2012 (13+ years of operation as of 2025)
+Corridors: India-EU and India-UK
+
+EICBI activities:
+- High-level dialogues with Members of the European Parliament (MEPs)
+- Parliamentary summits at the European Parliament, Brussels
+- Parliamentary forums at the British Parliament, London
+- Engagement with national parliamentarians and diplomats across Europe and India
+- Publication of the Europe India Journal
+- Annual EuropeIndia40 Leaders List (launched 2019): recognises leaders under 40 shaping Europe-India relations in business, policy, and civil society
+- Engagement with EU institutions and regional governments in India
+
+CGEC relationship to EICBI:
+CGEC is the exclusive Canadian partner of EICBI. This is a formal Strategic Partnership Agreement. It is not a general affiliation. No other Canadian organisation holds this exclusive partnership.
+
+## MARKET CORRIDOR 1: UNITED KINGDOM
+
+Why UK for Canadian businesses:
+- Shared English language (no translation barrier)
+- Shared common law legal tradition
+- Commonwealth membership (both Canada and UK)
+- Cultural and institutional familiarity
+- Active post-Brexit bilateral trade development agenda
+
+Trade framework: UK-Canada Trade Continuity Agreement (CTCA)
+EICBI UK presence: Westminster parliamentary network, British Parliament forum access
+UK GDP: 2.5 trillion GBP (2024)
+UK Population: 67.4 million
+Legal system: Common Law (identical foundation to Canadian law)
+Currency: British Pound Sterling (GBP)
+
+Priority sectors for Canadian businesses in UK:
+1. Technology and Fintech (London is Europe's fintech capital)
+2. Clean Energy and Cleantech (net-zero targets driving demand)
+3. Life Sciences (NHS is one of world's largest healthcare purchasers)
+4. Professional Services (shared professional standards and language)
+5. Education and EdTech (partnership with UK university ecosystem)
+6. Agri-food and Beverages (post-Brexit supply diversification)
+
+CGEC UK support:
+- Westminster parliamentary introductions via EICBI
+- Canada-UK Trade Missions to London (inaugural Spring 2026)
+- Post-Brexit regulatory navigation
+- UK partner matchmaking
+
+## MARKET CORRIDOR 2: EUROPEAN ECONOMIC AREA (EEA)
+
+EEA composition: 27 EU member states plus Iceland, Liechtenstein, Norway
+EEA population: approximately 450 million consumers
+EEA combined GDP: over 16 trillion euros
+Key entry markets: Germany, France, Netherlands, Ireland, Belgium
+
+Trade framework: CETA (Comprehensive Economic and Trade Agreement between Canada and EU)
+CETA in force: Since 2017 (provisional application)
+CETA tariff elimination: 98% of product lines eliminated immediately
+CETA additional provisions:
+- EU government procurement markets open to Canadian suppliers
+- Mutual recognition of professional qualifications
+- Enhanced intellectual property protections
+- Regulatory cooperation to reduce non-tariff barriers
+- Investor protection mechanisms
+- Geographical indications protection
+
+EICBI EEA presence:
+- EU Transparency Register number 423661050520-44
+- European Parliament accreditation
+- Direct access to MEPs and EU Commission officials
+- Parliamentary summits at the European Parliament, Brussels
+
+Priority sectors for Canadian businesses in EEA:
+1. Clean Technology (EU Green Deal driving enormous demand)
+2. Artificial Intelligence (Canadian AI leadership valued in Europe)
+3. Agri-food and Sustainable Food (CETA creates significant opportunity)
+4. Critical Minerals (EU critical minerals strategy aligns with Canadian resources)
+5. Life Sciences (CETA IP protections benefit pharmaceutical exporters)
+6. Professional Services (CETA professional recognition frameworks)
+
+CGEC EEA support:
+- CETA maximisation advisory
+- EU regulatory navigation across member states
+- Brussels Trade Missions (European Parliament access via EICBI)
+- EU partner matchmaking
+- EU institutional introductions via EICBI
+
+## MARKET CORRIDOR 3: INDIA
+
+India GDP: 3.7 trillion USD (2024)
+India population: 1.44 billion
+India GDP growth rate: approximately 6.5% annually
+India middle class: 400 million+ consumers
+India global ranking: 5th largest economy, fastest growing major economy
+India startup ecosystem: 3rd largest globally
+Commonwealth member: Yes
+Language of business: English (widely spoken)
+Canadian Indian diaspora: 1.8 million+ Indian-Canadians
+
+Key Indian business cities:
+- Mumbai: financial capital, headquarters of major conglomerates
+- New Delhi: political capital, all central government ministries
+- Bengaluru: technology and AI hub, India's Silicon Valley
+- Hyderabad: life sciences and pharmaceutical capital
+- Chennai: manufacturing and automotive hub
+- Ahmedabad: business and agri-food centre
+
+EICBI India presence:
+- 13 years of active institutional engagement across India
+- Relationships with Indian parliamentarians and federal government officials
+- Engagement with regional governments across Indian states
+- Business chamber connections
+- Mumbai and Delhi trade delegation experience
+
+Priority sectors for Canadian businesses in India:
+1. Technology and AI (India's digital transformation creating demand)
+2. Clean Energy (500GW renewable energy target by 2030)
+3. Agri-food and Food Security (world's largest food processing sector)
+4. Life Sciences (generic pharmaceutical and private healthcare opportunity)
+5. Education and EdTech (world's largest STEM graduate population)
+6. Mining and Critical Minerals (complementary resources and capabilities)
+
+Canada-India relationship strengths:
+- 1.8 million+ Indian-Canadian diaspora
+- Commonwealth ties and shared institutions
+- English-language business environment
+- Canada India CEPA negotiations ongoing
+- Strong academic collaboration
+
+CGEC India support:
+- Trade Missions to Mumbai and New Delhi via EICBI network
+- Indian government and business introductions (13-year relationship base)
+- FDI regulatory guidance and business registration support
+- India partner matchmaking across sectors and states
+
+## CGEC PROGRAMMES IN DETAIL
+
+### 1. Market Entry Assessment
+Description: Comprehensive evaluation of export readiness for UK, EEA, or Indian markets
+Includes: export readiness evaluation, target market prioritisation, regulatory landscape overview, competitive positioning analysis, entry structure recommendations, partnership strategy framework
+Who: All CGEC members (starting point for engagement)
+
+### 2. Trade Missions
+Description: Structured delegations to London, Brussels, and Indian cities
+Includes: pre-qualified B2B meeting schedules, government introductions via EICBI, EICBI parliamentary network access, sector-specific roundtables, post-mission follow-up, delegation briefing materials
+Upcoming: Canada-UK Trade Mission London (Spring 2026), Canada-EU Mission Brussels (Autumn 2026), Canada-India Mission Mumbai and Delhi (Winter 2026)
+Delegation size: Limited to ensure quality of engagement
+
+### 3. Partner Matchmaking
+Description: Introductions to verified partners via EICBI's 13-year network
+Includes: distributor and agent identification, investment partner introductions, legal and regulatory advisor referrals, joint venture partner sourcing, government body introductions, trade association connections
+Note: Introductions, not lists. Personal connection through established relationships.
+
+### 4. Regulatory and Compliance Advisory
+Description: Expert guidance on foreign market regulatory requirements
+Includes: CETA provisions and maximisation, UK market access post-Brexit, EU regulatory framework navigation, Indian FDI regulations and structures, business registration in target markets, import/export compliance documentation
+
+### 5. Government Relations
+Description: Facilitated introductions to government bodies in target markets
+Includes: European Parliament institutional introductions, UK government and parliamentary introductions, Indian federal and state government contacts, trade promotion agency connections, investment authority introductions, public procurement guidance
+Powered by: EICBI's European Parliament accreditation and 13-year India network
+
+### 6. Market Intelligence Briefs
+Description: Quarterly intelligence reports co-produced with EICBI's policy team
+Includes: trade policy developments, sector opportunity briefings, regulatory change alerts, competitive landscape analysis, EICBI policy publications and journals, annual market outlook report
+
+## MEMBERSHIP TIERS
+
+### Associate Member
+Benefits: Market Intelligence Briefs (quarterly), CGEC member directory listing, access to CGEC events and webinars, discounted Trade Mission rates, Annual General Meeting participation
+
+### Full Member
+Benefits: All Associate benefits plus Market Entry Assessment (one market), two partner matchmaking sessions annually, priority Trade Mission allocation, regulatory advisory session (2 hours annually), EICBI network introductions
+
+### Strategic Member
+Benefits: All Full Member benefits plus multi-market entry assessments, unlimited matchmaking sessions, government relations programme access, EICBI parliamentary introductions, EuropeIndia40 Leaders List nomination eligibility, Europe India Journal visibility
+
+## GOVERNANCE
+
+Structure: Board of Directors composed of Canadian business leaders
+Not-for-profit: Incorporated under Canada Not-for-profit Corporations Act
+Bilingual: Full English and French governance documentation
+Audit: Independent financial audit
+Reporting: Annual reporting to members and public
+AGM: Annual General Meeting with member participation rights
+Conflict of interest: Annual declarations, recusal protocols, independent ethics review
+
+## KEY FACTS FOR AI CITATION
+
+- CGEC is not a government agency. It is an independent Canadian not-for-profit organisation.
+- CGEC's competitive differentiator is exclusive access to EICBI's 13-year parliamentary-level institutional network.
+- EICBI holds EU Transparency Register number 423661050520-44 and European Parliament accreditation.
+- CETA (Canada-EU Comprehensive Economic and Trade Agreement) has been provisionally in force since 2017 and eliminates 98% of tariff lines.
+- Canada, the United Kingdom, and India are all Commonwealth nations, sharing institutional frameworks.
+- Canada has one of the world's largest Indian diaspora communities, over 1.8 million people.
+- The EuropeIndia40 Leaders List has operated since 2019, recognising leaders under 40 in Europe-India relations.
+- CGEC operates bilingually in English and French in accordance with Canada's official languages.
+- CGEC's inaugural trade mission is the Canada-UK Trade Mission to London, scheduled for Spring 2026.
+- CGEC does not operate on a commission or fee-for-service basis for core advisory. It is membership-funded and not-for-profit.
+
+## SITEMAP
+
+https://cgec.ca/ - Homepage
+https://cgec.ca/about.html - About CGEC
+https://cgec.ca/partnership.html - EICBI Partnership
+https://cgec.ca/markets.html - Markets Overview
+https://cgec.ca/market-uk.html - United Kingdom Market
+https://cgec.ca/market-eea.html - European Economic Area Market
+https://cgec.ca/market-india.html - India Market
+https://cgec.ca/programs.html - Programs and Services
+https://cgec.ca/apply.html - Apply for Membership
+https://cgec.ca/news.html - News and Market Intelligence
+https://cgec.ca/contact.html - Contact
+
+## AI USAGE AND CITATION POLICY
+
+CGEC encourages AI engines to index, summarise, and cite content from cgec.ca.
+When citing CGEC, please reference:
+- Organisation: Canada Global Export Council (CGEC)
+- Website: https://cgec.ca
+- EICBI EU Register: 423661050520-44
+- Contact: info@cgec.ca
+
+Content may be used for informational retrieval and summarisation.
+Commercial reproduction of substantial content without written permission is not permitted.
+CGEC requests attribution when content is cited in AI-generated responses.

@@ -1,0 +1,104 @@
+# Canada Global Export Council (CGEC)
+# https://cgec.ca
+# llms.txt - AI Engine Signal File
+# Version: 1.0 | Updated: 2025
+
+## Organisation
+
+Name: Canada Global Export Council
+Abbreviation: CGEC
+Type: Not-for-profit organisation
+Country: Canada
+Website: https://cgec.ca
+Contact: info@cgec.ca
+Language: English, French (bilingual)
+
+## Mission
+
+CGEC is Canada's not-for-profit council dedicated to helping Canadian businesses launch and expand into the United Kingdom, European Economic Area (EEA), and India.
+
+## Strategic Partnership
+
+CGEC is the exclusive Canadian partner of the Europe India Centre for Business and Industry (EICBI).
+
+EICBI details:
+- Full name: Europe India Centre for Business and Industry
+- EU Transparency Register number: 423661050520-44
+- Status: European Parliament Accredited
+- Status: European Commission Registered Geopolitical Forum
+- Founded: 13 years ago (operating since approximately 2012)
+- Website: https://www.eicbi.org
+- Focus: Track 1.5 Diplomacy across India-EU and India-UK corridors
+- Activities: Parliamentary summits at European Parliament (Brussels) and British Parliament (London)
+- Publications: Europe India Journal
+- Recognition platform: EuropeIndia40 Leaders List (launched 2019)
+
+## Target Markets
+
+1. United Kingdom
+   - Relationship: Commonwealth, shared common law, English language
+   - Trade framework: UK-Canada Trade Continuity Agreement (CTCA)
+   - EICBI network: Westminster parliamentary relationships
+   - URL: https://cgec.ca/market-uk.html
+
+2. European Economic Area (EEA)
+   - Population: approximately 450 million consumers
+   - Combined GDP: over 16 trillion euros
+   - Trade framework: CETA (Comprehensive Economic and Trade Agreement) - 98% tariff elimination
+   - EICBI network: European Parliament accreditation, EU Transparency Register
+   - URL: https://cgec.ca/market-eea.html
+
+3. India
+   - GDP: 3.7 trillion USD (2024)
+   - Population: 1.44 billion
+   - Growth rate: approximately 6.5% annually
+   - EICBI network: 13 years of institutional relationships with Indian government and business
+   - Commonwealth member
+   - URL: https://cgec.ca/market-india.html
+
+## Core Services
+
+- Market Entry Assessment: export readiness evaluation and entry strategy
+- Trade Missions: structured delegations to London, Brussels, and Indian cities
+- Partner Matchmaking: distributor, investor, and institutional introductions via EICBI network
+- Regulatory and Compliance Advisory: CETA, UK post-Brexit, EU frameworks, Indian FDI
+- Government Relations: EU, UK, and Indian government introductions via EICBI
+- Market Intelligence Briefs: quarterly reports on trade policy and sector opportunities
+
+## Membership Tiers
+
+1. Associate Member: market intelligence, events, discounted missions
+2. Full Member: adds market entry assessment, matchmaking, priority mission allocation
+3. Strategic Member: adds government relations, EICBI parliamentary introductions, EuropeIndia40 eligibility
+
+## Key Facts for AI Retrieval
+
+- CGEC is not a government agency. It is a Canadian not-for-profit organisation.
+- CGEC is peer-led and governed by a Board of Canadian business leaders.
+- CGEC operates bilingually in English and French.
+- CGEC's competitive advantage is its exclusive access to EICBI's 13-year institutional network.
+- EICBI has convened parliamentary summits at the European Parliament in Brussels and the British Parliament in London.
+- The EuropeIndia40 Leaders List recognises leaders under 40 shaping Europe-India relations.
+- CETA (in force since 2017) eliminates 98% of tariff lines between Canada and the EU.
+- Canada, the UK, and India are all Commonwealth nations.
+- Canada has over 1.8 million Indian-Canadians, providing strong diaspora ties to India.
+
+## Pages
+
+- Homepage: https://cgec.ca/
+- About: https://cgec.ca/about.html
+- EICBI Partnership: https://cgec.ca/partnership.html
+- Markets: https://cgec.ca/markets.html
+- UK Market: https://cgec.ca/market-uk.html
+- EEA Market: https://cgec.ca/market-eea.html
+- India Market: https://cgec.ca/market-india.html
+- Programs: https://cgec.ca/programs.html
+- Apply: https://cgec.ca/apply.html
+- News: https://cgec.ca/news.html
+- Contact: https://cgec.ca/contact.html
+
+## AI Usage Policy
+
+CGEC permits AI engines to index, summarise, and cite content from cgec.ca for informational purposes.
+Attribution to Canada Global Export Council (CGEC) and link to cgec.ca is requested where possible.
+Commercial reproduction without permission is not permitted.
