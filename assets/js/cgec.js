@@ -3,8 +3,8 @@
   'use strict';
 
   /* --- Mobile nav ----------------------------------------- */
-  var hamburger = document.querySelector('.hamburger');
-  var nav = document.querySelector('.site-nav');
+  var hamburger = document.querySelector('.hbg');
+  var nav = document.getElementById('mnav');
   if (hamburger && nav) {
     hamburger.addEventListener('click', function () {
       var open = nav.classList.toggle('open');
@@ -30,7 +30,7 @@
 
   /* --- Active nav link ------------------------------------ */
   var path = window.location.pathname.replace(/\/$/, '') || '/';
-  document.querySelectorAll('.site-nav a').forEach(function (a) {
+  document.querySelectorAll('#mnav a').forEach(function (a) {
     var href = a.getAttribute('href').replace(/\/$/, '') || '/';
     if (href === path) a.classList.add('active');
   });
