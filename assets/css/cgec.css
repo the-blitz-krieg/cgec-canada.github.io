@@ -120,7 +120,10 @@ p{color:var(--slate);line-height:1.8;font-weight:300;}
 /* CTA BAND */
 .ctab{background:var(--red);padding:52px 32px;text-align:center;}
 .ctab h2{color:var(--white);margin-bottom:12px;}
-.ctab .cp{color:rgba(255,255,255,.8);max-width:480px;margin:0 auto 24px;font-size:14.5px;font-weight:300;}
+.ctab .cp{color:rgba(255,255,255,.8);max-width:680px;margin:0 auto 28px;font-size:14.5px;font-weight:300;}
+.ctab .ba{justify-content:center;}
+.ctab .bor{border-color:rgba(255,255,255,.75);color:var(--white);}
+.ctab .bor:hover{background:var(--white);color:var(--red);border-color:var(--white);}
 /* TIMELINE */
 .tl{position:relative;padding-left:28px;}
 .tl::before{content:'';position:absolute;left:0;top:0;bottom:0;width:2px;background:var(--stone);}
