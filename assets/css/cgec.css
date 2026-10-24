@@ -162,7 +162,7 @@ p  { font: 400 16px/1.6 var(--font); color: var(--body); max-width: 68ch; }
   height: 68px;
   gap: 24px;
 }
-.site-header .logo img { height: 38px; width: auto; }
+.site-header .logo img { height: 52px; width: auto; }
 .site-nav {
   display: flex;
   align-items: center;
@@ -442,7 +442,7 @@ p  { font: 400 16px/1.6 var(--font); color: var(--body); max-width: 68ch; }
 @media (max-width: 540px) {
   .footer-grid { grid-template-columns: 1fr; }
 }
-.footer-brand img { height: 34px; margin-bottom: 16px; }
+.footer-brand img { height: 80px; width: auto; margin-bottom: 16px; }
 .footer-brand p {
   font: 400 14px/1.6 var(--font);
   color: var(--mist);
