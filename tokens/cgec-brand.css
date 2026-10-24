@@ -1,0 +1,37 @@
+/* Canada Global Export Council: brand tokens for cgec.ca */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&display=swap');
+
+:root {
+  /* Colour */
+  --cgec-red: #C5162E;        /* Canadian Red: accent, leaf, rules, labels, primary buttons */
+  --cgec-red-hover: #A51226;
+  --cgec-ink: #16202E;        /* Council Ink: text, dark sections, footer */
+  --cgec-body: #3A4350;       /* body copy on light backgrounds */
+  --cgec-slate: #5B6370;      /* secondary text, captions */
+  --cgec-paper: #FBFAF8;      /* page background */
+  --cgec-white: #FFFFFF;      /* cards, surfaces */
+  --cgec-stone: #E4E2DE;      /* borders, dividers */
+  --cgec-rule: #C9C6C0;       /* stronger dividers */
+  --cgec-mist: #C9CED8;       /* secondary text on Ink */
+  --cgec-dusk: #4A5466;       /* dividers on Ink */
+  --cgec-blush: #F06A7A;      /* accent text on Ink (Red fails contrast on Ink) */
+
+  /* Type */
+  --cgec-font: 'Libre Franklin', Arial, sans-serif;
+  --cgec-display: 600 clamp(40px, 5vw, 56px)/1.05 var(--cgec-font);
+  --cgec-h1: 600 clamp(30px, 3.6vw, 36px)/1.1 var(--cgec-font);
+  --cgec-h2: 600 22px/1.3 var(--cgec-font);
+  --cgec-body-text: 400 16px/1.6 var(--cgec-font);
+  --cgec-caption: 500 13px/1.5 var(--cgec-font);
+  --cgec-label-tracking: 0.16em;   /* labels: 12px, 600, uppercase */
+  --cgec-heading-tracking: -0.01em;
+
+  /* Shape */
+  --cgec-radius: 2px;          /* nearly square, institutional */
+  --cgec-red-edge: 8px;        /* red band along the top of heroes and banners */
+  --cgec-rule-short: 28px;     /* short red rule under titles */
+}
+
+body { margin: 0; background: var(--cgec-paper); color: var(--cgec-ink); font: var(--cgec-body-text); }
+a { color: var(--cgec-red); text-decoration: none; }
+a:hover { color: var(--cgec-ink); text-decoration: underline; }

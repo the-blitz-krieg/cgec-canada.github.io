@@ -1,137 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-
-  <!-- Homepage -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://cgec.ca/</loc>
-    <lastmod>2025-07-01</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2025-10-01</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://cgec.ca/"/>
-    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://cgec.ca/fr/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://cgec.ca/"/>
-    <image:image>
-      <image:loc>https://cgec.ca/images/cgec-og-homepage.jpg</image:loc>
-      <image:title>Canada Global Export Council - Opening Global Markets for Canadian Business</image:title>
-    </image:image>
   </url>
-
-  <!-- About -->
   <url>
     <loc>https://cgec.ca/about.html</loc>
-    <lastmod>2025-07-01</lastmod>
+    <lastmod>2025-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://cgec.ca/about.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://cgec.ca/fr/about.html"/>
   </url>
-
-  <!-- EICBI Partnership -->
-  <url>
-    <loc>https://cgec.ca/partnership.html</loc>
-    <lastmod>2025-07-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://cgec.ca/partnership.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://cgec.ca/fr/partnership.html"/>
-    <image:image>
-      <image:loc>https://cgec.ca/images/cgec-og-partnership.jpg</image:loc>
-      <image:title>CGEC and EICBI Strategic Partnership - European Parliament Accredited</image:title>
-    </image:image>
-  </url>
-
-  <!-- Markets Overview -->
   <url>
     <loc>https://cgec.ca/markets.html</loc>
-    <lastmod>2025-07-01</lastmod>
+    <lastmod>2025-10-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://cgec.ca/markets.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://cgec.ca/fr/markets.html"/>
+    <priority>0.9</priority>
   </url>
-
-  <!-- UK Market -->
   <url>
-    <loc>https://cgec.ca/market-uk.html</loc>
-    <lastmod>2025-07-01</lastmod>
+    <loc>https://cgec.ca/programmes.html</loc>
+    <lastmod>2025-10-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://cgec.ca/market-uk.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://cgec.ca/fr/market-uk.html"/>
-    <image:image>
-      <image:loc>https://cgec.ca/images/cgec-og-uk.jpg</image:loc>
-      <image:title>Canada to UK Market Entry - CGEC Trade Support</image:title>
-    </image:image>
+    <priority>0.9</priority>
   </url>
-
-  <!-- EEA Market -->
   <url>
-    <loc>https://cgec.ca/market-eea.html</loc>
-    <lastmod>2025-07-01</lastmod>
+    <loc>https://cgec.ca/membership.html</loc>
+    <lastmod>2025-10-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://cgec.ca/market-eea.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://cgec.ca/fr/market-eea.html"/>
-    <image:image>
-      <image:loc>https://cgec.ca/images/cgec-og-eea.jpg</image:loc>
-      <image:title>Canada to European Economic Area Market Entry - CGEC and CETA</image:title>
-    </image:image>
+    <priority>0.9</priority>
   </url>
-
-  <!-- India Market -->
   <url>
-    <loc>https://cgec.ca/market-india.html</loc>
-    <lastmod>2025-07-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://cgec.ca/market-india.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://cgec.ca/fr/market-india.html"/>
-    <image:image>
-      <image:loc>https://cgec.ca/images/cgec-og-india.jpg</image:loc>
-      <image:title>Canada to India Market Entry - CGEC and EICBI 13-Year Network</image:title>
-    </image:image>
-  </url>
-
-  <!-- Programs -->
-  <url>
-    <loc>https://cgec.ca/programs.html</loc>
-    <lastmod>2025-07-01</lastmod>
+    <loc>https://cgec.ca/eicbi.html</loc>
+    <lastmod>2025-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://cgec.ca/programs.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://cgec.ca/fr/programs.html"/>
   </url>
-
-  <!-- Apply -->
-  <url>
-    <loc>https://cgec.ca/apply.html</loc>
-    <lastmod>2025-07-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://cgec.ca/apply.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://cgec.ca/fr/apply.html"/>
-  </url>
-
-  <!-- News -->
   <url>
     <loc>https://cgec.ca/news.html</loc>
-    <lastmod>2025-07-01</lastmod>
+    <lastmod>2025-10-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://cgec.ca/news.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://cgec.ca/fr/news.html"/>
+    <priority>0.8</priority>
   </url>
-
-  <!-- Contact -->
   <url>
     <loc>https://cgec.ca/contact.html</loc>
-    <lastmod>2025-07-01</lastmod>
+    <lastmod>2025-10-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://cgec.ca/contact.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://cgec.ca/fr/contact.html"/>
   </url>
-
+  <url>
+    <loc>https://cgec.ca/apply.html</loc>
+    <lastmod>2025-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://cgec.ca/privacy.html</loc>
+    <lastmod>2025-10-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
 </urlset>

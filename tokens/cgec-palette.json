@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Canadian Red",
+    "hex": "#C5162E",
+    "rgb": [
+      197,
+      22,
+      46
+    ],
+    "cmyk": [
+      0,
+      100,
+      81,
+      4
+    ],
+    "pantone": "PMS 186 C"
+  },
+  {
+    "name": "Council Ink",
+    "hex": "#16202E",
+    "rgb": [
+      22,
+      32,
+      46
+    ],
+    "cmyk": [
+      90,
+      72,
+      42,
+      70
+    ],
+    "pantone": "PMS 5395 C (nearest)"
+  },
+  {
+    "name": "Paper",
+    "hex": "#FBFAF8",
+    "rgb": [
+      251,
+      250,
+      248
+    ],
+    "cmyk": [
+      1,
+      1,
+      2,
+      0
+    ],
+    "pantone": "Uncoated white stock"
+  },
+  {
+    "name": "Slate",
+    "hex": "#5B6370",
+    "rgb": [
+      91,
+      99,
+      112
+    ],
+    "cmyk": [
+      45,
+      25,
+      16,
+      59
+    ],
+    "pantone": "PMS 431 C"
+  },
+  {
+    "name": "Stone",
+    "hex": "#E4E2DE",
+    "rgb": [
+      228,
+      226,
+      222
+    ],
+    "cmyk": [
+      3,
+      2,
+      4,
+      8
+    ],
+    "pantone": "PMS Cool Gray 1 C"
+  },
+  {
+    "name": "White",
+    "hex": "#FFFFFF",
+    "rgb": [
+      255,
+      255,
+      255
+    ],
+    "cmyk": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "pantone": "-"
+  },
+  {
+    "name": "Blush",
+    "hex": "#F06A7A",
+    "rgb": [
+      240,
+      106,
+      122
+    ],
+    "cmyk": [
+      0,
+      70,
+      40,
+      0
+    ],
+    "pantone": "Screen only"
+  }
+]
