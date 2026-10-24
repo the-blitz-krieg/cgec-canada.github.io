@@ -46,7 +46,7 @@ nav a:hover,nav a.act{background:var(--paper);color:var(--red);}
 .pe{display:inline-flex;align-items:center;gap:9px;font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.55);font-weight:500;margin-bottom:13px;}
 .pe::before{content:'';display:block;width:26px;height:1px;background:rgba(255,255,255,.35);}
 .ph h1{font-family:'Libre Franklin',sans-serif;font-size:clamp(28px,4vw,48px);font-weight:600;color:var(--white);line-height:1.14;margin-bottom:16px;max-width:700px;}
-.ph h1 em{font-style:italic;color:var(--white);}.market-page .ph h1 em{color:var(--gold);}
+.ph h1 em{font-style:italic;color:var(--white);}
 .phs{font-size:15px;color:rgba(255,255,255,.55);max-width:570px;line-height:1.8;font-weight:300;}
 .hstats{display:flex;gap:40px;margin-top:32px;flex-wrap:wrap;}
 .hstats .sn{font-family:'Libre Franklin',sans-serif;font-size:34px;font-weight:700;color:var(--white);line-height:1;}
