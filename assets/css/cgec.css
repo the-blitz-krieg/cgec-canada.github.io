@@ -108,6 +108,8 @@ p{color:var(--slate);line-height:1.8;font-weight:300;}
 .cico{width:36px;height:36px;background:rgba(22,32,46,.06);border:1px solid var(--stone);display:flex;align-items:center;justify-content:center;flex-shrink:0;color:var(--ink);}
 .ctxt h5{font-size:13px;font-weight:500;color:rgba(255,255,255,.85);margin-bottom:3px;}
 .ctxt p{font-size:12px;color:rgba(255,255,255,.38);line-height:1.5;font-weight:300;}
+/* Dark section icon overrides */
+.dk .cico,#pg .cico{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.2);color:rgba(255,255,255,.85);}
 /* STATS BAR */
 .stbar{background:var(--red);padding:40px 32px;}
 .stbi{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:20px;text-align:center;}

@@ -151,20 +151,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="slab">Latest Insights</div>
       <h2 style="margin-bottom:24px;">Market Intelligence &amp; Updates</h2>
       <div style="display:flex;gap:7px;flex-wrap:wrap;margin-bottom:24px;">
-        <button style="padding:7px 14px;border:1px solid var(--stone);background:var(--ink);color:var(--white);font-size:12.5px;cursor:pointer;font-family:'Libre Franklin',sans-serif;">All</button>
-        <button style="padding:7px 14px;border:1px solid var(--stone);background:var(--white);color:var(--slate);font-size:12.5px;cursor:pointer;font-family:'Libre Franklin',sans-serif;">UK Market</button>
-        <button style="padding:7px 14px;border:1px solid var(--stone);background:var(--white);color:var(--slate);font-size:12.5px;cursor:pointer;font-family:'Libre Franklin',sans-serif;">EEA Market</button>
-        <button style="padding:7px 14px;border:1px solid var(--stone);background:var(--white);color:var(--slate);font-size:12.5px;cursor:pointer;font-family:'Libre Franklin',sans-serif;">India Market</button>
-        <button style="padding:7px 14px;border:1px solid var(--stone);background:var(--white);color:var(--slate);font-size:12.5px;cursor:pointer;font-family:'Libre Franklin',sans-serif;">Trade Policy</button>
-        <button style="padding:7px 14px;border:1px solid var(--stone);background:var(--white);color:var(--slate);font-size:12.5px;cursor:pointer;font-family:'Libre Franklin',sans-serif;">EICBI News</button>
+        <button class="nfbtn active" data-filter="all" style="padding:7px 14px;border:1px solid var(--stone);background:var(--ink);color:var(--white);font-size:12.5px;cursor:pointer;font-family:'Libre Franklin',sans-serif;">All</button>
+        <button class="nfbtn" data-filter="UK Market" style="padding:7px 14px;border:1px solid var(--stone);background:var(--white);color:var(--slate);font-size:12.5px;cursor:pointer;font-family:'Libre Franklin',sans-serif;">UK Market</button>
+        <button class="nfbtn" data-filter="EEA Market" style="padding:7px 14px;border:1px solid var(--stone);background:var(--white);color:var(--slate);font-size:12.5px;cursor:pointer;font-family:'Libre Franklin',sans-serif;">EEA Market</button>
+        <button class="nfbtn" data-filter="India Market" style="padding:7px 14px;border:1px solid var(--stone);background:var(--white);color:var(--slate);font-size:12.5px;cursor:pointer;font-family:'Libre Franklin',sans-serif;">India Market</button>
+        <button class="nfbtn" data-filter="Trade Policy" style="padding:7px 14px;border:1px solid var(--stone);background:var(--white);color:var(--slate);font-size:12.5px;cursor:pointer;font-family:'Libre Franklin',sans-serif;">Trade Policy</button>
+        <button class="nfbtn" data-filter="CGEC News" style="padding:7px 14px;border:1px solid var(--stone);background:var(--white);color:var(--slate);font-size:12.5px;cursor:pointer;font-family:'Libre Franklin',sans-serif;">CGEC News</button>
+        <button class="nfbtn" data-filter="EICBI News" style="padding:7px 14px;border:1px solid var(--stone);background:var(--white);color:var(--slate);font-size:12.5px;cursor:pointer;font-family:'Libre Franklin',sans-serif;">EICBI News</button>
       </div>
       <div style="display:flex;flex-direction:column;gap:1px;">
-        <div class="art-card"><div class="art-date"><div class="aday">12</div><div class="amon">May 2025</div></div><div class="art-body"><div class="acat">UK Market</div><h4>UK-Canada Trade Relations: What Post-Brexit Means for Canadian SMEs in 2025</h4><p>An analysis of the current UK-Canada trade relationship, the status of CTCA provisions, and key sectors where Canadian businesses hold competitive advantage in the UK market.</p><a href="#">Read Article →</a></div></div>
-        <div class="art-card"><div class="art-date"><div class="aday">08</div><div class="amon">May 2025</div></div><div class="art-body"><div class="acat">EEA Market</div><h4>Maximising CETA: Five Provisions Most Canadian Exporters Are Not Using</h4><p>CETA offers far more than tariff reductions  -  including procurement access, professional recognition, and regulatory cooperation that remain underutilised by Canadian businesses.</p><a href="#">Read Article →</a></div></div>
-        <div class="art-card"><div class="art-date"><div class="aday">01</div><div class="amon">May 2025</div></div><div class="art-body"><div class="acat">India Market</div><h4>India's FY2026 Budget: Implications for Foreign Investment and Canadian Exporters</h4><p>EICBI's policy team analyses India's latest union budget and what the key provisions mean for Canadian businesses seeking to enter or expand in the Indian market.</p><a href="#">Read Article →</a></div></div>
-        <div class="art-card"><div class="art-date"><div class="aday">22</div><div class="amon">Apr 2025</div></div><div class="art-body"><div class="acat">EICBI News</div><h4>EuropeIndia40 Class of 2025 Announced at European Parliament</h4><p>EICBI's annual recognition of the next generation of Europe-India leaders was presented at a ceremony in Brussels, with representation from 18 countries.</p><a href="#">Read Article →</a></div></div>
-        <div class="art-card"><div class="art-date"><div class="aday">15</div><div class="amon">Apr 2025</div></div><div class="art-body"><div class="acat">Trade Policy</div><h4>The India-EU Free Trade Agreement Negotiations: What Canadian Businesses Should Know</h4><p>Ongoing negotiations between India and the EU for a bilateral FTA could reshape the India-EEA corridor. CGEC analyses the implications for Canadian businesses operating across both markets.</p><a href="#">Read Article →</a></div></div>
-        <div class="art-card"><div class="art-date"><div class="aday">03</div><div class="amon">Apr 2025</div></div><div class="art-body"><div class="acat">Trade Missions</div><h4>CGEC Announces Inaugural Canada-UK Trade Mission for Spring 2026</h4><p>The Canada Global Export Council has announced its inaugural trade mission to London UK, scheduled for Spring 2026, including B2B sessions, parliamentary briefings, and sector roundtables.</p><a href="#">Read Article →</a></div></div>
+        <div class="art-card" data-category="CGEC News"><div class="art-date"><div class="aday">20</div><div class="amon">Jun 2025</div></div><div class="art-body"><div class="acat">CGEC News</div><h4>CGEC Appointed Exclusive Canadian Representative of EICBI</h4><p>The Canada Global Export Council has formalised its role as the exclusive Canadian institutional partner of the Europe India Chamber of Business and Industry, effective 2025.</p><a href="#">Read Article &rarr;</a></div></div>
+        <div class="art-card" data-category="UK Market"><div class="art-date"><div class="aday">12</div><div class="amon">May 2025</div></div><div class="art-body"><div class="acat">UK Market</div><h4>UK-Canada Trade Relations: What Post-Brexit Means for Canadian SMEs in 2025</h4><p>An analysis of the current UK-Canada trade relationship, the status of CTCA provisions, and key sectors where Canadian businesses hold competitive advantage in the UK market.</p><a href="#">Read Article →</a></div></div>
+        <div class="art-card" data-category="EEA Market"><div class="art-date"><div class="aday">08</div><div class="amon">May 2025</div></div><div class="art-body"><div class="acat">EEA Market</div><h4>Maximising CETA: Five Provisions Most Canadian Exporters Are Not Using</h4><p>CETA offers far more than tariff reductions  -  including procurement access, professional recognition, and regulatory cooperation that remain underutilised by Canadian businesses.</p><a href="#">Read Article →</a></div></div>
+        <div class="art-card" data-category="India Market"><div class="art-date"><div class="aday">01</div><div class="amon">May 2025</div></div><div class="art-body"><div class="acat">India Market</div><h4>India's FY2026 Budget: Implications for Foreign Investment and Canadian Exporters</h4><p>EICBI's policy team analyses India's latest union budget and what the key provisions mean for Canadian businesses seeking to enter or expand in the Indian market.</p><a href="#">Read Article →</a></div></div>
+        <div class="art-card" data-category="EICBI News"><div class="art-date"><div class="aday">22</div><div class="amon">Apr 2025</div></div><div class="art-body"><div class="acat">EICBI News</div><h4>EuropeIndia40 Class of 2025 Announced at European Parliament</h4><p>EICBI's annual recognition of the next generation of Europe-India leaders was presented at a ceremony in Brussels, with representation from 18 countries.</p><a href="#">Read Article →</a></div></div>
+        <div class="art-card" data-category="Trade Policy"><div class="art-date"><div class="aday">15</div><div class="amon">Apr 2025</div></div><div class="art-body"><div class="acat">Trade Policy</div><h4>The India-EU Free Trade Agreement Negotiations: What Canadian Businesses Should Know</h4><p>Ongoing negotiations between India and the EU for a bilateral FTA could reshape the India-EEA corridor. CGEC analyses the implications for Canadian businesses operating across both markets.</p><a href="#">Read Article →</a></div></div>
+        <div class="art-card" data-category="CGEC News"><div class="art-date"><div class="aday">03</div><div class="amon">Apr 2025</div></div><div class="art-body"><div class="acat">CGEC News</div><h4>CGEC Announces Inaugural Canada-UK Trade Mission for Spring 2026</h4><p>The Canada Global Export Council has announced its inaugural trade mission to London UK, scheduled for Spring 2026, including B2B sessions, parliamentary briefings, and sector roundtables.</p><a href="#">Read Article →</a></div></div>
       </div>
     </div>
     <div style="display:flex;flex-direction:column;gap:20px;">
@@ -195,5 +197,31 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </section>
 <footer><div class="fi"><div class="ft"><div class="fb"><a href="/" class="footer-brand-logo"><img src="/logos/svg/cgec-stacked-reversed.svg" alt="Canada Global Export Council" width="140" height="121"></a><p>Canada's not-for-profit council for international market expansion into the UK, European Economic Area, and India. Strategic Partner and exclusive Canadian representative of EICBI.</p><a href="https://www.eicbi.org" target="_blank" rel="noopener" class="el">&rarr; Visit EICBI: eicbi.org</a></div><div class="fc"><h6>Organisation</h6><a href="/about/">About CGEC</a><a href="/about/#leadership">Leadership</a><a href="/about/#governance">Governance</a><a href="/partnership/">EICBI Partnership</a><a href="/news/">News &amp; Insights</a></div><div class="fc"><h6>Markets</h6><a href="/markets/">All Markets</a><a href="/markets/uk/">United Kingdom</a><a href="/markets/eea/">European EEA</a><a href="/markets/india/">India</a></div><div class="fc"><h6>Programmes</h6><a href="/programs/">All Programs</a><a href="/programs/#missions">Trade Missions</a><a href="/programs/#matchmaking">Partner Matchmaking</a><a href="/programs/#advisory">Regulatory Advisory</a><a href="/apply/">Apply Now</a></div><div class="fc"><h6>Quick Links</h6><a href="/apply/">Apply Now &rarr;</a><a href="/contact/">Book Advisor Call</a><a href="/news/">Market Intelligence</a><a href="https://www.eicbi.org" target="_blank" rel="noopener">EICBI Website &#8599;</a><a href="/fr/">Fran&ccedil;ais</a></div></div><div class="fbot"><div class="fbl"><span>&copy; 2025 Canada Global Export Council. Not-for-profit organisation registered in Canada.</span><span class="rn">EICBI EU Transparency Register: 423661050520-44</span></div><div class="fbr"><a href="/privacy/">Privacy Policy</a><a href="/sitemap.xml">Sitemap</a><a href="/fr/">Fran&ccedil;ais</a></div></div></div></footer>
 <script src="/assets/js/cgec.js"></script>
+<script>
+(function(){
+  var btns=document.querySelectorAll('.nfbtn');
+  var cards=document.querySelectorAll('.art-card');
+  btns.forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var f=btn.getAttribute('data-filter');
+      btns.forEach(function(b){
+        b.style.background='var(--white)';
+        b.style.color='var(--slate)';
+        b.classList.remove('active');
+      });
+      btn.style.background='var(--ink)';
+      btn.style.color='var(--white)';
+      btn.classList.add('active');
+      cards.forEach(function(c){
+        if(f==='all'||c.getAttribute('data-category')===f){
+          c.style.display='';
+        } else {
+          c.style.display='none';
+        }
+      });
+    });
+  });
+})();
+</script>
 </body>
 </html>
