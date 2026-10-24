@@ -1,4 +1,4 @@
-# Canada Global Export Council — Full Content
+# Canada Global Export Council - Full Content
 # https://cgec.ca
 # llms-full.txt per the llmstxt.org standard
 

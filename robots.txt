@@ -1,4 +1,4 @@
-# robots.txt — cgec.ca
+# robots.txt - cgec.ca
 # Canada Global Export Council
 
 User-agent: *

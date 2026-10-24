@@ -1,4 +1,4 @@
-/* CGEC v2 — cgec.ca — Main JS */
+/* CGEC v2 - cgec.ca - Main JS */
 (function () {
   'use strict';
 
