@@ -1,115 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://cgec.ca/</loc>
-    <lastmod>2025-10-01</lastmod>
+    <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://cgec.ca/"/>
-    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://cgec.ca/fr/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://cgec.ca/"/>
+    <image:image>
+      <image:loc>https://cgec.ca/images/cgec-og-homepage.jpg</image:loc>
+    </image:image>
   </url>
-
   <url>
     <loc>https://cgec.ca/about/</loc>
-    <lastmod>2025-10-01</lastmod>
+    <lastmod>2026-10-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://cgec.ca/about/"/>
-    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://cgec.ca/fr/about/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://cgec.ca/about/"/>
+    <image:image>
+      <image:loc>https://cgec.ca/images/cgec-og-about.jpg</image:loc>
+    </image:image>
   </url>
-
   <url>
     <loc>https://cgec.ca/markets/</loc>
-    <lastmod>2025-10-01</lastmod>
+    <lastmod>2026-10-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://cgec.ca/markets/"/>
-    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://cgec.ca/fr/markets/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://cgec.ca/markets/"/>
+    <image:image>
+      <image:loc>https://cgec.ca/images/cgec-og-markets.jpg</image:loc>
+    </image:image>
   </url>
-
   <url>
     <loc>https://cgec.ca/markets/uk/</loc>
-    <lastmod>2025-10-01</lastmod>
+    <lastmod>2026-10-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://cgec.ca/markets/uk/"/>
-    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://cgec.ca/fr/markets/uk/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://cgec.ca/markets/uk/"/>
+    <image:image>
+      <image:loc>https://cgec.ca/images/cgec-og-uk.jpg</image:loc>
+    </image:image>
   </url>
-
   <url>
     <loc>https://cgec.ca/markets/eea/</loc>
-    <lastmod>2025-10-01</lastmod>
+    <lastmod>2026-10-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://cgec.ca/markets/eea/"/>
-    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://cgec.ca/fr/markets/eea/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://cgec.ca/markets/eea/"/>
+    <image:image>
+      <image:loc>https://cgec.ca/images/cgec-og-eea.jpg</image:loc>
+    </image:image>
   </url>
-
   <url>
     <loc>https://cgec.ca/markets/india/</loc>
-    <lastmod>2025-10-01</lastmod>
+    <lastmod>2026-10-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://cgec.ca/markets/india/"/>
-    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://cgec.ca/fr/markets/india/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://cgec.ca/markets/india/"/>
+    <image:image>
+      <image:loc>https://cgec.ca/images/cgec-og-india.jpg</image:loc>
+    </image:image>
   </url>
-
   <url>
     <loc>https://cgec.ca/partnership/</loc>
-    <lastmod>2025-10-01</lastmod>
+    <lastmod>2026-10-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://cgec.ca/partnership/"/>
-    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://cgec.ca/fr/partnership/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://cgec.ca/partnership/"/>
+    <image:image>
+      <image:loc>https://cgec.ca/images/cgec-og-partnership.jpg</image:loc>
+    </image:image>
   </url>
-
   <url>
     <loc>https://cgec.ca/programs/</loc>
-    <lastmod>2025-10-01</lastmod>
+    <lastmod>2026-10-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://cgec.ca/programs/"/>
-    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://cgec.ca/fr/programs/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://cgec.ca/programs/"/>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://cgec.ca/images/cgec-og-programs.jpg</image:loc>
+    </image:image>
   </url>
-
   <url>
     <loc>https://cgec.ca/news/</loc>
-    <lastmod>2025-10-01</lastmod>
+    <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://cgec.ca/news/"/>
-    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://cgec.ca/fr/news/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://cgec.ca/news/"/>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cgec.ca/images/cgec-og-news.jpg</image:loc>
+    </image:image>
   </url>
-
   <url>
     <loc>https://cgec.ca/contact/</loc>
-    <lastmod>2025-10-01</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>yearly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://cgec.ca/contact/"/>
-    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://cgec.ca/fr/contact/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://cgec.ca/contact/"/>
+    <image:image>
+      <image:loc>https://cgec.ca/images/cgec-og-contact.jpg</image:loc>
+    </image:image>
   </url>
-
   <url>
     <loc>https://cgec.ca/apply/</loc>
-    <lastmod>2025-10-01</lastmod>
+    <lastmod>2026-10-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://cgec.ca/apply/"/>
-    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://cgec.ca/fr/apply/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://cgec.ca/apply/"/>
+    <image:image>
+      <image:loc>https://cgec.ca/images/cgec-og-apply.jpg</image:loc>
+    </image:image>
   </url>
-
+  <url>
+    <loc>https://cgec.ca/privacy/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
 </urlset>

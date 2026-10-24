@@ -1,179 +1,822 @@
-# Canada Global Export Council - Full Content
-# https://cgec.ca
-# llms-full.txt per the llmstxt.org standard
+# Canada Global Export Council (CGEC) - Full Site Content
+
+> The Canada Global Export Council (CGEC) is Canada's not-for-profit export council, based in Halifax, Nova Scotia. CGEC helps Canadian businesses expand into the United Kingdom, the European Economic Area (EEA) and India. CGEC is the exclusive Canadian partner of the Europe India Centre for Business and Industry (EICBI), a European Commission registered geopolitical forum accredited by the European Parliament (EU Transparency Register No. 423661050520-44).
+
+## Key facts
+
+- Name: Canada Global Export Council
+- Acronym: CGEC
+- Type: Canadian not-for-profit export council
+- Location: Halifax, Nova Scotia, Canada
+- Website: https://cgec.ca
+- Email: info@cgec.ca
+- Markets served: United Kingdom, European Economic Area, India
+- Strategic partner: EICBI (Europe India Centre for Business and Industry), exclusive Canadian partner
+- EICBI EU Transparency Register: 423661050520-44
+- Programs: market entry assessments, trade missions, partner matchmaking, regulatory advisory
+- Membership tiers: Associate Member, Full Member, Strategic Member
+
+Source: generated from the published pages of https://cgec.ca. Last updated 2026-10-24.
 
 ---
 
-# About Canada Global Export Council (CGEC)
+## Home
 
-Canada Global Export Council (CGEC) is Canada's not-for-profit export council, incorporated in Nova Scotia. CGEC connects Canadian businesses to buyers, partners and institutions in the United Kingdom, the European Economic Area and Asia.
+URL: https://cgec.ca/
 
-CGEC was founded to close the gap between Canada's trade agreements (most notably CETA, which covers 98% of Canadian exports tariff-free into the EU) and the actual commercial relationships that allow Canadian companies to exploit those agreements. Market entry requires more than a favourable tariff schedule: it requires institutional access, regulatory know-how and warm introductions to decision-makers.
+Summary: CGEC is Canada's not-for-profit export council helping Canadian businesses expand into the UK, EU and India, as EICBI's exclusive Canadian partner.
 
-CGEC is a not-for-profit council with a membership model. This structure ensures CGEC's interests are permanently aligned with the Canadian businesses it serves.
+### Opening Global Markets for Canadian Business
+
+CGEC is Canada's not-for-profit council helping Canadian businesses launch and expand into the United Kingdom, European Economic Area, and India - backed by 13 years of EICBI's institutional relationships across parliamentary corridors.
+- 🇬🇧 United Kingdom Active
+- 🇪🇺 European Economic Area Active
+- 🇮🇳 India Active
+
+### Connecting Canadian Enterprise to the World
+
+The Canada Global Export Council (CGEC) is a not-for-profit organisation established to guide Canadian businesses through the complexities of international market entry into the UK, EEA, and India.
+Through our exclusive Canadian partnership with EICBI, we provide unparalleled access to institutional relationships that would otherwise take decades to build.
+
+**Market Intelligence**
+Regulatory landscapes, tariff structures, and competitive intelligence across all three market corridors.
+
+**Institutional Access**
+Direct connections to MEPs, parliamentarians, diplomats, and business leaders through EICBI's convening power.
+
+**Trade Mission Support**
+Structured missions to Brussels, London, and India with B2B matchmaking and government introductions.
+
+**Advisory & Compliance**
+Expert guidance on legal structures and compliance frameworks across target jurisdictions.
+
+### Three Strategic Markets. One Integrated Programme.
+
+CGEC focuses exclusively on the UK, EEA, and India - where our institutional partnerships deliver real competitive advantage for Canadian businesses.
+Commonwealth ties, shared legal heritage, and EICBI's Westminster parliamentary network.
+450 million consumers, CETA preferential access, and EU Parliament institutional connections.
+India's $3.7T economy backed by EICBI's 13-year institutional network across government and business.
+
+### Backed by Europe's Most Connected India-EU Forum
+
+CGEC is the exclusive Canadian partner of EICBI - a European Commission registered geopolitical forum with 13 years of parliamentary-level dialogue across the Europe-India corridor.
+Through EICBI, CGEC members gain access to summits at the European Parliament and British Parliament, direct engagement with MEPs, and a network spanning thousands of business and government leaders.
+
+**European Parliament Accredited**
+Full accreditation with direct institutional access to the EU Parliament in Brussels.
+
+**Parliamentary Summits in Brussels & London**
+Major events at the European Parliament and British Parliament engaging thousands of delegates.
+
+**EuropeIndia40 Leaders List**
+Annual recognition platform since 2019 for next-generation Europe-India leaders.
+
+**Europe India Journal**
+EICBI's flagship publication advancing policy dialogue across the Europe-India corridor.
+
+### Programmes for Canadian Exporters
+
+Structured support at every stage of your international expansion journey.
+
+**Market Entry Assessment**
+Export readiness evaluation, target market prioritisation, and entry strategy framework.
+
+**Trade Missions**
+Structured delegations to London, Brussels, and India with B2B meetings and government introductions.
+
+**Partner Matchmaking**
+Access to EICBI's verified network of distributors, investors, legal partners, and institutional contacts.
+
+**Regulatory Advisory**
+Expert guidance on CETA, UK post-Brexit access, EU frameworks, and Indian FDI requirements.
+
+**Government Relations**
+Introductions to EU, UK, and Indian government bodies through EICBI's parliamentary network.
+Quarterly intelligence reports on trade policy, sector opportunities, and regulatory changes.
+
+### Frequently Asked Questions
+
+**What is the Canada Global Export Council?**
+CGEC is a Canadian not-for-profit organisation that helps Canadian businesses expand into the UK, EEA, and India. It is the exclusive Canadian partner of EICBI (EU Transparency Register No. 423661050520-44), European Parliament Accredited.
+
+**How does CGEC help Canadian businesses export?**
+CGEC provides market entry assessments, trade missions to London, Brussels and India, partner matchmaking through EICBI's network, regulatory advisory, government relations, and quarterly market intelligence briefs.
+
+**What is EICBI?**
+EICBI (Europe India Centre for Business and Industry) is a European Commission-registered geopolitical forum, EU Transparency Register 423661050520-44, European Parliament Accredited, with 13 years of engagement across the India-EU and India-UK corridors.
+
+### Ready to Take Your Business Global?
+
+CGEC accepts applications from Canadian businesses at all stages of export readiness. Our advisors will assess your needs and recommend the right programme.
+
+---
+
+## About CGEC
+
+URL: https://cgec.ca/about/
+
+Summary: Meet the Canada Global Export Council (CGEC), a not-for-profit export council and EICBI's exclusive Canadian partner. Our mission, governance and leadership.
+
+### Built to Open Global Doors for Canadian Business
+
+CGEC combines Canadian expertise with 13 years of EICBI's institutional relationships across the UK, EEA, and India - not a consultancy, but a council built for Canadian businesses.
+
+### A Council Built on Institutional Credibility
+
+The Canada Global Export Council (CGEC) was established to address a critical gap: Canadian businesses - particularly SMEs - possess world-class products and services, but lack the institutional relationships, regulatory knowledge, and on-the-ground networks required to succeed in complex international markets.
+CGEC exists to close that gap. As the exclusive Canadian partner of the Europe India Centre for Business & Industry (EICBI), CGEC provides 13 years of parliamentary-level relationships, EU institutional access, and proven trade corridor expertise directly to Canadian exporters.
+We are a not-for-profit organisation. Our mandate is the success of Canadian business on the global stage - not shareholder returns.
+
+### What Guides CGEC
+
+**Institutional Integrity**
+We operate with the standards expected of a government-adjacent body. Every recommendation, relationship, and programme is held to the highest standard of professional integrity.
+
+**SME-First Mandate**
+Our programmes are designed around the realities facing Canadian small and medium enterprises - the businesses that form the backbone of Canada's export economy.
+
+**Corridor Specialisation**
+We focus exclusively on UK, EEA, and India. Depth over breadth - knowing three markets extraordinarily well rather than twenty markets superficially.
+
+**Peer-Led Governance**
+CGEC is governed by Canadian business leaders who have themselves navigated international expansion. Practical wisdom, not theoretical advice.
+
+**Partnership Over Transaction**
+We build long-term relationships between Canadian businesses and their international counterparts - not one-off introductions, but enduring commercial partnerships.
+
+**Bilingual Accountability**
+CGEC operates fully in both official languages, honouring Canada's linguistic duality and ensuring accessibility for all Canadian businesses coast to coast.
+
+### Governed by Canadian Business Leaders
+
+CGEC's Board is composed of Canadian executives and trade specialists with direct experience in international market expansion across our target corridors.
+
+**Board Chairperson**
+To be announced upon incorporation
+
+**Executive Director**
+To be confirmed - applications open
+
+**EICBI Representative**
+Europe India Centre for Business & Industry
+
+**UK Markets Director**
+Board position - applications open
+
+**EEA Markets Director**
+
+**India Markets Director**
+CGEC draws on the advisory network of EICBI - including Members of the European Parliament, British parliamentarians, senior diplomats, and business leaders across the Europe-India corridor - as strategic advisors to the Council.
+
+### Transparent, Accountable, Not-for-Profit
+
+CGEC is incorporated as a Canadian not-for-profit organisation, governed by a Board of Directors and subject to full regulatory compliance.
+
+**Legal Structure**
+CGEC is incorporated under the Canada Not-for-profit Corporations Act and operates with full transparency to its members and the public.
+- → Not-for-profit corporation under federal law
+- → Annual reporting to members and public
+- → Independent financial audit
+- → Bilingual governance documentation
+
+**EICBI Partnership Framework**
+CGEC operates as the exclusive Canadian partner of EICBI under a formal Strategic Partnership Agreement.
+- → Exclusive Canadian representation of EICBI
+- → Access to EICBI's parliamentary networks
+- → Co-branding on joint trade missions
+- → Intelligence sharing and market briefings
+
+### Frequently Asked Questions
+
+**Is CGEC a government organisation?**
+CGEC is not a government body. It is a Canadian not-for-profit organisation incorporated under the Canada Not-for-profit Corporations Act, operating independently with a board of Canadian business leaders. It is the exclusive Canadian partner of EICBI, which holds European Parliament accreditation.
+
+**Who can join CGEC?**
+CGEC membership is open to Canadian-registered businesses at any stage of export readiness with genuine commercial interest in the UK, EEA, or Indian markets. Applications are reviewed by the CGEC Advisory Panel.
+
+### Ready to Apply for CGEC Membership?
+
+Canadian businesses at any stage of export readiness are welcome to apply. Our advisors review every application within five business days.
+
+---
 
 ## EICBI Partnership
 
-CGEC is the exclusive Canadian partner of the Europe India Centre for Business and Industry (EICBI).
+URL: https://cgec.ca/partnership/
 
-EICBI is:
-- A European Commission registered geopolitical forum
-- Accredited by the European Parliament
-- Registered on the EU Transparency Register at number 423661050520-44
-- Founded in 2011
-- Convening parliamentary summits in Brussels, London, New Delhi and Mumbai since 2011
+Summary: CGEC is the exclusive Canadian partner of EICBI (EU Transparency Register 423661050520-44), opening parliamentary-level networks in the UK, EU and India.
 
-EICBI's parliamentary accreditation gives CGEC members access to:
-- European Parliament committee networks and MEP contacts across political groupings
-- UK Parliament select committees, All-Party Parliamentary Groups and cross-party networks
-- Indian government ministries, CII and FICCI introductions built over 13 years
-- Formal participation in European Commission consultation processes
-- Bilateral parliamentary summits for Corporate Partners
+### 13 Years of Institutional Relationships Now Available to Canadian Business
+
+CGEC is the exclusive Canadian partner of EICBI - a European Parliament-accredited geopolitical forum with unparalleled access across the Europe-India corridor for over 13 years.
+EU Transparency Register No. 423661050520-44 · European Commission Registered Geopolitical Forum · European Parliament Accredited · www.eicbi.org
+
+### Europe's Most Credentialled India-EU Trade Forum
+
+The Europe India Centre for Business & Industry (EICBI) is a European Commission registered geopolitical forum dedicated to advancing Track 1.5 Diplomacy - the critical space between official government channels and private sector engagement.
+Founded over 13 years ago, EICBI has built an unmatched institutional presence at the intersection of European and Indian trade, investment, and policy. It operates across the India-UK and India-EU corridors, convening the leaders who shape these relationships.
+For CGEC members, this translates directly: your Canadian business enters these corridors backed by institutional credibility that took 13 years to build.
+
+**European Parliament Accredited**
+Full accreditation granting direct institutional access to the European Parliament in Brussels.
+
+**EU Transparency Register No. 423661050520-44**
+Registered with the European Commission as a legitimate geopolitical forum.
+
+**Track 1.5 Diplomacy**
+Bridges official government dialogue and private sector engagement - the most influential level of international relation-building.
+
+**Thousands of Delegates**
+Major summits at the European Parliament and British Parliament engaging thousands of business and government leaders.
+
+### 13 Years of Corridor-Building
+
+A decade-plus of sustained institutional engagement across the Europe-India trade corridor.
+
+**EICBI Established**
+Founded with a mandate to advance trade, investment, and institutional relations across the Europe-India corridor.
+
+**EU Transparency Register Accreditation**
+EICBI secures registration with the European Commission (No. 423661050520-44), establishing formal recognition as a geopolitical forum.
+
+**European Parliament Accreditation**
+EICBI achieves full accreditation with the European Parliament - one of the most significant institutional recognitions available to a non-governmental organisation in Europe.
+
+**EuropeIndia40 Leaders List Launched**
+Launch of the flagship annual recognition platform identifying the next generation of leaders under 40 shaping Europe-India relations across business, policy, and civil society.
+
+**Parliamentary Summits - Brussels & London**
+Major summits convened at the European Parliament in Brussels and the British Parliament in London, engaging MEPs, parliamentarians, diplomats, and business leaders.
+
+**CGEC Established as Exclusive Canadian Partner**
+Canada Global Export Council established as EICBI's exclusive Canadian partner, opening the Europe-India corridor to Canadian businesses for the first time through an institutional framework.
+
+### What the EICBI Partnership Means for Your Business
+
+EICBI's institutional capital translates into concrete, tangible advantages for Canadian businesses accessing markets through CGEC.
+
+**Parliamentary-Level Introductions**
+Access to MEPs, British parliamentarians, and senior government officials - relationships that normally take decades to build.
+
+**EU Institutional Access**
+EICBI's EU Transparency Register status and Parliament accreditation gives CGEC members access unavailable to ordinary businesses.
+
+**Pre-Qualified Network**
+EICBI's network curated over 13 years - not a generic database, but a relationship network of business leaders, diplomats, and investors.
+
+**Europe India Journal**
+CGEC members gain visibility through EICBI's flagship publication read by European and Indian policymakers and business leaders.
+
+**EuropeIndia40 Nomination**
+Eligible Canadian leaders in the CGEC network can be nominated for the EuropeIndia40 Leaders List - one of the most recognised platforms in the Europe-India corridor.
+
+**Summit & Event Access**
+Priority access to EICBI's parliamentary summits and business forums in Brussels, London, and key Indian cities.
+
+### Frequently Asked Questions
+
+**What is EICBI?**
+EICBI (Europe India Centre for Business and Industry) is a European Commission registered geopolitical forum with EU Transparency Register number 423661050520-44. Accredited by the European Parliament, EICBI has operated across the India-EU and India-UK corridors for 13 years, convening parliamentary summits in Brussels and London.
+
+**What is the EuropeIndia40 Leaders List?**
+The EuropeIndia40 Leaders List is an annual recognition platform launched by EICBI in 2019 that identifies and connects the next generation of leaders under 40 shaping Europe-India relations across business, policy, and civil society.
+
+**How does CGEC-EICBI partnership benefit Canadian businesses?**
+As EICBI's exclusive Canadian partner, CGEC members gain access to EICBI's 13-year network of parliamentary relationships, EU institutional access, Indian government contacts, the EuropeIndia40 Leaders List, the Europe India Journal, and priority places at parliamentary summits in Brussels and London.
+
+### Access the EICBI Network Through CGEC
+
+CGEC is the only way for Canadian businesses to formally access EICBI's institutional network. Apply for membership to begin.
 
 ---
 
-# Export Corridors
+## Export Markets
+
+URL: https://cgec.ca/markets/
+
+Summary: CGEC helps Canadian businesses enter the United Kingdom, the European Economic Area and India, with CETA guidance and EICBI's institutional network.
+
+### Three Strategic Markets. One Integrated Programme.
+
+CGEC focuses exclusively on the United Kingdom, European Economic Area, and India - the markets where our institutional partnerships deliver real competitive advantage for Canadian businesses.
+
+### Canada's Most Strategic Export Markets
+
+**United Kingdom**
+Post-Brexit Britain - shared law, language, Commonwealth ties, and EICBI's Westminster network.
+The UK offers Canadian businesses shared language, common law tradition, Commonwealth ties, and a £2.5 trillion economy actively seeking new bilateral trade partnerships post-Brexit.
+- ✓ Shared common law legal system
+- ✓ Commonwealth trade relationship frameworks
+- ✓ English-language market
+- ✓ EICBI's Westminster parliamentary network
+CETA eliminates tariffs on 98% of product categories and opens European government procurement to Canadian suppliers. EICBI's EU Parliament accreditation provides the institutional layer no trade agreement can give.
+- ✓ CETA provides 98% tariff-free access
+- ✓ EICBI's European Parliament accreditation
+- ✓ Direct access to EU institutional decision-makers
+- ✓ 27+ country market through one entry strategy
+
+**European Economic Area**
+450 million consumers. CETA. EU Parliament access.
+
+**India**
+$3.7T economy. 13 years of EICBI relationships.
+India's $3.7 trillion economy, a rapidly expanding middle class, and EICBI's 13-year ground-level network of relationships with Indian government and business leaders gives Canadian businesses an unmatched entry advantage.
+- ✓ World's fastest-growing major economy
+- ✓ Strong Canada-India diaspora connections
+- ✓ EICBI's 13-year institutional India network
+- ✓ Commonwealth ties and English business environment
+
+### Frequently Asked Questions
+
+**Why does CGEC focus on UK, EEA and India?**
+CGEC focuses exclusively on UK, EEA, and India because these are the three markets where EICBI's 13 years of relationship-building gives Canadian businesses a genuine institutional advantage. CETA provides preferential access to the EEA, Commonwealth ties connect Canada to the UK and India, and EICBI's network spans all three corridors.
+
+**What is CETA and how does it help Canadian exporters?**
+CETA (Comprehensive Economic and Trade Agreement) eliminates tariffs on 98% of product categories between Canada and the EU, opens European government procurement markets to Canadian suppliers, and enables mutual recognition of professional qualifications.
+
+### Ready to Enter Your Target Market?
+
+Apply for CGEC membership and start with a market entry assessment tailored to your business and your chosen corridor.
+
+---
 
 ## United Kingdom
 
-Key facts:
-- Canada-UK Trade Continuity Agreement in force post-Brexit
-- NHS: one of the world's largest single institutional buyers of healthcare technology
-- London fintech capital: FCA regulatory sandbox among the world's most open
-- Post-Brexit supply chain diversification creating time-limited opportunities
-- UK retailers actively replacing EU suppliers with non-EU alternatives
+URL: https://cgec.ca/markets/uk/
 
-Priority sectors: healthcare technology, financial technology, agri-food, clean technology, professional services.
+Summary: Expand your Canadian business into the UK with CGEC: Westminster introductions, London trade missions and post-Brexit regulatory guidance. Apply today.
 
-EICBI access: UK Parliament introductions, select committee access, Westminster event access.
+### Expanding Canadian Business into the United Kingdom
+
+Commonwealth ties, shared legal heritage, common language, and EICBI's Westminster parliamentary network - the UK is Canada's most natural international expansion destination.
+
+### Why Canadian Businesses Choose the UK
+
+The United Kingdom is Canada's most natural international expansion market. Shared language, a common law legal tradition, Commonwealth institutional relationships, and deep cultural familiarity reduce the friction of market entry more than any other international destination.
+Post-Brexit, the UK has been actively building new bilateral trade relationships. Canada is well-positioned to strengthen the UK-Canada Trade Continuity Agreement.
+Through CGEC's exclusive partnership with EICBI, Canadian businesses gain access to Westminster parliamentarians and senior UK government officials - the relationships that open doors in regulated sectors, government procurement, and policy-sensitive industries.
+
+### Where Canadian Businesses Excel in the UK
+
+Six priority sectors where Canadian businesses hold particular competitive advantage in the UK market.
+
+**Technology & Fintech**
+London is Europe's fintech capital. Canadian tech companies in AI, cybersecurity, and financial software find a natural market with shared regulatory philosophies.
+
+**Clean Energy**
+The UK's aggressive net-zero targets create substantial demand for Canadian cleantech innovation in hydrogen, carbon capture, and grid technology.
+
+**Life Sciences**
+The NHS represents one of the world's largest single healthcare purchasers. Canadian life sciences and healthtech innovators find significant opportunity here.
+
+**Professional Services**
+Legal, consulting, accounting, and engineering firms find the UK natural given shared professional standards, language, and Commonwealth frameworks.
+
+**Education & EdTech**
+The UK's world-renowned university ecosystem creates partnership opportunities for Canadian education institutions and EdTech companies.
+
+**Agri-food & Beverages**
+Post-Brexit, UK food importers are actively diversifying suppliers. Canadian agri-food products find strong retail and foodservice demand.
+
+### How CGEC Opens the UK for Your Business
+
+**Westminster Parliamentary Network**
+Through EICBI's parliamentary relationships in London, CGEC facilitates introductions to UK parliamentarians and government officials relevant to your sector.
+
+**Canada-UK Trade Missions**
+Structured delegations to London with pre-arranged B2B meetings, government introductions, and sector roundtables - inaugural mission Spring 2026.
+
+**UK Regulatory Navigation**
+Expert guidance on post-Brexit regulatory requirements, the UK-Canada Trade Continuity Agreement, professional licensing, and business registration.
+
+**UK Partner Matchmaking**
+Access to EICBI's verified UK network - distributors, investors, legal advisors, and sector-specific contacts with a track record of working with Commonwealth partners.
+
+### Frequently Asked Questions
+
+**Why should Canadian businesses expand to the UK?**
+The UK offers Canadian businesses shared language, a common law legal system, Commonwealth ties, and a £2.5 trillion economy actively seeking bilateral trade partnerships post-Brexit. The UK-Canada Trade Continuity Agreement provides a preferential trade framework.
+
+**How does CGEC help Canadian businesses enter the UK market?**
+CGEC provides UK market entry assessments, structured trade missions to London with pre-arranged B2B meetings, Westminster parliamentary introductions through EICBI's network, partner matchmaking with UK distributors and investors, and post-Brexit regulatory advisory.
+
+### Ready to Enter the UK Market?
+
+Apply for CGEC membership and begin your UK market entry assessment. Our advisors will guide you from readiness to market.
+
+---
 
 ## European Economic Area
 
-Key facts:
-- CETA covers 98% of Canadian tariff lines into the EU market of 450 million consumers
-- EU Green Deal: world's most ambitious climate policy requiring sustained cleantech procurement
-- Critical Raw Materials Act identifies Canada as a preferred strategic partner
-- Horizon Europe: Canadian institutions can participate as associated partners
-- EU AI Act creates single regulatory framework for AI across 27 member states
+URL: https://cgec.ca/markets/eea/
 
-Priority sectors: cleantech, critical minerals, technology, agri-food, professional services, AI.
+Summary: CETA removes 98% of tariffs on Canada-EU trade. CGEC and EICBI help Canadian businesses reach the European Economic Area's 450 million consumers.
 
-EICBI access: European Parliament accreditation, European Commission consultation visibility, EU Transparency Register No. 423661050520-44.
+### Accessing 450 Million Consumers Through the European Economic Area
 
-## Asia
+CETA provides preferential access. EICBI's European Parliament accreditation provides institutional advantage. Together, they give Canadian businesses an unmatched entry pathway into Europe's single market.
 
-Key facts:
-- India: world's most populous country, fifth-largest economy, fastest-growing major economy
-- 500 GW renewable energy commitment by 2030
-- World's largest STEM graduate pipeline
-- UPI digital payments infrastructure among the world's most sophisticated
-- Indian diaspora of approximately 1.8 million Canadians
+### The EEA: Canada's Most Structured Export Opportunity
 
-Priority sectors: renewable energy, technology, agri-food, education, professional services.
+The Comprehensive Economic and Trade Agreement (CETA) between Canada and the EU eliminates tariffs on 98% of product categories and opens European government procurement markets to Canadian suppliers.
+Yet most Canadian SMEs are not fully leveraging CETA. CGEC's EEA market programme helps Canadian businesses understand, navigate, and maximise the opportunities CETA creates across 27+ EU member states.
+Crucially, CGEC's exclusive partnership with EICBI adds a dimension no trade agreement can provide: direct institutional access to the European Parliament and EU Commission officials.
 
-EICBI access: 13-year presence in India, introductions to government ministries, CII, FICCI.
+### What CETA Delivers for Canadian Business
 
----
+CETA is one of the most ambitious bilateral trade agreements ever negotiated. Here is what it means for Canadian exporters in practice.
 
-# Programmes
+**Tariff Elimination**
+98% of tariff lines eliminated immediately. Virtually all Canadian goods can enter EEA markets duty-free or at reduced rates.
 
-## Market Entry Assessment
+**Procurement Access**
+Canadian businesses gain access to European government procurement markets - worth hundreds of billions annually and rarely explored by Canadian SMEs.
 
-A structured assessment covering:
-- Competitive positioning in each of the three corridors
-- Specific regulatory and certification requirements
-- Buyer and partner landscape
-- Financial model for market entry including expected timelines to first revenue
+**Professional Services**
+Mutual recognition of professional qualifications, facilitating movement of Canadian professionals and service firms into European markets.
 
-Output: written Market Entry Report (15-20 pages), regulatory checklist, shortlist of recommended first contacts.
+**Intellectual Property**
+Enhanced IP protection frameworks - particularly important for technology, pharmaceutical, and creative industry exporters.
 
-Available to: Full Members and Corporate Partners.
+**Regulatory Cooperation**
+Mechanisms to reduce non-tariff barriers through regulatory cooperation, reducing compliance costs across EU member states.
 
-## Parliamentary Trade Missions
+**Investment Protection**
+Investor protection mechanisms providing Canadian businesses with legal certainty when establishing operations across the EEA.
 
-Curated delegations to the European Parliament in Brussels, the UK Parliament in London and key centres in India. Every bilateral meeting is pre-arranged and pre-briefed. Maximum 12 companies per delegation. Sector-focused.
+### What CETA Cannot Provide - But EICBI Can
 
-EICBI accreditation gives missions access to parliamentary facilities, committee staff and MEPs/MPs in a way that no standard trade delegation can replicate.
+CETA provides a legal framework. But relationships open doors. EICBI's 13 years of institutional engagement with EU bodies - and its unique position as a European Parliament-accredited organisation on the EU Transparency Register - provides access that no trade agreement can legislate.
+Through CGEC, Canadian businesses gain introductions to Members of the European Parliament, EU Commission officials, and the network of European business leaders and policymakers that shape market conditions across the EEA.
 
-Available to: Full Members and Corporate Partners.
+**European Parliament Accredited**
+Among the most significant recognitions available to a non-governmental body in the EU.
 
-## Partner and Buyer Matching
+**EU Transparency Register No. 423661050520-44**
+Registered with the European Commission as a legitimate geopolitical forum.
 
-Direct, verified introductions to buyers, distributors, institutional partners and procurement offices. Introductions are warm: CGEC briefs the receiving party before any introduction is made.
+**Parliamentary Summits in Brussels**
+Major events at the European Parliament engaging MEPs, EU officials, and senior business leaders.
 
-Cadence:
-- Associate: 1 introduction per year
-- Full Member: minimum 3 per quarter
-- Corporate Partner: dedicated manager, ongoing, no cap
+**13 Years of EU Engagement**
+Over a decade of sustained institutional relationship-building across EU institutions and member states.
 
-Introduction categories: commercial buyers, distribution partners, joint venture partners, institutional investors, government agencies, research institutions.
+### Frequently Asked Questions
 
-## Regulatory Advisory
+**What is CETA and how does it benefit Canadian businesses?**
+CETA (Comprehensive Economic and Trade Agreement) eliminates tariffs on 98% of product categories, opens EU government procurement to Canadian suppliers, enables mutual recognition of professional qualifications, and strengthens IP protections for Canadian exporters in European markets.
 
-Practical regulatory orientation and introductions to specialist advisors in the UK, EU and India.
+**How many countries are in the European Economic Area?**
+The European Economic Area comprises 27 EU member states plus Iceland, Liechtenstein, and Norway - approximately 450 million consumers with combined GDP exceeding €16 trillion.
 
-Areas covered: UKCA marking, EU CE marking, EU AI Act, GDPR and UK-GDPR, NHS DTAC qualification, EU Green Deal and CSRD, Indian BIS certification, FCA authorisation.
+### Ready to Enter the EEA Market?
 
-CGEC is not a law firm and does not provide legal advice. It provides regulatory landscape orientation and introductions to qualified specialist advisors.
+Apply for CGEC membership and begin your EEA market entry assessment. Backed by EICBI's European Parliament accreditation.
 
 ---
 
-# Membership Tiers
+## India
 
-## Associate Member
-- Market intelligence and reports
-- Event and webinar invitations
-- Annual corridor strategy session (60 minutes)
-- 1 annual introduction
-- Member directory listing
-- Newsletter
+URL: https://cgec.ca/markets/india/
 
-## Full Member (most popular)
-- Everything in Associate
-- Market Entry Assessment (written report)
-- Quarterly introductions (minimum 3 per quarter)
-- Trade mission eligibility (all three corridors)
-- Regulatory Advisory programme access
-- Priority EICBI parliamentary event invitations
-- Dedicated CGEC relationship manager
+Summary: Enter India's $3.7T economy with CGEC. Canadian businesses gain access to 13 years of EICBI relationships with Indian government and business leaders.
 
-## Corporate Partner
-- Everything in Full Member
-- Dedicated market access manager
-- Ongoing introductions (no quarterly cap)
-- Custom market entry strategy
-- Parliamentary summit participation (Brussels and London)
-- CGEC co-branding on trade mission materials
-- Exclusive EICBI parliamentary briefings
-- Priority placement on all market delegations
-- Annual strategic review with CGEC leadership
+### Entering India's $3.7 Trillion Economy Backed by 13 Years of Relationships
 
-Pricing: provided on application. Annual memberships. No per-introduction or per-mission fees above membership.
+India is the world's most populous nation and fastest-growing major economy. EICBI's 13-year institutional network across Indian government, business, and policy - now available exclusively to Canadian businesses through CGEC.
+
+### India: A Generational Opportunity for Canadian Business
+
+India has emerged as one of the most significant economic stories of the 21st century. With a $3.7 trillion GDP, a rapidly expanding middle class of over 400 million people, and one of the world's fastest-growing major economies, India represents a generational commercial opportunity for Canadian businesses.
+Canada's relationship with India is uniquely positioned: a large and influential Indian diaspora community, Commonwealth ties, and bilateral diplomatic relationships create a foundation that few other countries can match.
+What CGEC adds is decisive: EICBI's 13-year, ground-level network of relationships with Indian government bodies, business chambers, regional governments, and institutional leaders across India's major cities.
+
+### Why EICBI's India Network is Irreplaceable
+
+India is a market where relationships are everything. EICBI has been building them for 13 years.
+
+**Parliamentary-Level Relationships**
+EICBI has convened high-level dialogues bringing together Indian parliamentarians, senior government officials, and business leaders over 13 years.
+
+**Regional Government Engagement**
+EICBI maintains relationships with regional governments across Indian states - critical in a country where state-level policy varies enormously.
+
+**Track 1.5 Diplomacy**
+EICBI operates at the Track 1.5 diplomatic level - bridging official government channels and the private sector, the most influential space for building India market relationships.
+
+**India-EU-UK Corridor Integration**
+EICBI's network spans the India-EU and India-UK corridors simultaneously. Canadian businesses accessing India through CGEC gain visibility across this integrated three-market corridor.
+
+**EuropeIndia40 Network**
+EICBI's annual EuropeIndia40 Leaders List has connected next-generation India-facing leaders since 2019 - a living network of emerging decision-makers.
+
+**Europe India Journal**
+EICBI's flagship publication is read by European and Indian policymakers and business leaders - giving CGEC members visibility in the rooms where decisions are made.
+
+### Priority Sectors for Canadian Business in India
+
+Six sectors where CGEC identifies the strongest alignment between Canadian capability and Indian market demand.
+
+**Technology & AI**
+India's digital transformation creates extraordinary demand for Canadian technology expertise in AI, cybersecurity, and enterprise software.
+
+**Clean Energy**
+India's commitment to 500GW of renewable energy by 2030 creates significant demand for Canadian cleantech in solar, wind, green hydrogen, and grid management.
+
+**Agri-food & Food Security**
+Canada's agri-food technology, precision agriculture, and food safety expertise align well with India's food security priorities and processing sector.
+
+**Life Sciences & Health**
+India's generic pharmaceutical industry and rapidly growing private healthcare sector create partnership opportunities for Canadian life sciences companies.
+
+**Education & EdTech**
+India produces the world's largest number of STEM graduates annually. Canadian universities and EdTech companies find strong partnership demand.
+
+**Mining & Critical Minerals**
+Canada and India's complementary mineral resources and processing capabilities create strong bilateral partnership opportunities in critical minerals.
+
+### Frequently Asked Questions
+
+**Why should Canadian businesses expand to India?**
+India is the world's fifth-largest economy at $3.7 trillion GDP, the most populous nation with 1.4 billion people, and one of the fastest-growing major economies at approximately 6.5% annually. Canada benefits from a large Indian diaspora of over 1.8 million Indian-Canadians and Commonwealth ties.
+
+**How does CGEC's EICBI partnership help with India market entry?**
+EICBI has maintained active institutional relationships across India for 13 years - engaging Indian parliamentarians, federal and state government officials, business chambers, and corporate leaders. These relationships span Mumbai, New Delhi, Bengaluru, Hyderabad, and other key Indian commercial centres.
+
+### Ready to Enter the Indian Market?
+
+Apply for CGEC membership and access EICBI's 13-year India network - the relationships it would otherwise take decades to build.
 
 ---
 
-# Contact
+## Programs and Membership
 
-Website: https://cgec.ca
-General enquiries: info@cgec.ca
-Media: media@cgec.ca
-Partnerships: partnerships@cgec.ca
-Address: Halifax, Nova Scotia, Canada
-LinkedIn: https://www.linkedin.com/company/cgeccanada
+URL: https://cgec.ca/programs/
 
-EICBI EU Transparency Register: 423661050520-44
+Summary: CGEC programs for Canadian exporters: market entry assessments, trade missions to London, Brussels and India, partner matchmaking and regulatory advisory.
+
+### Structured Support at Every Stage of Your Global Expansion
+
+From first-time exporters to established businesses entering new markets - CGEC provides the intelligence, connections, and institutional backing to make your international expansion succeed.
+
+### How We Work With Canadian Businesses
+
+A structured four-stage process from readiness assessment to market entry and beyond.
+
+**Assessment**
+Export readiness review - understanding your business, markets, and objectives.
+
+**Strategy**
+Market entry strategy, regulatory pathway, and partnership identification.
+
+**Connection**
+Trade missions, matchmaking, and introductions through EICBI's network.
+
+**Establishment**
+Ongoing support as you establish operations in your target markets.
+
+### What CGEC Delivers
+
+**Market Entry Assessment**
+A comprehensive evaluation of your business's readiness for UK, EEA, or Indian markets - including regulatory fit, competitive positioning, and optimal entry structure. The starting point for all CGEC members.
+- ✓ Export readiness evaluation
+- ✓ Target market prioritisation
+- ✓ Regulatory landscape overview
+- ✓ Competitive positioning analysis
+- ✓ Entry structure recommendations
+- ✓ Partnership strategy framework
+
+**Trade Missions**
+Structured missions to London, Brussels, and key Indian cities - curated delegations where Canadian businesses meet pre-qualified partners, government officials, and institutional contacts through EICBI's network. Not tourism. Every meeting is pre-arranged with clear commercial objectives.
+- ✓ Pre-qualified B2B meetings
+- ✓ Government introductions
+- ✓ EICBI parliamentary access
+- ✓ Sector-specific roundtables
+- ✓ Post-mission follow-up
+- ✓ Delegation briefing materials
+
+**Partner Matchmaking**
+The right partner in a foreign market can make the difference between success and failure. CGEC's matchmaking programme draws on EICBI's verified network of distributors, investors, legal and regulatory advisors, and institutional contacts across all three corridors. We don't send lists - we make introductions.
+- ✓ Distributor identification
+- ✓ Investment partner introductions
+- ✓ Legal advisor referrals
+- ✓ JV partner sourcing
+- ✓ Government body introductions
+- ✓ Trade association connections
+
+**Regulatory Advisory**
+Navigating the regulatory landscape of foreign markets is one of the greatest barriers to Canadian SME exports. CGEC provides expert guidance on CETA provisions, UK market access post-Brexit, EU regulatory frameworks, and Indian FDI and business registration requirements.
+- ✓ CETA maximisation
+- ✓ UK post-Brexit access
+- ✓ EU regulatory navigation
+- ✓ Indian FDI regulations
+- ✓ Business registration support
+- ✓ Import/export compliance
+
+### 2025-2026 Trade Mission Calendar
+
+All CGEC trade missions are limited in delegation size to ensure quality of engagement. Early registration is strongly advised.
+
+**Canada-UK Trade Mission: London**
+Four-day structured mission to London with B2B meetings, a parliamentary briefing session, and sector roundtables in fintech, cleantech, and professional services.
+
+**Canada-EU Mission: Brussels**
+Flagship delegation to Brussels including a briefing at the European Parliament, meetings with EU institutional officials, and curated B2B sessions with European partners.
+
+**Canada-India Mission: Mumbai & Delhi**
+Week-long mission to India's premier business and government centres, leveraging EICBI's 13-year network of Indian business and government relationships.
+
+### Choose Your Level of Engagement
+
+CGEC membership tiers designed to match the scale and stage of your international expansion ambitions.
+
+**Associate Member**
+- ✓ Market Intelligence Briefs (quarterly)
+- ✓ CGEC member directory listing
+- ✓ Access to CGEC events & webinars
+- ✓ Discounted Trade Mission rates
+
+**Full Member**
+- ✓ All Associate Member benefits
+- ✓ Market Entry Assessment (one market)
+- ✓ Two partner matchmaking sessions
+- ✓ Priority Trade Mission allocation
+- ✓ EICBI network introductions
+
+**Strategic Member**
+- ✓ All Full Member benefits
+- ✓ Multi-market entry assessments
+- ✓ Government relations programme
+- ✓ EICBI parliamentary introductions
+- ✓ EuropeIndia40 nomination eligibility
+
+### Frequently Asked Questions
+
+**What trade missions does CGEC run?**
+CGEC runs structured trade missions to London UK, Brussels Belgium (European Parliament), and key Indian cities including Mumbai and New Delhi. Each mission includes pre-arranged B2B meetings, government introductions through EICBI's network, and sector-specific roundtables. The inaugural Canada-UK mission is scheduled for Spring 2026.
+
+**What are CGEC membership tiers?**
+CGEC offers three membership tiers: Associate Member (market intelligence, events, discounted missions), Full Member (adds market entry assessment, matchmaking sessions, priority mission allocation), and Strategic Member (adds multi-market assessments, government relations, EICBI parliamentary introductions, EuropeIndia40 nomination eligibility).
+
+### Ready to Begin Your Export Journey?
+
+Apply for CGEC membership today. Applications are reviewed within five business days and all stages of export readiness are welcome.
 
 ---
 
-# Site Map
+## News and Insights
 
-- / (home)
-- /about.html
-- /markets.html
-- /programmes.html
-- /membership.html
-- /eicbi.html
-- /news.html
-- /contact.html
-- /apply.html
-- /privacy.html
+URL: https://cgec.ca/news/
+
+Summary: Trade policy updates and market intelligence for Canadian exporters on the UK, EEA and India, plus CGEC and EICBI news from the Canada Global Export Council.
+
+### Trade Intelligence for Canadian Exporters
+
+Market updates, policy analysis, trade mission reports, and insights from CGEC and our partner EICBI - everything Canadian businesses need to stay ahead in the UK, EEA, and Indian markets.
+
+**CGEC Announced as Exclusive Canadian Partner of EICBI**
+
+**Canada Global Export Council Launches with European Parliament-Accredited Partner**
+The Canada Global Export Council (CGEC) has been established as the exclusive Canadian partner of EICBI - giving Canadian businesses unprecedented institutional access to the UK, EEA, and Indian markets through one of Europe's most credentialled trade organisations.
+
+### Market Intelligence & Updates
+
+**CGEC Appointed Exclusive Canadian Representative of EICBI**
+The Canada Global Export Council has formalised its role as the exclusive Canadian institutional partner of the Europe India Chamber of Business and Industry, effective 2025.
+
+**UK-Canada Trade Relations: What Post-Brexit Means for Canadian SMEs in 2025**
+An analysis of the current UK-Canada trade relationship, the status of CTCA provisions, and key sectors where Canadian businesses hold competitive advantage in the UK market.
+
+**Maximising CETA: Five Provisions Most Canadian Exporters Are Not Using**
+CETA offers far more than tariff reductions - including procurement access, professional recognition, and regulatory cooperation that remain underutilised by Canadian businesses.
+
+**India's FY2026 Budget: Implications for Foreign Investment and Canadian Exporters**
+EICBI's policy team analyses India's latest union budget and what the key provisions mean for Canadian businesses seeking to enter or expand in the Indian market.
+
+**EuropeIndia40 Class of 2025 Announced at European Parliament**
+EICBI's annual recognition of the next generation of Europe-India leaders was presented at a ceremony in Brussels, with representation from 18 countries.
+
+**The India-EU Free Trade Agreement Negotiations: What Canadian Businesses Should Know**
+Ongoing negotiations between India and the EU for a bilateral FTA could reshape the India-EEA corridor. CGEC analyses the implications for Canadian businesses operating across both markets.
+
+**CGEC Announces Inaugural Canada-UK Trade Mission for Spring 2026**
+The Canada Global Export Council has announced its inaugural trade mission to London UK, scheduled for Spring 2026, including B2B sessions, parliamentary briefings, and sector roundtables.
+
+**Market Intelligence Bulletin**
+Subscribe to CGEC's free quarterly intelligence brief - trade policy updates, market opportunities, and EICBI insights delivered directly.
+
+**Categories**
+
+**EICBI Publications**
+Access EICBI's flagship Europe India Journal and policy publications.
+
+### Frequently Asked Questions
+
+**What market intelligence does CGEC provide?**
+CGEC provides quarterly market intelligence briefs covering trade policy developments, sector opportunities, and regulatory changes across UK, EEA, and Indian markets, co-produced with EICBI's policy and research team.
+
+**How can I subscribe to CGEC market intelligence?**
+Canadian businesses can subscribe to CGEC's free quarterly Market Intelligence Bulletin by entering their email on the CGEC News and Insights page at cgec.ca/news.html
+
+**How do I subscribe to CGEC market intelligence?**
+Canadian businesses can subscribe to CGEC's free quarterly Market Intelligence Bulletin via the News and Insights page at cgec.ca/news.html or by contacting info@cgec.ca.
+
+---
+
+## Apply for Membership
+
+URL: https://cgec.ca/apply/
+
+Summary: Apply to join the Canada Global Export Council. Applications reviewed within 5 business days. UK, EU and India market entry support for Canadian businesses.
+
+### Begin Your Global Expansion Journey with CGEC
+
+Applications are accepted from Canadian businesses at all stages of export readiness. Our team reviews every application and responds within five business days.
+
+### Eligibility Criteria
+
+CGEC membership is open to Canadian-registered businesses with a genuine interest in expanding into the UK, EEA, or Indian markets. We welcome businesses at all stages - from those considering export for the first time to established companies entering new corridors.
+We are sector-agnostic. CGEC works with businesses across technology, professional services, agri-food, clean energy, advanced manufacturing, financial services, life sciences, and more.
+
+**Canadian-Registered Business**
+Must be incorporated or registered to operate in Canada - federal or provincial registration accepted.
+
+**Export Intent**
+Must have genuine commercial interest in the UK, EEA, or Indian markets - at any stage of readiness.
+
+**Good Standing**
+Business must be in good legal and financial standing, with no material regulatory or legal issues.
+
+**Commitment to the Council**
+Members are expected to engage actively with CGEC programmes and contribute to the Council community.
+
+**What Happens Next**
+- 1 Application received and acknowledged within 24 hours
+- 2 Advisory Panel reviews your application (up to 5 business days)
+- 3 Introductory call with a CGEC advisor to discuss your needs
+- 4 Membership offer and onboarding documentation issued
+- 5 Welcome to CGEC - market entry support begins
+
+**🇪🇺 EICBI Partnership**
+As a CGEC member, you gain access to EICBI's European Parliament-accredited network - 13 years of institutional relationships across the UK, EU, and India. EU Transparency Register No. 423661050520-44.
+Prefer to speak first?
+
+### Membership Application
+
+Your application will be reviewed within 5 business days. We will contact you by email to confirm receipt and next steps.
+
+### Frequently Asked Questions
+
+**Who can apply for CGEC membership?**
+CGEC membership is open to Canadian-registered businesses at any stage of export readiness with genuine commercial interest in the UK, EEA, or Indian markets. We are sector-agnostic and welcome businesses from technology, professional services, agri-food, clean energy, advanced manufacturing, financial services, life sciences, and more.
+
+**How long does the CGEC membership application process take?**
+Applications are reviewed within five business days by the CGEC Advisory Panel. Once approved, you will receive a welcome pack and onboarding documentation. An introductory call with a CGEC advisor is scheduled as part of the onboarding process.
+
+---
+
+## Contact
+
+URL: https://cgec.ca/contact/
+
+Summary: Questions about exporting to the UK, EU or India? Contact the Canada Global Export Council. Enquiries answered within 2 business days, no obligation.
+
+### Speak With a CGEC Advisor
+
+Whether you have a question about membership, a specific market, or an upcoming trade mission - our team responds to all enquiries within two business days.
+
+### All enquiries handled by our advisory team. We do not use automated responses for initial enquiries.
+
+**Email**
+General enquiries and membership questions:
+
+**Book an Advisor Call**
+Book a 30-minute introductory call with a CGEC market advisor at no obligation.
+
+**Headquarters**
+Canada Global Export Council Canada Registered not-for-profit under the Canada Not-for-profit Corporations Act.
+
+**Response Times**
+General enquiries: within 2 business days Membership applications: within 5 business days Trade mission registration: same day
+
+**🇪🇺 Contact EICBI**
+For enquiries relating to EICBI's European Parliament-accredited programmes, the Europe India Journal, or the EuropeIndia40 Leaders List:
+
+### Where We Operate
+
+**Canada - Headquarters**
+CGEC is incorporated and headquartered in Canada, operating nationally to support Canadian businesses from coast to coast in all provinces and territories.
+
+**UK & Europe - via EICBI**
+CGEC's UK and European market presence operates through our exclusive partnership with EICBI, whose institutional relationships span the European Parliament in Brussels and the British Parliament in London.
+
+**India - via EICBI**
+CGEC's India market access operates through EICBI's 13-year network of relationships across Mumbai, Delhi, Bengaluru, Hyderabad, and other key Indian commercial centres.
+
+### Frequently Asked Questions
+
+**How quickly does CGEC respond to enquiries?**
+CGEC responds to all general enquiries within 2 business days. Membership applications are reviewed within 5 business days. Trade mission registration enquiries receive same-day acknowledgement.
+
+**Where is CGEC located?**
+CGEC is headquartered in Canada and operates nationally, supporting Canadian businesses from coast to coast. UK and European market support operates through EICBI's institutional presence in Brussels and London. India market support operates through EICBI's 13-year network across Mumbai, Delhi, Bengaluru, and other key Indian cities.

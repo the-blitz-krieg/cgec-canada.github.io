@@ -1,39 +1,37 @@
-# Canada Global Export Council
-# https://cgec.ca
-# llms.txt per the llmstxt.org standard
+# Canada Global Export Council (CGEC)
 
-> CGEC is Canada's not-for-profit export council connecting Canadian businesses to buyers, partners and institutions in the United Kingdom, the European Economic Area and Asia. CGEC is the exclusive Canadian partner of the Europe India Centre for Business and Industry (EICBI), a European Parliament-accredited geopolitical forum registered on the EU Transparency Register at number 423661050520-44.
+> The Canada Global Export Council (CGEC) is Canada's not-for-profit export council, based in Halifax, Nova Scotia. CGEC helps Canadian businesses expand into the United Kingdom, the European Economic Area (EEA) and India. CGEC is the exclusive Canadian partner of the Europe India Centre for Business and Industry (EICBI), a European Commission registered geopolitical forum accredited by the European Parliament (EU Transparency Register No. 423661050520-44).
 
-## About
+## Key facts
 
-- [About CGEC](https://cgec.ca/about.html): Mission, governance, values and how CGEC is structured.
-- [EICBI Partnership](https://cgec.ca/eicbi.html): CGEC's exclusive partnership with the Europe India Centre for Business and Industry, founded 2011, EU Transparency Register No. 423661050520-44, accredited by the European Parliament.
+- Name: Canada Global Export Council
+- Acronym: CGEC
+- Type: Canadian not-for-profit export council
+- Location: Halifax, Nova Scotia, Canada
+- Website: https://cgec.ca
+- Email: info@cgec.ca
+- Markets served: United Kingdom, European Economic Area, India
+- Strategic partner: EICBI (Europe India Centre for Business and Industry), exclusive Canadian partner
+- EICBI EU Transparency Register: 423661050520-44
+- Programs: market entry assessments, trade missions, partner matchmaking, regulatory advisory
+- Membership tiers: Associate Member, Full Member, Strategic Member
 
-## Markets
+## Pages
 
-- [Markets Overview](https://cgec.ca/markets.html): CGEC's three export corridors: United Kingdom, European Economic Area and Asia.
-- [United Kingdom](https://cgec.ca/markets.html#uk): Post-Brexit market access, Canada-UK Trade Continuity Agreement, NHS procurement, FCA fintech sandbox.
-- [European Economic Area](https://cgec.ca/markets.html#eea): CETA, EU Green Deal, Critical Raw Materials Act, Horizon Europe, EU AI Act.
-- [Asia](https://cgec.ca/markets.html#asia): India's 500 GW renewable commitment, UPI digital infrastructure, government procurement introductions via EICBI.
+- [Home](https://cgec.ca/): CGEC is Canada's not-for-profit export council helping Canadian businesses expand into the UK, EU and India, as EICBI's exclusive Canadian partner.
+- [About CGEC](https://cgec.ca/about/): Meet the Canada Global Export Council (CGEC), a not-for-profit export council and EICBI's exclusive Canadian partner. Our mission, governance and leadership.
+- [EICBI Partnership](https://cgec.ca/partnership/): CGEC is the exclusive Canadian partner of EICBI (EU Transparency Register 423661050520-44), opening parliamentary-level networks in the UK, EU and India.
+- [Export Markets](https://cgec.ca/markets/): CGEC helps Canadian businesses enter the United Kingdom, the European Economic Area and India, with CETA guidance and EICBI's institutional network.
+- [United Kingdom](https://cgec.ca/markets/uk/): Expand your Canadian business into the UK with CGEC: Westminster introductions, London trade missions and post-Brexit regulatory guidance. Apply today.
+- [European Economic Area](https://cgec.ca/markets/eea/): CETA removes 98% of tariffs on Canada-EU trade. CGEC and EICBI help Canadian businesses reach the European Economic Area's 450 million consumers.
+- [India](https://cgec.ca/markets/india/): Enter India's $3.7T economy with CGEC. Canadian businesses gain access to 13 years of EICBI relationships with Indian government and business leaders.
+- [Programs and Membership](https://cgec.ca/programs/): CGEC programs for Canadian exporters: market entry assessments, trade missions to London, Brussels and India, partner matchmaking and regulatory advisory.
+- [News and Insights](https://cgec.ca/news/): Trade policy updates and market intelligence for Canadian exporters on the UK, EEA and India, plus CGEC and EICBI news from the Canada Global Export Council.
+- [Apply for Membership](https://cgec.ca/apply/): Apply to join the Canada Global Export Council. Applications reviewed within 5 business days. UK, EU and India market entry support for Canadian businesses.
+- [Contact](https://cgec.ca/contact/): Questions about exporting to the UK, EU or India? Contact the Canada Global Export Council. Enquiries answered within 2 business days, no obligation.
 
-## Programmes
+## Optional
 
-- [Programmes Overview](https://cgec.ca/programmes.html): Four structured programmes from market entry to signed commercial relationships.
-- [Market Entry Assessment](https://cgec.ca/programmes.html#entry): Written report on corridor fit, regulatory requirements and first-contact shortlist.
-- [Parliamentary Trade Missions](https://cgec.ca/programmes.html#missions): Curated delegations to Brussels, London and India via EICBI.
-- [Partner and Buyer Matching](https://cgec.ca/programmes.html#matching): Verified introductions to buyers, distributors, institutions and procurement offices.
-- [Regulatory Advisory](https://cgec.ca/programmes.html#advisory): Practical regulatory orientation and introductions to specialist advisors.
-
-## Membership
-
-- [Membership Tiers](https://cgec.ca/membership.html): Associate, Full Member and Corporate Partner tiers with detailed comparison.
-- [Apply for Membership](https://cgec.ca/apply.html): Membership application form.
-
-## News
-
-- [News and Insights](https://cgec.ca/news.html): Trade policy briefings and market intelligence across all three corridors.
-
-## Contact
-
-- [Contact CGEC](https://cgec.ca/contact.html): info@cgec.ca. Halifax, Nova Scotia, Canada.
-- [Privacy Policy](https://cgec.ca/privacy.html)
+- [Full site content](https://cgec.ca/llms-full.txt): Complete text of every page in one file.
+- [Privacy Policy](https://cgec.ca/privacy/)
+- [Sitemap](https://cgec.ca/sitemap.xml)

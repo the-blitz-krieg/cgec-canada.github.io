@@ -191,3 +191,42 @@ footer{background:#060F1D;color:rgba(255,255,255,.45);padding:56px 32px 26px;}
 }
 @media(max-width:480px){.ft{grid-template-columns:1fr;}.stbi{grid-template-columns:repeat(2,1fr);}}
 
+
+/* FAQ (visible counterpart of FAQPage schema) */
+.faq{background:var(--white);border-top:1px solid var(--stone);}
+.faq .si{max-width:860px;}
+.faq h2{margin-bottom:24px;}
+.faq details{border-bottom:1px solid var(--stone);}
+.faq details:first-of-type{border-top:1px solid var(--stone);}
+.faq summary{list-style:none;cursor:pointer;padding:18px 40px 18px 0;position:relative;font-size:16px;font-weight:600;color:var(--ink);line-height:1.4;}
+.faq summary::-webkit-details-marker{display:none;}
+.faq summary::after{content:"+";position:absolute;right:4px;top:50%;transform:translateY(-50%);font-size:22px;font-weight:300;color:var(--red);}
+.faq details[open] summary::after{content:"\2212";}
+.faq summary:focus-visible{outline:2px solid var(--red);outline-offset:2px;}
+.faq details p{padding:0 40px 20px 0;font-size:14.5px;line-height:1.7;color:var(--slate);}
+@media(max-width:600px){.faq summary{font-size:15px;}}
+
+/* Touch targets: give small text links a comfortable tap area on touch screens */
+@media (max-width:900px){
+  .ub .ul a{display:inline-block;padding:10px 8px;}
+  .bc a{display:inline-block;padding:10px 0;}
+}
+@media (pointer:coarse){
+  section a:not(p a):not(li a):not(.br):not(.bn):not(.bor):not(.bow):not(.cw){display:inline-block;padding-top:9px;padding-bottom:9px;}
+}
+
+/* Institutional affiliations strip */
+.affil>span:not(.affil-sep){display:flex!important;align-items:center;gap:6px;}
+@media (max-width:700px){
+  .affil{flex-direction:column;align-items:flex-start!important;gap:12px!important;}
+  .affil-sep{display:none!important;}
+}
+.nw{white-space:nowrap;}
+
+/* Long-form legal pages */
+.legal{max-width:760px;}
+.legal h2{font-size:21px;margin:34px 0 10px;}
+.legal h2:first-child{margin-top:0;}
+.legal p,.legal li{font-size:15px;line-height:1.75;color:var(--slate);margin-bottom:12px;}
+.legal ul{padding-left:20px;margin-bottom:12px;}
+.legal a{color:var(--red);}
